@@ -1,0 +1,203 @@
+.footer{
+    &-top{
+        color: #e5e5e5;
+        background-color: #ffeced;
+        padding: 2.5rem 1rem 0.625rem;
+        .widget-footer-top{
+            margin-bottom: 1.875rem;
+            .widget-title{
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                margin-bottom: 1.5rem;
+                color: $background-nav;
+                font-weight: bold;
+            }
+            .widget--menu{
+                &--list{
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    &__item{
+                        padding-left: 1rem;
+                        margin-bottom: 0.8rem;
+                        a{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: $color-post;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    &-bottom{
+        padding-top: 6.4rem;
+        padding-bottom: 3.2rem;
+        width: 100%;
+        background-color: $background-nav;
+        .logo-bottom{
+            width: 27.1rem;
+        }
+        .footer-1{
+            margin-right: 3rem;
+            .footer-title{
+                font-size: 1.6rem;
+               padding: 1.7rem 0;
+            //    margin-bottom: 0.8rem;
+                border-bottom: 1px solid $white;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $white;
+            }
+            .footer-sub-title{
+                color: $color-text;
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 1.9rem;
+                padding: 1.3rem 0 1.9rem 0;
+                margin-bottom: 2px;
+            }
+            .footer-content{
+                display: flex;
+                .footer--maps{
+                    width: 20.58px;
+                   margin-right: 1.46rem;
+                }
+                .footer-address{
+                    font-size: 1.6rem;
+                    color: $color-text;
+                    line-height: 1.9rem;
+                    li{
+                        display: flex;
+                        margin-bottom: 1.4rem;
+                        i{
+
+                            padding-right: 1.1rem;
+                        }
+                    }
+                }
+            }
+            .footer-content-connect{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .footer--call{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 2rem;
+                        margin-right: 1rem;
+                    }
+                    .footer--connect{
+                        font-size: 1.6rem;
+                        color: $color-text;
+                        line-height: 1.9rem;
+                    }
+
+                }
+                .footer-icon{
+                    a{
+                        img{
+                            width: 2.4rem;
+                            margin-left: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-4,
+        .footer-3,
+        .footer-2{
+            .footer-title{
+                font-size: 1.6rem;
+               padding: 1.7rem 0 3rem 0;
+          
+                
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $white;
+            }
+            ul{
+                li{
+                    margin-bottom: 0.7rem;
+
+                    a{
+                        color: $color-text;
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                    }
+                }
+            }
+        }
+        .footer-4{
+            .footer-advise{
+                margin-bottom: 0.7rem;
+
+                a{
+                    color: $color-text;
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                   img{
+                    width: 1.5rem;
+                   }
+                   span{
+                    margin-left: 1.1rem;
+                   }
+                }
+            }
+            .contact-mail{
+                color: $color-text;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                margin-top: 3.7rem;
+                margin-bottom: 1.6rem;
+            }
+            .sendEmail{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                .sendEmail-file-input{
+                   
+                    width: 100%;
+                    // margin: 0.4rem;
+                    padding: 1px;
+                    .form-control{
+                        height: 3rem;
+                        border-radius: 3px 0 0 3px;
+                        margin: 1px;
+                    }
+                }
+                .sendEmail-button{
+                    width: 6rem;
+                    background-color: #3C9F10;
+                    height: 3rem;
+                    border: none;
+                    border-radius: 0 3px 3px 0;
+                    color: $color-text;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+        .footer-5{
+            padding-top: 5rem;
+            padding-right: 3rem;
+            .footer--develop{
+                text-transform: uppercase;
+                color: $color-text;
+                font-size: 1.6rem;
+               a{
+                color: $color-text;
+                font-weight: 700;
+               }
+            }
+            .footer--agree{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
