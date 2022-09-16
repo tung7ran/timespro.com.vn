@@ -180,7 +180,16 @@ a:hover {
     opacity: 1;
   }
 }
-
+@keyframes hoverHeader{
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+}
+to {
+    opacity: 1;
+    transform: scaleY(1);
+}
+}
 @keyframes drop-down {
   from {
     opacity: 0;
@@ -216,9 +225,6 @@ a:hover {
  font-size: 2.4rem;
 
 }
-
-
-
 
 
 

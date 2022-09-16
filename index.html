@@ -51,7 +51,10 @@
                 <div class="container">
                     <div class="header--menu--list row">
                         <div class="logo--images col-lg-2">
-                            <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
+                            <a href="#">
+                                <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
+
+                            </a>
                         </div>
                         <div class="header--menu--nav col-lg-10">
                             <ul class="header--menu--nav__list">
@@ -160,122 +163,346 @@
                 <div class="bds--options">
                     <div class="bds--options--heading">
                         <ul class="bds--options--heading__list">
-                            <li class="bds--options--heading__list--item">
-                                <button class="bds--options--heading__list--item--link active">BĐS Bán</button>
+                            <li class="bds--options--heading__list--item active">
+                                <a href="#tab1">
+                                    <button class="bds--options--heading__list--item--link">BĐS Bán</button>
+
+                                </a>
                             </li>
                             <li class="bds--options--heading__list--item">
-                                <button class="bds--options--heading__list--item--link">bds cho thê</button>
+                                <a href="#tab2">
+                                    <button class="bds--options--heading__list--item--link">bds cho thê</button>
+
+                                </a>
                             </li>
                             <li class="bds--options--heading__list--item">
-                                <button class="bds--options--heading__list--item--link">dự án</button>
+                                <a href="#tab3">
+                                    <button class="bds--options--heading__list--item--link">dự án</button>
+
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="bds--options--container">
-                        <div class="bds--options--search">
-                            <div class="bds--options--search__wrap">
-                                <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
-                                    class="bds--options--search__wrap--input">
-                            </div>
-                            <button class="bds--options--search__btn">
-                                <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
-                            </button>
-                        </div>
-                        <div class="bds--options--select row">
-                            <div class="col-lg-9">
-                                <div class="options--category">
-                                    <div class="options--category--list row">
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Trên toàn quốc</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Loại nhà đất</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Diện tích</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Mức giá</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
+                    <div class="tabs--content">
+                        <div class="bds--options--container" id="tab1">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
                                 </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="options--extend">
-                                    <div class="options--extend--list">
-                                        <div class="options--extend--list__item">
-                                            <button class="options--extend--list__item--text btn--more">
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
-                                            </button>
-                                        </div>
-                                        <div class="options--extend--list__item">
-                                            <p class="options--extend--list__item--text">
-                                                <i class="fa-solid fa-rotate"></i> Xóa
-                                            </p>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="bds--options--select row open--options hide">
-                            <div class="col-lg-9">
-                                <div class="options--category">
-                                    <div class="options--category--list row">
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Phường xá</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
                                             </div>
                                         </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Đường phố</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Số phòng</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="options--category--list__item">
-                                            <p class="options--category--list__item--text">Hướng nhà</p>
-                                            <div class="options--category--list__item--icon">
-                                                <i class="fa-solid fa-caret-up"></i>
-                                                <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                            </div>
-                                        </div>
-
-
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-
+                            <div class="bds--options--select row open--options hide">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
                             </div>
                         </div>
+                        <div class="bds--options--container" id="tab2">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
+                                </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
+                            </div>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bds--options--select row open--options hide">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bds--options--container" id="tab3">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
+                                </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
+                            </div>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bds--options--select row open--options hide">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -1517,7 +1744,7 @@
                                 <h4 class="contact-mail">Đăng ký ngay để nhận thông tin</h4>
                                 <div class="sendEmail">
                                     <div class="sendEmail-file-input">
-                                        <input class="form-control" type="email" id="sendEmail">
+                                        <input class="form-control" type="email" id="sendEmail" placeholder="Nhập email của bạn">
                                     </div>
                                     <button class="sendEmail-button">Gửi</button>
                                 </div>
