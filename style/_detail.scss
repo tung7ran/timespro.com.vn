@@ -1,0 +1,286 @@
+.content--detail{
+    margin-top: 3.2rem;
+    .content-area{
+        .module{
+            .content--navigation{
+                &__list{
+                    display: flex;
+                    &--item{
+                        padding: 0 0.2rem;
+                        &--link{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: #ccc;
+                        }
+                    }
+                    &--item:nth-child(2):after,
+                    &--item:nth-child(1):after{
+                        content: "/";
+                        font-size: 1.4rem;
+                        color: #ccc;
+                    }
+                }
+            }
+            .content--area__header{
+                &--title{
+                    font-size: 1.8rem;
+                    line-height: 2.4rem;
+                    color: $color-post;
+                    margin-top: 0.8rem;
+                    margin-bottom: 1.2rem;
+                }
+            }
+            .post--number{
+                &--text{
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    color: #ccc;
+
+                }
+            }
+            .filter--item{
+                text-align: right;
+                margin-bottom: 1.2rem;
+                .custom-select{
+                    width: 17.6rem;
+                    height: 2.8rem;
+                    font-size: 1.3rem;
+                    // padding: 0.6rem 1.2rem;
+                }
+            }
+            .project--detail{
+                &--item{
+                    display: flex;
+                    border: 0.5px solid #AF1F26;
+                    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+                    border-radius: 4px;
+                    margin-bottom: 2.4rem;
+                    &__image{
+                        padding-right: 0;
+                        padding-left: 0;
+                        position: relative;
+                        height: 22.2rem;
+                        img{
+                            border-radius: 4px 0 0 4px;
+                        }
+                        .ribbon-top-left{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 13rem;
+                            height: 14rem;
+                            overflow: hidden;
+                            .modal-realEstate-news-clasify{
+                                right: -1.5rem;
+                                top: 2rem;
+                                transform: rotate(-45deg);
+                                position: absolute;
+                                display: block;
+                                width: 22.5rem;
+                                background-color: #BC0F19;
+                                box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+                                color: #fff;
+                                text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+                                text-align: center;
+                                font-size: 1.2rem;
+                                line-height: 1.8rem;
+                            }
+                        }
+                        .project--special{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 13rem;
+                            height: 14rem;
+                            // padding-left: 0.5rem;
+                            overflow: hidden;
+                            &--text{
+                                position: absolute;
+                                width: 2.4rem;
+                                // height: 24px;
+                                padding: 0.5rem 0.3rem 0.3rem 0.3rem;
+                                top: 0;
+                                left: 1.2rem;
+                               
+                                color: $white;
+                                background: #BC0F19;
+                                font-size: 1.2rem;
+                                line-height: 2.4rem;
+                                // transform: rotate(-90deg);
+                            }
+                            &--text::after{
+                                content: "";
+                                position: absolute;
+                                left: 0;
+                                top: 5.6rem;
+                                // width: 0;
+                                // height: 0;
+                                border-top: 0.9rem solid #BC0F19;
+                                border-left: 1.2rem solid transparent ;
+                                border-right: 1.2rem solid transparent ;
+
+                            }
+                        }
+
+                    }
+                    .project--detail__text{
+                        padding-top: 1.8rem;
+                        padding-left: 2.4rem;
+                        padding-right: 2.6rem;
+                        position: relative;
+                        &--title{
+                            font-size: 1.6rem;
+                            color: $color-post;
+                            font-weight: 500;
+                            line-height: 1.9rem;
+                        }
+                        &--desc{
+                            margin-top: 1.2rem;
+                            font-size: 1.4rem;
+                            color: $color-post;
+                            line-height: 150%;
+                            text-align: justify;
+                            border-bottom: 0.2px solid #313132;
+                            padding-bottom: 1.2rem;
+                        }
+                        .rowset{
+                            margin-left: 0;
+                            margin-top: 0.8rem;
+                            &--item{
+                                display: flex;
+                                align-items: center;
+                                padding-right: 3.2rem;
+                                img{
+                                    width: 1.2rem;
+                                    margin-right: 1rem;
+                                }
+                                p{
+                                    font-size: 1.4rem;
+                                    line-height: 1.6rem;
+                                    sup{
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                        .news-location{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 0.6rem;
+                            img{
+                                width: 1.2rem;
+                                margin-right: 1.1rem;
+                            }
+                            &--address{
+                                font-size: 1.4rem;
+                                line-height: 1.6rem;
+                                color: $color-post;
+                            }
+                        }
+                        .wishlist{
+                            position: absolute;
+                            width: 2rem;
+                            bottom: 1.5rem;
+                            right: 2.6rem;
+                        }
+                    }
+                }
+            }
+            .nav-pagination{
+                margin-top: 0.8rem;
+                
+                .pagination{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .page--item{
+                        position: relative;
+                        padding: 0 1.2rem;
+                        &--link{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: rgba(175, 31, 38, 0.6);
+                        }
+                    }
+                    .page--item::after{
+                        content: "";
+                        position: absolute;
+                        // width: 1rem;
+                        height: 1.6rem;
+                        top: 0;
+                        right: 0;
+                        border-right: 0.5px solid $color-post;
+                    }
+                    .page--item:nth-child(n+9)::after,
+                    .page--item:first-child::after,
+                    .page--item:last-child::after{
+                        display: none;
+                    }
+                    .page--item:nth-child(2)> .page--item--link{
+                        font-weight: 600;
+                    }
+                }
+            }
+            .product-seo-tag{
+                margin-bottom: 3.2rem;
+                .seo-tag-title{
+                    font-weight: 500;
+                    font-size: 1.8rem;
+                    line-height: 2.1rem;
+                    color: $color-post;
+                }
+                .seo-tag-list{
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    &__item{
+                        background: rgba(231, 231, 231, 0.6);
+                        padding: 0.6rem 1.2rem;
+                        border-radius: 16px;
+                        margin-right: 0.8rem;
+                        margin-bottom: 0.8rem;
+                        &--link{
+                            font-size: 14px;
+                            line-height: 1.6rem;
+                            color: $color-post;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-filter{
+        .main-right{
+            .box-common{
+                border: 1px solid #ebedf0;
+                box-sizing: border-box;
+                border-radius: 4px;
+                padding: 0 2.5rem;
+                width: 100%;
+                margin-bottom: 16px;
+                .box-title{
+                    padding: 1.6rem 0 1.3rem 0;
+                    box-shadow: inset 0 -1px 0 #ebedf0;
+                    font-weight: 700;
+                    color: $color-post;
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                }
+                .box-content{
+                    padding: 1.5rem 0;
+                    position: relative;
+                    &-filter{
+                        &__item{
+                            padding-bottom: 1.2rem;
+                            &--link{
+                                color: $color-post;
+                                font-size: 1.4rem;
+                                line-height: 1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

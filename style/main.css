@@ -259,6 +259,12 @@ a:hover {
   font-size: 2.4rem;
 }
 
+.clear {
+  width: 100%;
+  margin: 3.2rem 0;
+  border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
+}
+
 .header .top-header {
   width: 100%;
   background-color: #AF1F26;
@@ -381,7 +387,7 @@ a:hover {
 .header .wrapper-search-bar {
   border-top: 1px solid rgb(242, 242, 242);
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(182, 182, 182, 0.18) 0 4px 10px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
   height: 5.3rem;
   display: flex;
   align-items: center;
@@ -465,7 +471,7 @@ a:hover {
   padding: 0.8rem 1.2rem;
   position: relative;
 }
-.header .wrapper-search-bar .search-bar .select-control-label .dropbox-label {
+.header .wrapper-search-bar .search-bar .select-control-label__title .dropbox-label {
   font-size: 1rem;
   line-height: 1.6rem;
   color: #2c2f36;
@@ -477,7 +483,7 @@ a:hover {
   cursor: pointer;
   display: inline-block;
 }
-.header .wrapper-search-bar .search-bar .select-control-label .custom-value {
+.header .wrapper-search-bar .search-bar .select-control-label__title .custom-value {
   line-height: 1.6rem;
   color: #313132;
   white-space: nowrap;
@@ -486,7 +492,6 @@ a:hover {
   font-size: 1.4rem;
 }
 .header .wrapper-search-bar .search-bar .select-control-label .custom-dropbox-cate {
-  display: none;
   min-width: 28rem;
   max-height: 30.8rem;
   padding: 8px 0 0 0;
@@ -543,15 +548,37 @@ a:hover {
   width: 6px;
   background-color: #F5F5F5;
 }
-.header .wrapper-search-bar .search-bar .filter-control .select-control-label {
+.header .wrapper-search-bar .search-bar .select-control-label .custom--form {
+  width: 40rem;
+  height: auto;
+  right: 0;
+  left: inherit;
+  cursor: context-menu;
+  padding: 0.8rem 3.2rem 3.2rem 3.2rem;
+}
+.header .wrapper-search-bar .search-bar .select-control-label .custom--form .mCustomScrollBox .mCSB_container .search-filter .mar-top-8 {
+  margin-top: 0.8rem;
+  color: #313132;
+  line-height: 20px;
+  padding: 1.6rem 0 0.5rem 0;
+  display: block;
+  font-size: 1.4rem;
+}
+.header .wrapper-search-bar .search-bar .select-control-label .custom--form .mCustomScrollBox .mCSB_container .search-filter .form-control {
+  border-radius: 0.25rem;
+  font-size: 1.3rem;
+  padding: 0.6rem 1.2rem;
+  height: 3.8rem;
+}
+.header .wrapper-search-bar .search-bar .filter-control .select-control-label__title {
   display: flex;
   align-items: center;
 }
-.header .wrapper-search-bar .search-bar .filter-control .select-control-label .re__text {
+.header .wrapper-search-bar .search-bar .filter-control .select-control-label__title .re__text {
   font-size: 1.4rem;
   line-height: 1.6rem;
 }
-.header .wrapper-search-bar .search-bar .filter-control .select-control-label .filter-info {
+.header .wrapper-search-bar .search-bar .filter-control .select-control-label__title .filter-info {
   width: 1.2rem;
   margin-left: 0.2rem;
 }
@@ -691,6 +718,10 @@ a:hover {
 .content--banner .bds--options .tabs--content .bds--options--container .bds--options--select .options--extend--list__item--text {
   font-size: 1.4rem;
   border: none;
+}
+.content--banner .bds--options .tabs--content .bds--options--container .open--options {
+  display: none;
+  overflow: scrollY;
 }
 .content--banner .bds--options .tabs--content .bds--options--container .open--options .options--category {
   transition: 1s;
@@ -1334,4 +1365,260 @@ a:hover {
 .content .project--news .project--content--item__desc--more a {
   color: #313132;
   text-transform: uppercase;
+}
+
+.content--detail {
+  margin-top: 3.2rem;
+}
+.content--detail .content-area .module .content--navigation__list {
+  display: flex;
+}
+.content--detail .content-area .module .content--navigation__list--item {
+  padding: 0 0.2rem;
+}
+.content--detail .content-area .module .content--navigation__list--item--link {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #ccc;
+}
+.content--detail .content-area .module .content--navigation__list--item:nth-child(2):after, .content--detail .content-area .module .content--navigation__list--item:nth-child(1):after {
+  content: "/";
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.content--detail .content-area .module .content--area__header--title {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #313132;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+.content--detail .content-area .module .post--number--text {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #ccc;
+}
+.content--detail .content-area .module .filter--item {
+  text-align: right;
+  margin-bottom: 1.2rem;
+}
+.content--detail .content-area .module .filter--item .custom-select {
+  width: 17.6rem;
+  height: 2.8rem;
+  font-size: 1.3rem;
+}
+.content--detail .content-area .module .project--detail--item {
+  display: flex;
+  border: 0.5px solid #AF1F26;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-bottom: 2.4rem;
+}
+.content--detail .content-area .module .project--detail--item__image {
+  padding-right: 0;
+  padding-left: 0;
+  position: relative;
+  height: 22.2rem;
+}
+.content--detail .content-area .module .project--detail--item__image img {
+  border-radius: 4px 0 0 4px;
+}
+.content--detail .content-area .module .project--detail--item__image .ribbon-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13rem;
+  height: 14rem;
+  overflow: hidden;
+}
+.content--detail .content-area .module .project--detail--item__image .ribbon-top-left .modal-realEstate-news-clasify {
+  right: -1.5rem;
+  top: 2rem;
+  transform: rotate(-45deg);
+  position: absolute;
+  display: block;
+  width: 22.5rem;
+  background-color: #BC0F19;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.content--detail .content-area .module .project--detail--item__image .project--special {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13rem;
+  height: 14rem;
+  overflow: hidden;
+}
+.content--detail .content-area .module .project--detail--item__image .project--special--text {
+  position: absolute;
+  width: 2.4rem;
+  padding: 0.5rem 0.3rem 0.3rem 0.3rem;
+  top: 0;
+  left: 1.2rem;
+  color: #fff;
+  background: #BC0F19;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+.content--detail .content-area .module .project--detail--item__image .project--special--text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5.6rem;
+  border-top: 0.9rem solid #BC0F19;
+  border-left: 1.2rem solid transparent;
+  border-right: 1.2rem solid transparent;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text {
+  padding-top: 1.8rem;
+  padding-left: 2.4rem;
+  padding-right: 2.6rem;
+  position: relative;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text--title {
+  font-size: 1.6rem;
+  color: #313132;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text--desc {
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  color: #313132;
+  line-height: 150%;
+  text-align: justify;
+  border-bottom: 0.2px solid #313132;
+  padding-bottom: 1.2rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .rowset {
+  margin-left: 0;
+  margin-top: 0.8rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item {
+  display: flex;
+  align-items: center;
+  padding-right: 3.2rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item img {
+  width: 1.2rem;
+  margin-right: 1rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item p sup {
+  font-size: 1rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .news-location {
+  display: flex;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .news-location img {
+  width: 1.2rem;
+  margin-right: 1.1rem;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .news-location--address {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #313132;
+}
+.content--detail .content-area .module .project--detail--item .project--detail__text .wishlist {
+  position: absolute;
+  width: 2rem;
+  bottom: 1.5rem;
+  right: 2.6rem;
+}
+.content--detail .content-area .module .nav-pagination {
+  margin-top: 0.8rem;
+}
+.content--detail .content-area .module .nav-pagination .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content--detail .content-area .module .nav-pagination .pagination .page--item {
+  position: relative;
+  padding: 0 1.2rem;
+}
+.content--detail .content-area .module .nav-pagination .pagination .page--item--link {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: rgba(175, 31, 38, 0.6);
+}
+.content--detail .content-area .module .nav-pagination .pagination .page--item::after {
+  content: "";
+  position: absolute;
+  height: 1.6rem;
+  top: 0;
+  right: 0;
+  border-right: 0.5px solid #313132;
+}
+.content--detail .content-area .module .nav-pagination .pagination .page--item:nth-child(n+9)::after,
+.content--detail .content-area .module .nav-pagination .pagination .page--item:first-child::after,
+.content--detail .content-area .module .nav-pagination .pagination .page--item:last-child::after {
+  display: none;
+}
+.content--detail .content-area .module .nav-pagination .pagination .page--item:nth-child(2) > .page--item--link {
+  font-weight: 600;
+}
+.content--detail .content-area .module .product-seo-tag {
+  margin-bottom: 3.2rem;
+}
+.content--detail .content-area .module .product-seo-tag .seo-tag-title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #313132;
+}
+.content--detail .content-area .module .product-seo-tag .seo-tag-list {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content--detail .content-area .module .product-seo-tag .seo-tag-list__item {
+  background: rgba(231, 231, 231, 0.6);
+  padding: 0.6rem 1.2rem;
+  border-radius: 16px;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.content--detail .content-area .module .product-seo-tag .seo-tag-list__item--link {
+  font-size: 14px;
+  line-height: 1.6rem;
+  color: #313132;
+}
+.content--detail .content-filter .main-right .box-common {
+  border: 1px solid #ebedf0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0 2.5rem;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.content--detail .content-filter .main-right .box-common .box-title {
+  padding: 1.6rem 0 1.3rem 0;
+  box-shadow: inset 0 -1px 0 #ebedf0;
+  font-weight: 700;
+  color: #313132;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.content--detail .content-filter .main-right .box-common .box-content {
+  padding: 1.5rem 0;
+  position: relative;
+}
+.content--detail .content-filter .main-right .box-common .box-content-filter__item {
+  padding-bottom: 1.2rem;
+}
+.content--detail .content-filter .main-right .box-common .box-content-filter__item--link {
+  color: #313132;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 }/*# sourceMappingURL=main.css.map */

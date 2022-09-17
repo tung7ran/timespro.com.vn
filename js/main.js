@@ -1,9 +1,12 @@
 $(document).ready(function(){
    
 
-    $('.btn--more').click(function(){
-        $('.open--options').toggle();
-    });
+    // $('.btn--more').click(function(){
+    //     $('.open--options').toggle();
+    // });
+    $('.btn--more').on('click', function() {
+      $('.open--options').fadeToggle("slow");
+        });
     /**
      * tab UI -> Home
      */
@@ -55,14 +58,13 @@ $(document).ready(function(){
 
     });
 
-      $(".select-control-label>a").click (function(){
+      $(".select-control-label__title").click (function(){
         // Close all open windows
         $(".custom-dropbox-cate").stop().slideUp(300); 
         // Toggle this window open/close
         $(this).next(".custom-dropbox-cate").stop().slideToggle(300);
-        //hitter test// 
-        // $(".hitter").show()
+        
       });
-      
+
      
 });

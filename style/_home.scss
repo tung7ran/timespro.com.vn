@@ -9,8 +9,8 @@
             width: 63rem;
             position: absolute;
             top: 50%;
-
             left: 50%;
+            // bottom: 50%;
             transform: translate(-50%, -50%);
             display: flex;
             flex-wrap: wrap;
@@ -91,7 +91,7 @@
                     .bds--options--select {
                         justify-content: space-between;
                         margin: 0.8rem 0.6rem;
-    
+                      
                         .options--category {
                             &--list {
                                 justify-content: space-between;
@@ -149,6 +149,8 @@
                         }
                     }
                     .open--options{
+                        display: none;
+                        overflow: scrollY;
                         .options--category{
                           
                             transition: 1s;
