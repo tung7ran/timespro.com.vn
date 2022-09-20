@@ -43,8 +43,7 @@
             .footer-title{
                 font-size: 1.6rem;
                padding: 1.7rem 0;
-            //    margin-bottom: 0.8rem;
-                border-bottom: 1px solid $white;
+               border-bottom: 1px solid $white;
                 text-transform: uppercase;
                 font-weight: bold;
                 color: $white;
@@ -71,7 +70,6 @@
                         display: flex;
                         margin-bottom: 1.4rem;
                         i{
-
                             padding-right: 1.1rem;
                         }
                     }
@@ -93,7 +91,6 @@
                         color: $color-text;
                         line-height: 1.9rem;
                     }
-
                 }
                 .footer-icon{
                     a{
@@ -111,16 +108,13 @@
             .footer-title{
                 font-size: 1.6rem;
                padding: 1.7rem 0 3rem 0;
-          
-                
-                text-transform: uppercase;
+               text-transform: uppercase;
                 font-weight: bold;
                 color: $white;
             }
             ul{
                 li{
                     margin-bottom: 0.7rem;
-
                     a{
                         color: $color-text;
                         font-size: 1.6rem;
@@ -132,7 +126,6 @@
         .footer-4{
             .footer-advise{
                 margin-bottom: 0.7rem;
-
                 a{
                     color: $color-text;
                     font-size: 1.6rem;
@@ -157,10 +150,8 @@
                 align-items: center;
                 width: 100%;
                 .sendEmail-file-input{
-                   
-                    width: 100%;
-                    // margin: 0.4rem;
-                    padding: 1px;
+                     width: 100%;
+                     padding: 1px;
                     .form-control{
                         height: 3rem;
                         border-radius: 3px 0 0 3px;

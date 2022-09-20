@@ -1,0 +1,244 @@
+.content--detail{
+    .content-area{
+        .post-news{
+            .post--images{
+                display: flex;
+                flex-wrap: wrap;
+                &--item{
+                    padding-left: 0.4rem;
+                    padding-right: 0.4rem;
+                    padding-bottom: 0.4rem;
+                }
+            }
+            .post--text{
+                margin-top: 2.4rem;
+                &__control{
+                    &-list{
+                        display: flex;
+                        align-items: center;
+                        &--item{
+                            &--link{
+                                font-size: 1.4rem;
+                                line-height: 1.6rem;
+                                color: $color-post;
+                                opacity: 0.6;
+                            }
+                        }
+                        &--item:nth-child(3):after,
+                        &--item:nth-child(2):after,
+                        &--item:nth-child(1):after{
+                            content: "/";
+                            font-size: 1.4rem;
+                            color: $color-post;
+                            opacity: 0.6;
+                        }
+                    }
+                }
+                &__title{
+                    margin-top: 0.8rem;
+                    h2{
+                        font-size: 1.8rem;
+                        line-height: 2.7rem;
+                        color: $color-post;
+                    }
+                }
+                &--address{
+                    margin-top: 0.567rem;
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    color: $color-post;
+                }
+            }
+            .post--area{
+                margin: 2.4rem 0;
+                padding: 2.4rem;
+                border-top: 0.25px solid rgba(49, 49, 50, 0.5);
+                border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
+                display: flex;
+                &--item{
+                    margin-right: 1.4rem;
+                    &__title{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                        color: $color-post;
+                    }
+                    &__quota{
+                        font-size: 2.4rem;
+                        line-height: 3.3rem;
+                        color: $color-post;
+                        font-weight: 500;
+                        margin: 0.8rem 0;
+                    }
+                    &__more-detail{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                        color: $color-post;
+                        opacity: 0.6;
+                    }
+                    &__icon{
+                        font-size: 1.4rem;
+                        line-height: 2.1rem;
+                        margin-right: 0.7rem;
+                    }
+                    img{
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                }
+            }
+            .post--desc{
+                &--title{
+                    font-size: 1.8rem;
+                    line-height: 2.1rem;
+                    color: $color-post;
+                    font-weight: 500;
+                }
+                &--text{
+                    margin-top: 1.8rem;
+                    font-size: 16px;
+                    line-height: 150%;
+                    .subpage-exp-content{
+                        display: none;
+                    }
+                }
+                .text-center{
+                    margin-top: 1.6rem;
+                    .btn-darkred-block{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                        border: none;
+                        background-color: transparent;
+                        color: $background-nav;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .post--information{
+                margin-top: 3.2rem;
+                &__title{
+                    font-size: 1.8rem;
+                    line-height: 2.1rem;
+                    color: $color-post;
+                    font-weight: 600;
+                }
+                &__desc{
+                    margin-top: 1.1rem;
+                    border: 0.25px solid rgba(49, 49, 50, 0.5);
+                    box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.25);
+                    border-radius: 4px;
+                    &--item{
+                        display: flex;
+                        align-items: center;
+                        padding: 1rem 2rem;
+                        &--label{
+                            font-size: 1.6rem;
+                            font-weight: 600;
+                            min-width: 10rem;
+                            margin-right: 1.2rem;
+                        }
+                        &--text{
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                        }
+                    }
+                    &--maps{
+                        height: 22.3rem;
+                    }
+                    .product-seo-tag{
+                        margin: 0.8rem;
+                    }
+                }
+            }
+        }
+        .module--post{
+            padding-bottom: 3.2rem;
+            margin-top: 0.8rem;
+            margin-bottom: 2.4rem;
+            border-bottom:  0.25px solid rgba(49, 49, 50, 0.5);;
+            .site--main--module--header{
+                margin-bottom: 2.4rem;
+                &__title{
+                    text-transform: inherit;
+                }
+            }
+            .module-content{
+                &--item{
+                    margin-bottom: 0;
+                    padding: 0 1.5rem;
+                    .mh-estate-vertical{
+                        .module-content--item__info{
+                            &--title{
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .post--intro{
+            margin-top: 0.8rem;
+            margin-bottom: 3.2rem;
+            p{
+                font-size: 1.4rem;
+                line-height: 150%;
+                color: $color-post;
+                text-align: justify;
+            }
+        }
+    }
+    .information-user{
+        .info--user{
+            border: 0.5px solid rgba(49, 49, 50, 0.5);
+            border-radius: 10px 10px 4px 4px;
+            &__header{
+                background-color: $background-nav;
+                padding: 1.3rem 3.5rem;
+                border-radius: 0.9rem 0.9rem 0 0;
+                h3{
+                    font-size: 1.8rem;
+                    line-height: 2.1rem;
+                    color: $white;
+                    text-align: center;
+                }
+            }
+            &__content{
+                padding: 2.4rem 0 3.8rem 0;
+                &--image{
+                    width: 9.6rem;
+                   margin-left: 50%;
+                   padding-bottom: 1.6rem;
+                   transform: translateX(-50%);
+                }
+                &--name{
+                    font-size: 1.8rem;
+                    line-height: 2.8rem;
+                    color: $color-post;
+                    font-weight: 500;
+                }
+                &--other{
+                    font-size: 1.2rem;
+                    line-height: 1.8rem;
+                    color: $color-post;
+                    opacity: 0.8;
+                    margin-top: 0.4rem;
+                    margin-bottom: 1.6rem;
+                }
+                &--btn{
+                    padding: 0 3.9rem;
+                    &--contact{
+                        border: 0.5px solid rgba(49, 49, 50, 0.5);
+                        border-radius: 4px;
+                        font-size: 1.4rem;
+                        line-height: 3.2rem;
+                        color: #BC0F19;
+                    }
+                    .phone--number{
+                        background-color: #BC0F19;
+                        color: $white;
+                        margin-bottom: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

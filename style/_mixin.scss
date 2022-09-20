@@ -1,20 +1,16 @@
 $res_mobile : "(max-width: 480px)";
 $res_tablet : "(min-width: 481px) and (max-width: 768px)";
 $res_pclow : "(min-width: 769px)";
-
-
 @mixin responsive_mobile() {
   @media #{$res_mobile} {
     @content;
   }
 }
-
 @mixin responsive_tablet() {
   @media #{$res_tablet} {
     @content;
   }
 }
-
 @mixin responsive_pclow() {
   @media #{$res_pclow} {
     @content;
@@ -28,7 +24,6 @@ $res_pclow : "(min-width: 769px)";
   font-family: Roboto-Regular;
   src: url('../fonts/Roboto-Regular.ttf');
 }
-
 @mixin buttonStyle {
     font-size: 1.6rem;
     padding: 1.5rem 5.2rem;
@@ -37,25 +32,20 @@ $res_pclow : "(min-width: 769px)";
     color: #a1710f;
     background-color: #ffd00f;
     border-radius: 8rem;
-    // font-family: Gilroy-Bold;
     text-transform: uppercase;
-  
   }
-  
   @mixin backgroundImage {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
   }
-  
   @mixin logoColumn {
     margin-left: 50%;
     transform: translateX(-50%);
     width: 6rem;
     height: 5rem;
   }
-  
   @mixin buttonAfter {
     content: "";
     position: absolute;
@@ -70,7 +60,6 @@ $res_pclow : "(min-width: 769px)";
     border-top-left-radius: 8rem;
     border-top-right-radius: 8rem;
   }
-  
   @mixin formContact {
     background-color: $background-form;
     outline: none;
@@ -89,3 +78,13 @@ $res_pclow : "(min-width: 769px)";
     font-size: 1.6rem;
     margin-top: 2rem;
   }
+
+
+
+
+  
+  
+
+  
+  
+  

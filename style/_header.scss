@@ -1,15 +1,9 @@
 .header{
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // z-index: 1;
     .top-header{
         width: 100%;
         background-color: $background-nav;
         color: $color-text;
         height: 3rem;
-      
         .container{
             color: $color-text;
             .left--header{
@@ -34,7 +28,6 @@
                     a{
                         color: $color-text;
                         font-size: 1.4rem;
-                     
                     }
                 }
                 &--user{
@@ -65,9 +58,8 @@
         align-items: center;
         height: 6rem;
         width: 100%;
-        // background-color: $white;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
         .header--menu--list{
-            
             align-items: center;
             justify-content: space-between;
             .logo--images{
@@ -114,16 +106,13 @@
                             &--item:hover>a {
                                 background-color: #ccc;
                                 color: #000;
-                                
                             }
                         }
                         .sub--nav::before{
                             content: "";
                             padding: 2rem 11rem 0 11rem;
-                            // background-color: #000;
                         }
                     }
-                    
                     &--item:hover .sub--nav{
                         display: block;
                         transition-delay:1s;
@@ -131,12 +120,8 @@
                     &--item:hover .header--menu--nav__list--item--link{
                         color: $primary-color;
                     }
-
                 }
             }  
-                 
-
-                
         }
     }
     .wrapper-search-bar{
@@ -175,12 +160,10 @@
                     }
                     .active{
                         background-color: $background-nav;
-
                     }
                     .active> .search-bar--box--item--link{
                         color: $white;
                     }
-                       
                 }
             }
             &-suggestion{
@@ -228,12 +211,10 @@
                     position: relative;
                     &__title{
                         .dropbox-label{
-                            
                             font-size: 1rem;
                            line-height: 1.6rem;
                             color: #2c2f36;
                             background-image: url('../images/icon/caret_up_down_search_form.png');
-                            
                             background-position: right;
                             background-repeat: no-repeat;
                             padding-right: 1.2rem;
@@ -249,12 +230,10 @@
                             text-overflow: ellipsis;
                             font-size: 1.4rem;
                         }
-
                     }
 
                     .custom-dropbox-cate{
-                        // display: none;
-                        min-width: 28rem;
+                         min-width: 28rem;
                         max-height: 30.8rem;
                         padding: 8px 0 0 0;
                         border-radius: 0.8rem;
@@ -286,8 +265,6 @@
                                         color: #2c2f36;
                                         padding: 0 16px;
                                       &__link{
-                                        // color: rgb(175 , 31 , 38);
-                                        // font-weight: bold;
                                         display: block;
                                         padding: 0 1.6rem;
                                         color: $color-post;
@@ -335,16 +312,13 @@
                                     border-radius: 0.25rem;
                                     font-size: 1.3rem;
                                     padding: 0.6rem 1.2rem;
-                                    // line-height: 2.4rem;
                                     height: 3.8rem;
                                 }
                             }
                           }  
                         }
                     }
-
                 }
-
             }
             .filter-control{
                 .select-control-label{
@@ -359,12 +333,10 @@
                             width: 1.2rem;
                             margin-left: 0.2rem;    
                         }
-
                     }
                 }
             }
             .search--box--btn{
-               
                 margin-left: 10px;
                 float: left;
                 background: $background-nav;
