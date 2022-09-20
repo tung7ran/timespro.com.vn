@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimesPro</title>
+    <!-- Reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+       
+        <!-- Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- slick.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+
+<body>
+    <div class="wapper">
+        <header class="header">
+
+
+            <div class="top-header">
+                <div class="container">
+                    <div class="left--header">
+                        <span class="left--header--envelop"><a href="mailto:bdstimespro@gmailcom">
+                            <i class="far fa-envelope-open"></i>bds.timespro@gmail.com</a>
+                        </span>
+                        <span class="left--header--phone"><a href="tel:(08) 1608 1111"><i class="fas fa-phone-alt"></i>(08) 1608 1111</a></span>
+                    </div>
+                    <div class="right--header">
+                        <span class="right--header--wishlist"><a href="!#"><i class="fas fa-heart"></i></a></span>
+                        <span class="right--header--user"><a href="!#" data-toggle="modal" data-target="#modal-login"><i
+                                    class="far fa-user"></i> Đăng nhập</a></span>
+                        <span class="right--header--register"> / <a href="!#" data-toggle="modal" data-target="#modal-register">Đăng
+                                ký</a></span>
+                        <span class="right--header--post-news"><a href="https://timespro.com.vn/nguoi-dung/dang-tin">Đăng
+                                tin</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header--menu">
+                <div class="container">
+                    <div class="header--menu--list row">
+                        <div class="logo--images col-lg-2">
+                            <a href="#">
+                                <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
+
+                            </a>
+                        </div>
+                        <div class="header--menu--nav col-lg-10">
+                            <ul class="header--menu--nav__list">
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Khu nghỉ dưỡng sinh thái</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán nhà mặt phố</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán biệt thự, liền kề</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán đất</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán đất nền dự án</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán kho, nhà xưởng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán trang trại, khu nghỉ dưỡng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán loại bất động sản khác</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà mặt phố</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà trọ, phòng trọ</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê văn phòng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê cửa hàng - ki ốt</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê kho, nhà xưởng, đất</a>
+                                        </li>
+                                       
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê loại bất động sản khác</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Hoạt động</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Tuyển dụng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content--banner">
+                <div class="bds--options">
+                    <div class="bds--options--heading">
+                        <ul class="bds--options--heading__list">
+                            <li class="bds--options--heading__list--item active">
+                                <a href="#tab1">
+                                    <button class="bds--options--heading__list--item--link">BĐS Bán</button>
+
+                                </a>
+                            </li>
+                            <li class="bds--options--heading__list--item">
+                                <a href="#tab2">
+                                    <button class="bds--options--heading__list--item--link">bds cho thê</button>
+
+                                </a>
+                            </li>
+                            <li class="bds--options--heading__list--item">
+                                <a href="#tab3">
+                                    <button class="bds--options--heading__list--item--link">dự án</button>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabs--content">
+                        <div class="bds--options--container" id="tab1">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
+                                </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
+                            </div>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bds--options--select row open--options">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bds--options--container" id="tab2">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
+                                </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
+                            </div>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bds--options--select row open--options">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bds--options--container" id="tab3">
+                            <div class="bds--options--search">
+                                <div class="bds--options--search__wrap">
+                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                        class="bds--options--search__wrap--input">
+                                </div>
+                                <button class="bds--options--search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                </button>
+                            </div>
+                            <div class="bds--options--select row">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Diện tích</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Mức giá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="options--extend">
+                                        <div class="options--extend--list">
+                                            <div class="options--extend--list__item">
+                                                <button class="options--extend--list__item--text btn--more">
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
+                                                </button>
+                                            </div>
+                                            <div class="options--extend--list__item">
+                                                <p class="options--extend--list__item--text">
+                                                    <i class="fa-solid fa-rotate"></i> Xóa
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bds--options--select row open--options">
+                                <div class="col-lg-9">
+                                    <div class="options--category">
+                                        <div class="options--category--list row">
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Phường xá</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Đường phố</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Số phòng</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="options--category--list__item">
+                                                <p class="options--category--list__item--text">Hướng nhà</p>
+                                                <div class="options--category--list__item--icon">
+                                                    <i class="fa-solid fa-caret-up"></i>
+                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                </div>
+                                            </div>
+    
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="site--content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="site--main">
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title"><a title="Dự án nổi bật"
+                                                href="!#">Dự án nổi bật</a></h2>
+                                        <a class="site--main--module--header__more" title="Dự án nổi bật" href="/danh-sach-du-an/">Xem tất cả</a>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row">
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class="lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                    </div>
+                                                    <div class="module-content--item__info">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="sub-content">
+                                                                    <p class="sub-content--desc">Dự án Legacy Hill Hòa Bình là tổ hợp nhà ở sinh thái nghỉ dưỡng, vui chơi giải trí tọa lạc tại vị trí đắc địa ngay...</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="view-post-project">
+                                                                    <a href="!#">Xem dự án</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset feature-project">
+                                                                <div class="status-project"> Trạng thái: <strong>Chưa rõ</strong> </div>
+                                                                <div class="number-apartment"> Số căn: <strong>120</strong> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class="lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                    </div>
+                                                    <div class="module-content--item__info">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="sub-content">
+                                                                    <p class="sub-content--desc">Dự án Legacy Hill Hòa Bình là tổ hợp nhà ở sinh thái nghỉ dưỡng, vui chơi giải trí tọa lạc tại vị trí đắc địa ngay...</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="view-post-project">
+                                                                    <a href="!#">Xem dự án</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset feature-project">
+                                                                <div class="status-project"> Trạng thái: <strong>Chưa rõ</strong> </div>
+                                                                <div class="number-apartment"> Số căn: <strong>120</strong> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class="lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                    </div>
+                                                    <div class="module-content--item__info">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="sub-content">
+                                                                    <p class="sub-content--desc">Dự án Legacy Hill Hòa Bình là tổ hợp nhà ở sinh thái nghỉ dưỡng, vui chơi giải trí tọa lạc tại vị trí đắc địa ngay...</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="view-post-project">
+                                                                    <a href="!#">Xem dự án</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset feature-project">
+                                                                <div class="status-project"> Trạng thái: <strong>Chưa rõ</strong> </div>
+                                                                <div class="number-apartment"> Số căn: <strong>120</strong> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title">
+                                            <a title="Dự án nổi bật" href="!#">bất động sản bán</a>
+                                        </h2>
+                                        <a class="site--main--module--header__more" title="Dự án nổi bật" href="!#">Xem tất cả</a>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row">
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title">
+                                            <a title="Dự án nổi bật" href="!#">Bất động sản cho thuê</a>
+                                        </h2>
+                                        <a class="site--main--module--header__more" title="Dự án nổi bật" href="!#">Xem tất cả</a>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row">
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">DỰ ÁN LEGACY HILL HÒA BÌNH </a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="banner--news">
+                                </div>
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title">
+                                            <a title="Dự án nổi bật" href="!#">Tin tức</a>
+                                        </h2>
+                                        <a class="site--main--module--header__more" title="Dự án nổi bật" href="/danh-sach-du-an/">Xem tất cả</a>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row">
+                                            <div class="col-12 col-md-7 col-lg-7">
+                                                <article class="fast--news">
+                                                    <a class="image" href="!#">
+                                                        <img src="./images/Rectangle 32.png" class=" lazyloaded"
+                                                            alt="360 độ những điều làm nên sự hấp dẫn của BĐS Quảng Ninh">
+                                                    </a>
+                                                    <p class="fast--news--homepage">Tin tức</p>
+                                                    <h3 class="fast--news--title">
+                                                        <a href="!#"> 
+                                                            Còn nhiều lực đẩy cho thị trường Bất Động Sản vùng ven tiếp tục tăng trưởng trong nhiều năm tới?
+                                                        </a>
+                                                    </h3>
+                                                    <p class="fast--news--date">23 Tháng Tư, 2021</p>
+                                                    <p class="fast--news--desc">Bên cạnh yếu tố quy hoạch, hệ thống giao
+                                                        thông hạ tầng, xu hướng giãn dân và chính sách cởi mở là những
+                                                        yếu tố giúp kích thích thị trường BĐS các tỉnh vùng ven TP.HCM
+                                                        tăng trưởng trong tương lai. Trong 3 năm qua thị trường BĐS các
+                                                        tỉnh vùng ven TP.HCM tăng trưởng trong tương lai. Bên cạnh yếu
+                                                        tố quy hoạch, hệ thống giao thông hạ tầng, xu hướng giãn dân và
+                                                        chính sách cởi mở là những yếu tố giúp kích thích thị trường
+                                                        BĐS...
+                                                        <a class="news--post--more" href="https://timespro.com.vn/360-do-nhung-dieu-lam-nen-su-hap-dan-cua-bds-quang-ninh/"
+                                                            class="module-more">Xem thêm</a>
+                                                    </p>
+                                                </article>
+                                            </div>
+                                            <div class="col-12 col-md-5 col-lg-5">
+                                                <article class="post-right">
+                                                    <a class="image" href="!#">
+                                                        <img src="./images/Rectangle 32.png" class=" lazyloaded" alt="Thông tin quy hoạch tỉnh Cà Mau giai đoạn 2021-2030">
+                                                    </a>
+                                                    <h3 class="name--title">
+                                                        <a href="!#">
+                                                            Giá căn hộ TP. Thủ Đức (TP.HCM) tiếp tục tăng mạnh, Hà Nội
+                                                        </a>
+                                                    </h3>
+                                                </article>
+                                                <div class="post-more-scroll">
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030</a></h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Tin tức tổng hợp thị trường bất động sản từ 04/9-09/9/2022</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Chính sách lĩnh vực bất động sản có hiệu lực từ tháng 9/2022</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Tin tức tổng hợp thị trường bất động sản từ 29/8-03/9/2022</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Tin tức tổng hợp thị trường bất động sản từ 22/8-28/8/2022</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch tỉnh Thái Nguyên giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch tỉnh Vĩnh Phúc giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch tỉnh Hưng Yên giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch tỉnh Bắc Giang giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Thông tin quy hoạch tỉnh Quảng Ninh giai đoạn 2021-2030</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất tỉnh Lào Cai cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất theo file dưới đây cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Tin tức tổng hợp thị trường bất động sản từ 15/8-20/8/2022</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất tỉnh Hậu Giang cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất tỉnh Gia Lai cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất tỉnh Đồng Tháp cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                    <article class="float-post">
+                                                        <h3 class="float-post--name">
+                                                            <a href="!#">Bảng giá đất tỉnh Điện Biên cập nhập mới nhất 2020-2024</a>
+                                                        </h3>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title">
+                                            <a title="Dự án nổi bật" href="!#">Đối tác chủ đầu tư</a>
+                                        </h2>
+
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="investor--group row">
+                                            <a href="!#">
+                                                <img src="./images/group/bms.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/vin.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/nava.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/anthinh.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/haiphat.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/bms.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/vin.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/nava.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/anthinh.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/haiphat.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="site--main--module">
+                                    <header class="site--main--module--header">
+                                        <h2 class="site--main--module--header__title">
+                                            <a title="Dự án nổi bật" href="!#">Đối tác tài chính</a>
+                                        </h2>
+
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="investor--group row">
+                                            <a href="!#">
+                                                <img src="./images/group/vietcom.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/tech.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/mb.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/tp-500x247.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/bidv.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/vietcom.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/tech.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/mb.jpg" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/tp-500x247.png" alt="">
+                                            </a>
+                                            <a href="!#">
+                                                <img src="./images/group/bidv.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="post--news">
+                                <section id="new_posts-5" class="widget widget_new_posts">
+                                    <header class="widget-header">
+                                        <h4 class="widget-title">Tin tức Bất Động Sản</h4>
+                                    </header>
+                                    <div class="text--widget">
+                                        <article class="text--widget--item">
+                                            <a class="text--widget--item__image" href="!#">
+                                                <img class="" src="./images/post--news/Rectangle 56.png" alt="Thông tin quy hoạch tỉnh Bắc Kạn giai đoạn 2021-2030">
+                                            </a>
+                                            <h3 class="text--widget--item__name">
+                                                <a href="!#" title="Thông tin quy hoạch tỉnh Bắc Kạn giai đoạn 2021-2030">Thông tin quy hoạch tỉnh Bắc Kạn giai đoạn 2021-2030</a>
+                                            </h3>
+                                  
+                                        </article>
+                                        <article class="text--widget--item">
+                                            <a class="text--widget--item__image" href="https://timespro.com.vn/360-do-nhung-dieu-lam-nen-su-hap-dan-cua-bds-quang-ninh/">
+                                                <img class="" src="./images/post--news/Rectangle 57.png" alt="360 độ những điều làm nên sự hấp dẫn của BĐS Quảng Ninh">
+                                            </a>
+                                            <h3 class="text--widget--item__name">
+                                                <a href="https://timespro.com.vn/360-do-nhung-dieu-lam-nen-su-hap-dan-cua-bds-quang-ninh/" title="360 độ những điều làm nên sự hấp dẫn của BĐS Quảng Ninh">360 độ những điều làm nên sự hấp dẫn của BĐS Quảng Ninh</a>
+                                            </h3>
+                                  
+                                        </article>
+                                        <article class="text--widget--item">
+                                            <a class="text--widget--item__image" href="https://timespro.com.vn/thong-tin-quy-hoach-tinh-ca-mau-giai-doan-2021-2030/">
+                                                <img class="" src="./images/post--news/Rectangle 58.png" alt="Thông tin quy hoạch tỉnh Cà Mau giai đoạn 2021-2030">
+                                            </a>
+                                            <h3 class="text--widget--item__name">
+                                                <a href="https://timespro.com.vn/thong-tin-quy-hoach-tinh-ca-mau-giai-doan-2021-2030/" title="Thông tin quy hoạch tỉnh Cà Mau giai đoạn 2021-2030">Thông tin quy hoạch tỉnh Cà Mau giai đoạn 2021-2030</a>
+                                            </h3>
+                                  
+                                        </article>
+                                        <article class="text--widget--item">
+                                            <a class="text--widget--item__image" href="https://timespro.com.vn/thong-tin-quy-hoach-tp-da-nang-trong-nhung-nam-toi/">
+                                                <img class="" src="./images/post--news/Rectangle 59.png " alt="Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030">
+                                            </a>
+                                            <h3 class="text--widget--item__name">
+                                                <a href="https://timespro.com.vn/thong-tin-quy-hoach-tp-da-nang-trong-nhung-nam-toi/" title="Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030">Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030</a>
+                                            </h3>
+                                        
+                                        </article>
+                                        <article class="text--widget--item">
+                                            <a class="text--widget--item__image" href="https://timespro.com.vn/tin-tuc-tong-hop-thi-truong-bat-dong-san-tu-04-9-09-9-2022/">
+                                                <img class="" src="./images/post--news/Rectangle 60.png"  alt="Tin tức tổng hợp thị trường bất động sản từ 04/9-09/9/2022">
+                                            </a>
+                                            <h3 class="text--widget--item__name">
+                                                <a href="!#" title="Tin tức tổng hợp thị trường bất động sản từ 04/9-09/9/2022">Thông tin quy hoạch TP Đà Nẵng giai đoạn 2021-2030</a>
+                                            </h3>
+                                        
+                                        </article>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                    </div>
+                                </section>
+                                <section id="media_image-2" class="widget widget_media_image">
+                                    <img src="./images/Banner-Online.png" class="image wp-image-13318  attachment-full size-full" alt="" >
+                                </section>
+                                <section id="custom_html-5" class="widget_hotline widget">
+                                    <div class="textwidget">
+                                        <div class="hotline">
+                                            <div class="hotline--title-box">
+                                                <p class="hotline--title-box__item">
+                                                    <span class="left"><i class="fa-solid fa-phone"></i>HOTLINE</span>
+                                                    <span class="right">(08) 1608 1111</span>
+                                                </p>
+                                            </div>
+                                            <div class="content-box">
+                                                <p class="content-box--item">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                                    <span>Để có căn hot, giá tốt</span>
+                                                </p>
+                                                <p class="content-box--item">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                                    <span>Giá chính xác từ chủ đầu tư</span>
+                                                </p>
+                                                <p class="content-box--item">
+                                                    <span class="three"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                                    <span>Được lựa chọn các gói vay có lãi xuất thấp nhất, thời gian vay dài hạn</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                   </div>
+                                </section>
+                                <section id="text-3" class="widget widget_text">
+                                    <header class="widget-header">
+                                        <h4 class="widget-title">NHẬN THÔNG TIN BÁO GIÁ</h4>
+                                    </header>			
+                                    <div class="textwidget">
+                                        <form action="">
+                                            <div class="fix-form">
+                                                <div class="form-group">
+                                                    <select name=""  id="" class="form-control" aria-placeholder="Dự án">
+                                                        <option value="">Geleximco</option>
+                                                        <option value="">Khai Sơn Hill</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="Họ và tên" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" placeholder="Email" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="number" placeholder="Số điện thoại" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button class="btn btn-success">Gửi yêu cầu</button>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <section class="col-12 col-sm-6 col-lg-3 widget-footer-top widget_nav_menu">
+                            <h4 class="widget-title">Bất Động Sản Bán</h4>
+                            <div class="widget--menu">
+                                <ul class="widget--menu--list">
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/bo-de/">Phường Bồ Đề</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/cu-khoi/">Phường Cự Khối</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/gia-thuy/">Phường Gia Thuỵ</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/giang-bien/">Phường Giang Biên</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/long-bien/">Phường Long Biên</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/ngoc-lam/">Phường Ngọc Lâm</a>
+                                    </li>
+                                    <li class="widget--menu--list__item 9">
+                                        <a href="/tai/ha-noi/long-bien/ngoc-thuy/">Phường Ngọc Thuỵ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="col-12 col-sm-6 col-lg-3 widget-footer-top widget_nav_menu">
+                            <h4 class="widget-title">Bất Động Sản Cho Thuê</h4>
+                            <div class="widget--menu">
+                                <ul class="widget--menu--list">
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/phuc-loi/">Phường Phúc Lợi</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/phuc-dong/">Phường Phúc Đồng</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/sai-dong/">Phường Sài Đồng</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/thuong-thanh/">Phường Thượng Thanh</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/thach-ban/">Phường Thạch Bàn</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/viet-hung/">Phường Việt Hưng</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="/tai/ha-noi/long-bien/duc-giang/">Phường Đức Giang</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="col-12 col-sm-6 col-lg-3 widget-footer-top widget_nav_menu">
+                            <h4 class="widget-title">Nhà Đất Cho Thuê</h4>
+                            <div class="widget--menu">
+                                <ul class="widget--menu--list">
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Ba Đình</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Bắc Từ Liêm</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Cầu Giấy</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Đống Đa</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Đông Anh</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Hoàn Kiếm</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Hai Bà Trưng</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Hoàng Mai</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Hà Đông</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Long Biên</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Nam Từ Liêm</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Thanh Xuân</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Thanh Trì</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Cho thuê nhà Tây Hồ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="col-12 col-sm-6 col-lg-3 widget-footer-top widget_nav_menu">
+                            <h4 class="widget-title">Dự án nghỉ dưỡng</h4>
+                            <div class="widget--menu">
+                                <ul class="widget--menu--list">
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án À La Carte Halong Bay</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Legacy Hill Hòa Bình</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Ivory Villas &amp; Resort</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Ruby City Hạ Long</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Khai Sơn City</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Le Grand Jardin</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Aqua City Hạ Long</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Westlake Golf &amp; Vilas</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Bình Minh Garden</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án Citadines Marina Halong</a>
+                                    </li>
+                                    <li class="widget--menu--list__item ">
+                                        <a href="#">Dự án FLC Legacy Kontum</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> 
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="logo-bottom">
+                                <img src="https://timespro.com.vn/wp-content/themes/ls/images/logo_bottom.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 footer-column">
+                            <div class="footer-1">
+                                <h4 class="footer-title">Chuyên gia hàng đầu về Bất động sản Long Biên</h4>
+                                <p class="footer-sub-title">Công ty Cổ phần Bất Động Sản Times Pro</p>
+                                <div class="footer-content">
+                                    <img class="footer--maps" src="./images/icon/maps.png">
+                                    <ul class="footer-address">
+                                        <li><i class="fa-solid fa-map-pin"></i>
+                                            <span>
+                                                VPGD: Tầng 2A, toà nhà Mỹ Sơn, 62 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội                                                                    
+                                            </span>
+
+                                        </li>
+                                        <li><i class="fa-solid fa-map-pin"></i>
+                                            <span>
+                                                VPGD: Tầng 2A, toà nhà Mỹ Sơn, 62 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội                                                                    
+                                            </span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="footer-content-connect">
+                                    <div class="footer--call">
+                                        <img src="./images/icon/phone.png" alt="">
+                                        <ul class="footer--connect">
+                                            <li>
+                                                <span>(08) 1608 1111 - 090 794 5555</span>
+    
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="footer-icon">
+                                        <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
+                                        <a href="#"><img src="./images/icon/youtube.svg" alt=""></a>
+                                        <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                            <div class="footer-2">
+                                <h4 class="footer-title">Hướng dẫn</h4>
+                                <ul>
+                                    <li><a href="#">Báo giá &amp; hỗ trợ</a></li>
+                                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                                    <li><a href="#">Về chúng tôi</a></li>
+                                    <li><a href="#">Thông báo</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                            <div class="footer-3">
+                                <h4 class="footer-title">Quy định</h4>
+                                <ul>
+                                    <li><a href="https://timespro.com.vn/quy-dinh-dang-tin/">Quy định đăng tin</a></li>
+                                    <li><a href="https://timespro.com.vn/quy-che-hoat-dong/">Quy chế hoạt động</a></li>
+                                    <li><a href="https://timespro.com.vn/dieu-khoan-thoa-thuan/">Điều khoản thỏa thuận</a></li>
+                                    <li><a href="https://timespro.com.vn/chinh-sach-bao-mat/">Chính sách bảo mật</a></li>
+                                    <li><a href="https://timespro.com.vn/giai-quyet-khieu-nai/">Giải quyết khiếu nại</a></li>
+                                    <li><a href="https://timespro.com.vn/gop-y-bao-loi/">Góp ý báo lỗi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 footer-column">
+                            <div class="footer-4">
+                                <h4 class="footer-title"">Liên hệ</h4>
+                                    <p class="footer-advise">
+                                        <a href="tel:(08) 1608 1111">
+                                            <i class="fa-solid fa-headphones"></i><span>Tổng đài CSKH: (08) 1608 1111</span>
+                                        </a>
+                                    </p>
+                                    <p class="footer-advise">
+                                        <a href="mailto:bdstimespro@gmailcom">
+                                            <img class="mail-open" src="./images/icon/mail_open.png" alt="">
+                                            <span>bds.timespro@gmail.com</span>
+                                        </a>
+                                    </p>
+                                <h4 class="contact-mail">Đăng ký ngay để nhận thông tin</h4>
+                                <div class="sendEmail">
+                                    <div class="sendEmail-file-input">
+                                        <input class="form-control" type="email" id="sendEmail" placeholder="Nhập email của bạn">
+                                    </div>
+                                    <button class="sendEmail-button">Gửi</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <div class="text-center footer-5">
+                                <p class="footer--develop">Được phát triển bởi <a href="!#">TIMESPRO</a></p>
+                                <div class="footer--agree">
+                                    <a href="!#" title="DMCA.com Protection Status" class="dmca-badge"> 
+                                        <img src="./images/icon/dcma.png" alt="DMCA.com Protection Status">
+                                    </a>  
+                                        
+                                    <a href="#">
+                                        <img src="./images/icon/bocongthuong.svg">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js" ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" ></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

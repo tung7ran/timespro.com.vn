@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimesPro</title>
+    <!-- Reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- slick.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div class="wapper">
+        <header class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="left--header">
+                        <span class="left--header--envelop"><a href="mailto:bdstimespro@gmailcom">
+                                <i class="far fa-envelope-open"></i>bds.timespro@gmail.com</a>
+                        </span>
+                        <span class="left--header--phone"><a href="tel:(08) 1608 1111">
+                            <i class="fas fa-phone-alt"></i>(08) 1608 1111</a></span>
+                    </div>
+                    <div class="right--header">
+                        <span class="right--header--wishlist">
+                            <a href="!#"><i class="fas fa-heart"></i></a>
+                        </span>
+                        <span class="right--header--user">
+                            <a href="!#" data-toggle="modal" data-target="#modal-login">
+                                <i class="far fa-user"></i> Đăng nhập</a>
+                            </span>
+                        <span class="right--header--register"> / <a href="!#">Đăng ký</a></span>
+                        <span class="right--header--post-news">
+                            <a href="https://timespro.com.vn/nguoi-dung/dang-tin">Đăng tin</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header--menu">
+                <div class="container">
+                    <div class="header--menu--list row">
+                        <div class="logo--images col-lg-2">
+                            <a href="">
+                                <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="header--menu--nav col-lg-10">
+                            <ul class="header--menu--nav__list">
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Khu nghỉ dưỡng sinh thái</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán nhà mặt phố</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán biệt thự, liền kề</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán đất</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán đất nền dự án</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán kho, nhà xưởng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán trang trại, khu nghỉ dưỡng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Bán loại bất động sản khác</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà mặt phố</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê căn hộ chung cư</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê nhà trọ, phòng trọ</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê văn phòng</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê cửa hàng - ki ốt</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê kho, nhà xưởng, đất</a>
+                                        </li>
+
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê loại bất động sản
+                                                khác</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <ul class="sub--nav">
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
+                                        </li>
+                                        <li class="sub--nav--item">
+                                            <a href="!#" class="sub--nav--item--link">Hoạt động</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="header--menu--nav__list--item">
+                                    <a href="!#" class="header--menu--nav__list--item--link">Tuyển dụng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-search-bar">
+                <div class="container">
+                    
+                        <div class="search-bar">
+                            <div class="search-bar-tab">
+                                <ul class="search-bar--box">
+                                    <li class="search-bar--box--item active">
+                                        <a href="" class="search-bar--box--item--link">Bán</a>
+                                    </li>
+                                    <li class="search-bar--box--item">
+                                        <a href="" class="search-bar--box--item--link">Cho thuê</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="search-bar-suggestion">
+                                <div class="search-bar-suggestion--input">
+                                    <form action="">
+                                        <input id="Keyword" class="form-control" name="s" type="text" placeholder="Tìm kiếm địa điểm, khu vực">
+
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <div class="select-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title"> 
+                                        <div class="dropbox-label">Loại nhà đất</div>
+                                        <div class="custom-value">Tất cả</div>
+                                    </div>
+
+                                    
+                                    <div class="custom-dropbox-cate hide" >
+                                        <!--content-->
+                                        <div class="mCustomScrollBox">
+                                            <div class="mCSB_container">
+                                                <div id="divCate">
+                                                    <ul id="menuCate">
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Tất cả nhà đất</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán căn hộ chung cư</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 7 tỷ đến 10 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 20 tỷ đến 30 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá trên 30 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích dưới 30 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 30 m2 đến 50 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 50 m2 đến 80 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 80 m2 đến 100 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 100 m2 đến 150 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 150 m2 đến 200 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 200 m2 đến 250 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 250 m2 đến 300 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích từ 300 m2 đến 500 m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 5 tỷ đến 7 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 3 tỷ đến 5 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 2 tỷ đến 3 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán nhà riêng</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán nhà biệt thự, liền kề</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán nhà mặt phố</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán đất nền dự án</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán đất</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán trang trại, khu nghỉ dưỡng</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán kho, nhà xưởng</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Bán bất động sản khác</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá dưới 500 triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 500 đến 800 triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 800 triệu đến 1 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Giá từ 1 tỷ đến 2 tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích trên 500 m2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                           
+                            <div class="select-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title" >
+                                        <div class="dropbox-label">Thành phố</div>
+                                        <div class="custom-value">Toàn quốc</div>
+
+                                    </div>
+                                    
+                                    <div class="custom-dropbox-cate hide" >
+                                        <!--content-->
+                                        <div class="mCustomScrollBox">
+                                            <div class="mCSB_container">
+                                                <div id="divCate">
+                                                    <ul id="menuCate">
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Tỉnh/Thành phố</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hồ Chí Minh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hà Nội</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Đồng Nai</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bình Dương</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Lâm Đồng</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Đà Nẵng</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Cần Thơ</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Thừa Thiên Huế</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bà Rịa - Vũng Tàu</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hải Phòng</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">An Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Kon Tum</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Đắk Nông</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Sóc Trăng</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bình Phước</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hưng Yên</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Thanh Hóa</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Quảng Trị</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Tuyên Quang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Quảng Ngãi</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Lào Cai</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Vĩnh Long</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bình Định</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Nghệ An</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Kiên Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hà Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Phú Yên</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Lạng Sơn</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Sơn La</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Tây Ninh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Nam Định</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Lai Châu</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bến Tre</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Khánh Hòa</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bình Thuận</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Cao Bằng</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Ninh Bình</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Yên Bái</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Gia Lai</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hoà Bình</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Cà Mau</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Tiền Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Điện Biên</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Vĩnh Phúc</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Quảng Nam</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Đắk Lắk</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Thái Nguyên</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hải Dương</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bạc Liêu</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Trà Vinh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Thái Bình</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hà Tĩnh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Ninh Thuận</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Đồng Tháp</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Long An</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hậu Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Quảng Ninh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Phú Thọ</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Quảng Bình</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Hà Nam</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bắc Ninh</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bắc Giang</a>
+                                                    </li>
+                                                    <li class="category--item">
+                                                        <a href="" class="category--item__link">Bắc Kạn</a>
+                                                    </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <div class="select-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title" >
+                                        <div class="dropbox-label">Mức giá</div>
+                                        <div class="custom-value">Tất cả</div>
+
+                                    </div>
+                                    
+                                    <div class="custom-dropbox-cate hide" >
+                                        <!--content-->
+                                        <div class="mCustomScrollBox">
+                                            <div class="mCSB_container">
+                                                <div id="divCate">
+                                                    <ul id="menuCate">
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Mức giá</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>1</strong> triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>100</strong> triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>200</strong> triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>500</strong> triệu</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>1</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>3</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>5</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>8</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>10</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>20</strong> tỷ</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link"><strong>35</strong> tỷ</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <div class="select-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title" >
+                                        <div class="dropbox-label">Diện tích</div>
+                                        <div class="custom-value">Tất cả</div>
+                                    </div>
+
+                                    
+                                    <div class="custom-dropbox-cate hide" >
+                                        <!--content-->
+                                        <div class="mCustomScrollBox">
+                                            <div class="mCSB_container">
+                                                <div id="divCate">
+                                                    <ul id="menuCate">
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link">Diện tích</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>30</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>50</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>80</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>100</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>150</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>200</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>250</strong> m2</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="#" class="category--item__link"><strong>300</strong> m2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <div class="select-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title" >
+                                        <div class="dropbox-label">Hướng nhà</div>
+                                        <div class="custom-value">Tất cả</div>
+
+                                    </div>
+                                    
+                                    <div class="custom-dropbox-cate hide">
+                                        <!--content-->
+                                        <div class="mCustomScrollBox">
+                                            <div class="mCSB_container">
+                                                <div id="divCate">
+                                                    <ul id="menuCate">
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Chọn hướng nhà</a>
+                                                         </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Đông</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Tây</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Nam</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Bắc</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Đông bắc</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Đông nam</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Tây bắc</a>
+                                                        </li>
+                                                        <li class="category--item">
+                                                            <a href="" class="category--item__link">Tây nam</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <div class="select-control filter-control">
+                                <div class="select-control-label">
+                                    <div class="select-control-label__title" >
+                                        <span class="re__text">Lọc thêm</span>
+                                        <span class="filter-info">
+                                            <img src="./images/icon/slider_03.svg">
+                                        </span>
+
+                                    </div>
+                                    <div class="custom-dropbox-cate hide custom--form">
+                                     
+                                        <div class="mCustomScrollBox">
+                                            <div id="mCSB_3_container" class="mCSB_container">
+                                                <div class="search-filter advance-select-box">
+                                                    <label class="mar-top-8">Quận/ Huyện</label>
+                                                    <select class="form-control custom-select" name="district">
+                                                        <option value="">Chọn Quận/Huyện</option>
+                                                    </select>
+                                                </div>
+                                                <div class="search-filter advance-select-box">
+                                                    <label class="mar-top-8">Phường/ Xã</label>
+                                                    <select class="form-control custom-select" name="ward">
+                                                       
+                                                            <option value="0">Chọn phường/xã</option>
+                                                    </select>
+                                                </div>
+                                                <div class="search-filter advance-select-box">
+                                                    <label class="mar-top-8">Số phòng</label>
+                                                    <select class="form-control custom-select" name="building_room">
+                                                        <option value="0">Chọn số phòng</option>
+                                                        <option value="0">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="2">3</option>
+                                                        <option value="3">4</option>
+                                                        <option value="4">5</option>
+                                                        <option value="5">6</option>
+                                                        <option value="6">7</option>
+                                                        <option value="7">8</option>
+                                                        <option value="8">9</option>
+                                                        <option value="9">10</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="re__filter-wall"></div>
+                            <input type="submit" id="btnSearch" class="search--box--btn" value="Tìm kiếm">
+
+                              <a href="#" class="re__state-icon--sm">
+                                <img src="./images/icon/refresh_02.png">
+                            </a>
+                           
+                        </div>
+                   
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content--detail">
+                <div class="container">
+                    <div class="row">
+                        <div class="content-area col-lg-9">
+                            <section class="module">
+                                <div class="content--navigation">
+                                    <ul class="content--navigation__list">
+                                        <li class="content--navigation__list--item">
+                                            <a href="" class="content--navigation__list--item--link">Times Pro</a>
+                                        </li>
+                                        <li class="content--navigation__list--item">
+                                            <a href="" class="content--navigation__list--item--link">Bất động sản</a>
+                                        </li>
+                                        <li class="content--navigation__list--item">
+                                            <a href="" class="content--navigation__list--item--link">Bất động sản bán</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content--area__header">
+                                    <h2 class="content--area__header--title">BÁN NHÀ BIỆT THỰ, LIỀN KỀ QUẬN THANH XUÂN, GIÁ 10 - 20 TỶ, 150 - 200 m2</h2>
+                                </div>
+                                <div class="post--number">
+                                    <p class="post--number--text">Hiện có 20 bất động sản</p>
+                                </div>
+                                <div class="filter--item">
+                                    <form name="sort-form" action="" method="GET">
+                                        <select class="form-control custom-select " >
+                                            <option value="0">Sắp xếp</option>
+                                            <option value="1">Thông thường</option>
+                                            <option value="2">Tin mới nhất</option>
+                                            <option value="3">Giá thấp đến cao</option>
+                                            <option value="4">Giá cao đến thấp</option>
+                                            <option value="5">Diện tích bé đến lớn</option>
+                                            <option value="6">Diện tích lớn đến bé</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="project--detail">
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+                                            </a>
+                                            <div class="ribbon ribbon-top-left">
+                                                <span class="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                            </div>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+                                            </a>
+                                            <div class="project--special">
+                                                <span class="project--special--text">Nổi <br> bật</span>
+                                                <div class="control"></div>
+                                            </div>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project--detail--item">
+                                        <div class="project--detail--item__image col-lg-4">
+                                            <a href="#">
+                                                <img src="./images/project/project.png" alt="">
+
+                                            </a>
+                                        </div>
+                                        <div class="project--detail__text col-lg-8">
+                                            <a href="#" class="project--detail__text--title">
+                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
+                                            </a>
+                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
+                                            <ul class="rowset row">
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/tag-outline.png" alt="">
+                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/Vector.png" alt="">
+                                                    <p>200m<sup>2</sup></p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/giuong.png" alt="">
+                                                    <p>4</p>
+                                                </li>
+                                                <li class="rowset--item">
+                                                    <img src="./images/icon/toailet.png" alt="">
+                                                    <p>2</p>
+                                                </li>
+                                            </ul>
+                                            <div class="news-location">
+                                                <img src="./images/icon/maps.png" alt="">
+                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="news-location">
+                                                <img src="./images/icon/clock.png" alt="">
+                                                <p class="news-location--address">Hôm nay</p>
+                                            </div>
+                                            <div class="wishlist">
+                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <nav class="nav-pagination">
+                                    <ul class="pagination">
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">
+                                                <img src="./images/icon/left.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">01</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">02</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">03</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">04</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">05</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">06</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">07</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">08</a>
+                                        </li>
+                                        <li class="page--item">
+                                            <a class="page--item--link" href="#">
+                                                <img src="./images/icon/right.svg" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="clear"></div>
+                                <div class="product-seo-tag">
+                                    <h4 class="seo-tag-title">Tìm kiếm theo từ khóa</h4>
+                                    <ul class="seo-tag-list">
+                                        <li class="seo-tag-list__item">
+                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                        </li>
+                                        <li class="seo-tag-list__item">
+                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                        </li>
+                                        <li class="seo-tag-list__item">
+                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                        </li>
+                                        <li class="seo-tag-list__item">
+                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                        </li>
+                                        <li class="seo-tag-list__item">
+                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                        </li>
+                                        
+                                </div>
+                            </section>
+                        </div>
+                        <div class="content-filter col-lg-3">
+                            <div class="main-right">
+                                    <div class="box-common">
+                                        <h4 class="box-title">Lọc theo khoảng giá</h4>
+                                            <div class="box-content">
+                                                <ul class="box-content-filter">
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">&lt; 500 triệu</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">500 - 800 triệu</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">800 triệu - 1 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">1 - 2 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">2 - 3 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">3 - 5 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">5 - 7 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">7 - 10 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">10 - 20 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">20 - 30 tỷ</a>
+                                                    </li>
+                                                    <li class="box-content-filter__item">
+                                                        <a class="box-content-filter__item--link" href="!#" title="">&gt; 30 tỷ</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                    <div class="box-common">
+                                        <h4 class="box-title">Lọc theo diện tích</h4>
+                                        <div class="box-content">
+                                            <ul class="box-content-filter">
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">&lt;= 30 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">30 - 50 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">50 - 80 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">80 - 100 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">100 - 150 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">150 - 200 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">200 - 250 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">250 - 300 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">300 - 500 m2</a>
+                                                </li>
+                                                <li class="box-content-filter__item">
+                                                    <a class="box-content-filter__item--link" href="!#" title="">&gt;= 500 m2</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12">
+                            <div class="logo-bottom">
+                                <img src="https://timespro.com.vn/wp-content/themes/ls/images/logo_bottom.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 footer-column">
+                            <div class="footer-1">
+                                <h4 class="footer-title">Chuyên gia hàng đầu về Bất động sản Long Biên</h4>
+                                <p class="footer-sub-title">Công ty Cổ phần Bất Động Sản Times Pro</p>
+                                <div class="footer-content">
+                                    <img class="footer--maps" src="./images/icon/maps.png">
+                                    <ul class="footer-address">
+                                        <li><i class="fa-solid fa-map-pin"></i>
+                                            <span>
+                                                VPGD: Tầng 2A, toà nhà Mỹ Sơn, 62 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội
+                                            </span>
+
+                                        </li>
+                                        <li><i class="fa-solid fa-map-pin"></i>
+                                            <span>
+                                                VPGD: Tầng 2A, toà nhà Mỹ Sơn, 62 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội
+                                            </span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="footer-content-connect">
+                                    <div class="footer--call">
+                                        <img src="./images/icon/phone.png" alt="">
+                                        <ul class="footer--connect">
+                                            <li>
+                                                <span>(08) 1608 1111 - 090 794 5555</span>
+
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="footer-icon">
+                                        <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
+                                        <a href="#"><img src="./images/icon/youtube.svg" alt=""></a>
+                                        <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                            <div class="footer-2">
+                                <h4 class="footer-title">Hướng dẫn</h4>
+                                <ul>
+                                    <li><a href="#">Báo giá &amp; hỗ trợ</a></li>
+                                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                                    <li><a href="#">Về chúng tôi</a></li>
+                                    <li><a href="#">Thông báo</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                            <div class="footer-3">
+                                <h4 class="footer-title">Quy định</h4>
+                                <ul>
+                                    <li><a href="https://timespro.com.vn/quy-dinh-dang-tin/">Quy định đăng tin</a></li>
+                                    <li><a href="https://timespro.com.vn/quy-che-hoat-dong/">Quy chế hoạt động</a></li>
+                                    <li><a href="https://timespro.com.vn/dieu-khoan-thoa-thuan/">Điều khoản thỏa
+                                            thuận</a></li>
+                                    <li><a href="https://timespro.com.vn/chinh-sach-bao-mat/">Chính sách bảo mật</a>
+                                    </li>
+                                    <li><a href="https://timespro.com.vn/giai-quyet-khieu-nai/">Giải quyết khiếu nại</a>
+                                    </li>
+                                    <li><a href="https://timespro.com.vn/gop-y-bao-loi/">Góp ý báo lỗi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 footer-column">
+                            <div class="footer-4">
+                                <h4 class="footer-title"">Liên hệ</h4>
+                                    <p class=" footer-advise">
+                                    <a href="tel:(08) 1608 1111">
+                                        <i class="fa-solid fa-headphones"></i><span>Tổng đài CSKH: (08) 1608 1111</span>
+                                    </a>
+                                    </p>
+                                    <p class="footer-advise">
+                                        <a href="mailto:bdstimespro@gmailcom">
+                                            <img class="mail-open" src="./images/icon/mail_open.png" alt="">
+                                            <span>bds.timespro@gmail.com</span>
+                                        </a>
+                                    </p>
+                                    <h4 class="contact-mail">Đăng ký ngay để nhận thông tin</h4>
+                                    <div class="sendEmail">
+                                        <div class="sendEmail-file-input">
+                                            <input class="form-control" type="email" id="sendEmail"
+                                                placeholder="Nhập email của bạn">
+                                        </div>
+                                        <button class="sendEmail-button">Gửi</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <div class="text-center footer-5">
+                                <p class="footer--develop">Được phát triển bởi <a href="!#">TIMESPRO</a></p>
+                                <div class="footer--agree">
+                                    <a href="!#" title="DMCA.com Protection Status" class="dmca-badge">
+                                        <img src="./images/icon/dcma.png" alt="DMCA.com Protection Status">
+                                    </a>
+
+                                    <a href="#">
+                                        <img src="./images/icon/bocongthuong.svg">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
