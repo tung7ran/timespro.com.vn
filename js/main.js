@@ -93,4 +93,22 @@ $(document).ready(function(){
           $('#bathroom').val(--m);
         }else{}
       });
+      /**
+       * recruit
+       */
+       $(".location--heading").click(function () {
+        var current_li = $(this).parent();
+        $(".location--body").each(function(i, el) {			
+          if($(el).parent().is(current_li)) {				
+            $(el).prev().toggleClass("plus");
+            $(el).slideToggle();				
+          } else{
+            $(el).prev().removeClass("plus");
+            $(el).slideUp();
+          }
+        });
+      });
+      $('.location--body').hide();
+      // $('.location--heading').first().addClass("plus");
+      // $('.location--body').first().show().addClass("plus");
 });

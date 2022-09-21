@@ -2463,4 +2463,125 @@ a:hover {
   line-height: 2.8rem;
   color: #313132;
   font-weight: 600;
+}
+
+.banner--recruit {
+  background-image: url(../images/post--news/tuyendung.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 67.8rem;
+  position: relative;
+}
+.banner--recruit--title {
+  position: absolute;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recruit-content .recruit--title {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  text-transform: uppercase;
+  color: #AF1F26;
+  font-weight: 300;
+  text-align: center;
+  padding: 6.4rem 0;
+}
+.recruit-content .recruit-location .module .accordion .location--article {
+  margin-bottom: 3.2rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #313132;
+  cursor: pointer;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading .location--title {
+  padding: 0.5rem 0rem 2.4rem 0rem;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  color: #313132;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading::after {
+  content: "";
+  background-image: url(../images/icon/caret_down_hr.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: block;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading.plus::after {
+  content: "";
+  background-image: url(../images/icon/caret_close_hr.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: block;
+  text-align: end;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading.plus {
+  background-color: #AF1F26;
+  border-bottom: 0.5px solid #fff;
+  padding: 1.9rem 3rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--heading.plus .location--title {
+  color: #fff;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body {
+  padding: 2rem 3rem;
+  background-color: #AF1F26;
+  color: #fff;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content {
+  margin-bottom: 2rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content--title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .location--work {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .location--work--title {
+  line-height: 2.4rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .location--work .job--desc--list {
+  padding-left: 3rem;
+  margin-bottom: 1.6rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .location--work .job--desc--list__item {
+  list-style-type: disc;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .wrap-button {
+  margin-top: 6.4rem;
+}
+.recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .wrap-button .button-send-cv {
+  padding: 1.3rem 7.7rem;
+  background: #FFECED;
+  border-radius: 6px;
+  text-align: center;
+  color: rgb(175, 31, 38);
+  font-size: 3.2rem;
+  line-height: 3.8rem;
 }/*# sourceMappingURL=main.css.map */
