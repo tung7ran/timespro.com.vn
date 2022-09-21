@@ -91,7 +91,7 @@ $(document).ready(function(){
       $('.reduce-quantity').on('click', function(){
         if(m >= 1){
           $('#bathroom').val(--m);
-        }else{}
+        }
       });
       /**
        * recruit
@@ -109,6 +109,5 @@ $(document).ready(function(){
         });
       });
       $('.location--body').hide();
-      // $('.location--heading').first().addClass("plus");
-      // $('.location--body').first().show().addClass("plus");
-});
+  });
+     
