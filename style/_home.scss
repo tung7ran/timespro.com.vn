@@ -4,27 +4,21 @@
         @include backgroundImage();
         height: 50rem;
         position: relative;
-
         .bds--options {
             width: 63rem;
             position: absolute;
             top: 50%;
             left: 50%;
-            // bottom: 50%;
             transform: translate(-50%, -50%);
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-
             &--heading {
                 &__list {
                     display: flex;
-
-                    // justify-content: space-around;
                     &--item {
                         overflow: auto;
-
                         &--link {
                             border: none;
                             background-color: $background-nav;
@@ -42,9 +36,7 @@
                     }
                     &--item:nth-child(1)> a .bds--options--heading__list--item--link{
                         border-radius: 4px 0px 0px 0px;
-                        
                     }
-
                     &--item:nth-child(3)> a .bds--options--heading__list--item--link{
                         border-radius: 0px 4px 0px 0px;
                     }
@@ -55,16 +47,12 @@
                 background: rgb(251, 249, 242, 0.6);
                 .bds--options--container {
                     .bds--options--search {
-                        
                         border-radius: 2px;
                         display: flex;
                         align-items: center;
                         margin: 0.5rem 0.6rem;
-    
                         &__wrap {
                             flex: 1;
-    
-    
                             &--input {
                                 width: 100%;
                                 height: 3.2rem;
@@ -76,7 +64,6 @@
                                 opacity: 1;
                             }
                         }
-    
                         &__btn {
                             background-color: $background-btn;
                             line-height: 3.2rem;
@@ -87,15 +74,12 @@
                             font-weight: 500;
                         }
                     }
-    
                     .bds--options--select {
                         justify-content: space-between;
                         margin: 0.8rem 0.6rem;
-                      
                         .options--category {
                             &--list {
                                 justify-content: space-between;
-    
                                 &__item {
                                     display: flex;
                                     height: 3.2rem;
@@ -103,43 +87,34 @@
                                     border: 0.2px solid #313132;
                                     border-radius: 2px;
                                     background-color: #fff;
-    
                                     &--text {
                                         margin-right: 1.2rem;
-                                        // padding: 0.7rem 1.2rem 0.7rem 0.8rem;
                                         font-size: 1.4rem;
                                         color: $color-post;
                                     }
-    
                                     &--icon {
                                         display: grid;
                                         margin: 0;
                                         padding: 0;
                                     }
                                 }
-    
                                 &__item:nth-child(1),
                                 &__item:nth-child(2) {
                                     width: 12.8rem;
                                 }
-    
                                 &__item:nth-child(3),
                                 &__item:nth-child(4) {
                                     width: 9.6rem;
                                 }
                             }
                         }
-    
                         .options--extend {
                             &--list {
                                 display: flex;
                                 align-items: center;
                                 justify-content: space-between;
                                 line-height: 3.2rem;
-    
                                 &__item {
-    
-                                    // margin: 0 0.5rem;
                                     &--text {
                                         font-size: 1.4rem;
                                         border: none;
@@ -152,48 +127,37 @@
                         display: none;
                         overflow: scrollY;
                         .options--category{
-                          
                             transition: 1s;
                             animation: showModal ease-in 0.5s;
                         }
-                        
                     }
                 }
-
             }
-            
         }
     }
 
     .site--content {
         padding-top: 6rem;
-
         .site--main {
             &--module {
                 width: 100%;
                 margin-bottom: 1rem;
-
                 &--header {
                     border-bottom: 0.2px solid $primary-color;
                     display: flex;
                     align-items: center;
                     margin-bottom: 1.7rem;
                     line-height: 4rem;
-
                     &__title {
                         text-transform: uppercase;
                         padding: 0.25rem 0.5rem 0.25rem 0;
                         margin-bottom: 0;
                         font-size: 1.8rem;
                         font-weight: 700;
-
                         a {
                             color: $primary-color;
-
                         }
-
                     }
-
                     &__more {
                         color: $primary-color;
                         margin-left: auto;
@@ -201,28 +165,23 @@
                         font-size: 1.4rem;
                     }
                 }
-
                 .module-content {
                     &--item {
                         margin-bottom: 2.4rem;
-
                         &__image {
                             width: 100%;
                             height: 14rem;
                             position: relative;
-
                             a {
                                 img {
                                     border-radius: 1rem 1rem 0 0;
                                 }
                             }
-
                             .ribbon {
                                 width: 13rem;
                                 height: 14rem;
                                 overflow: hidden;
                                 position: absolute;
-
                                 span {
                                     position: absolute;
                                     display: block;
@@ -237,37 +196,30 @@
                                     line-height: 1.8rem;
                                 }
                             }
-
                             .ribbon-top-left {
                                 top: 0;
                                 left: 0;
-
                                 span {
                                     right: -1.5rem;
                                     top: 2rem;
                                     transform: rotate(-45deg);
                                 }
                             }
-
                             .ribbon-top-left::before {
                                 top: 0;
                                 right: 0;
-
                             }
-
                             .ribbon-top-left::after {
                                 bottom: 0;
                                 left: 0;
 
                             }
                         }
-
                         &__info {
-                            padding: 1rem 1.5rem;
+                            padding: 0.7rem 1.5rem;
                             width: 100%;
                             background-color: $color-text;
                             border-radius: 0 0 1rem 1rem;
-
                             &--title {
                                 a {
                                     text-transform: uppercase;
@@ -276,39 +228,32 @@
                                     border-bottom: 0.02rem solid $color-post;
                                     padding-bottom: 1rem;
                                     -webkit-line-clamp: 2;
-                                    line-height: 18.75px;
+                                    line-height: 1.9rem;
                                     font-size: 1.5rem;
                                     color: $color-post;
-                                    font-weight: 500;
-                                    // height: 4.5rem;
+                                    font-weight: 600;
                                     text-align: justify;
                                     -webkit-box-orient: vertical;
                                 }
                             }
-
                             &--desc {
                                 padding: 1.2rem 0;
-
                                 .rowset {
                                     display: flex;
                                     align-items: center;
                                     justify-content: space-between;
-
                                     .sub-content {
-
-                                        &--desc{
+                                         &--desc{
                                             text-align: justify;
                                             font-size: 1.4rem;
                                             line-height: 2.1rem;
                                             font-weight: 400;
                                         }
                                     }
-
                                     .view-post-project {
                                         padding-top: 1.9rem;
                                         margin-left: 50%;
                                         transform: translateX(-50%);
-
                                         a {
                                             background-color: $background-nav;
                                             color: $white;
@@ -318,13 +263,11 @@
                                             font-size: 1.6rem;
                                         }
                                     }
-
                                     .location,
                                     .time,
                                     .area,
                                     .price {
-                                        // float: left;
-                                        margin-top: 0.5rem;
+                                        margin-top: 0.8rem;
                                         color: $color-post;
                                         white-space: nowrap;
                                         text-overflow: ellipsis;
@@ -334,30 +277,23 @@
                                         line-height: 16.41px;
                                     }
                                 }
-
                                 .feature-project {
                                     border-top: 0.2px solid rgba(49, 49, 50, 0.5);
                                     margin-top: 1rem;
                                     display: flex;
                                     justify-content: space-between;
-
                                     .number-apartment,
                                     .status-project {
-                                        // float: left;
                                         margin-top: 0.5rem;
                                         color: $color-post;
                                         white-space: nowrap;
                                         text-overflow: ellipsis;
-                                        // display: inline-block;
                                         font-size: 1.2rem;
                                     }
-
-
                                 }
                             }
                         }
                     }
-
                     .fast--news {
                         border-bottom: 0.2px solid $color-post;
                         &--homepage {
@@ -368,7 +304,6 @@
                             font-weight: 400;
                             text-transform: uppercase;
                         }
-
                         &--title {
                             font-weight: 500;
                             font-size: 1.6rem;
@@ -376,10 +311,8 @@
                             margin-bottom: 0.8rem;
                             a{
                                 color: $color-post;
-
                             }
                         }
-
                         &--date {
                             font-style: normal;
                             font-weight: normal;
@@ -396,15 +329,9 @@
                             text-align: justify;
                             color: $color-post;
                             margin-bottom: 1rem;
-                            // display: -webkit-box;
-                            // -webkit-box-orient: vertical;
-                            // -webkit-line-clamp: 1;
-                            // text-overflow: ellipsis;
                             .news--post--more{
                                 display: block;
                                 color: $more-color;
-                                // font-size: 1.4rem;
-                                // line-height: 2.1rem;
                             }
                         }
                     }
@@ -441,29 +368,23 @@
                         background-color: #f5f5f5;
                     }
                     .post-more-scroll::-webkit-scrollbar-thumb{
-                       
                         background-color: $black;
                     }
                     .investor--group{
-                        
                         align-items: center;
-                       margin: 5rem 0;
+                        margin: 5rem 0;
                     }
                 }
             }
-
             .banner--news {
                 background-image: url(../images/lakeview3_6k\ 1.png);
                 @include backgroundImage();
                 height: 22.4rem;
-
             }
         }
-
         .post--news{
             .widget{
                 margin-bottom: 1rem;
-                // border-bottom: 1px solid $primary-color;
             }
             .widget_new_posts{
                 .widget-header{
@@ -496,7 +417,6 @@
                         &__image{
                             max-width: 7rem;
                             margin-right: 0.5rem;
-                            
                         }
                         &__name{
                             a{
@@ -511,9 +431,6 @@
                                 color: $color-post;
                                 font-weight: 400;
                             }
-                            // font-size: 1.2rem;
-                            // line-height: 2.1rem;
-                            // text-align: justify;
                         }
                     }
                 }
@@ -534,7 +451,6 @@
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            
                         }
                     }
                     .content-box{
@@ -593,8 +509,7 @@
                             }
                             .btn-success{
                                 font-size: 1.4rem;
-                                // line-height: 16.41px;
-                               text-transform: uppercase;
+                                text-transform: uppercase;
                                 text-align: center;
                             }
                         }

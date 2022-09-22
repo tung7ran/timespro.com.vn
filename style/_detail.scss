@@ -35,7 +35,6 @@
                     font-size: 1.4rem;
                     line-height: 1.6rem;
                     color: #ccc;
-
                 }
             }
             .filter--item{
@@ -45,7 +44,6 @@
                     width: 17.6rem;
                     height: 2.8rem;
                     font-size: 1.3rem;
-                    // padding: 0.6rem 1.2rem;
                 }
             }
             .project--detail{
@@ -92,36 +90,28 @@
                             left: 0;
                             width: 13rem;
                             height: 14rem;
-                            // padding-left: 0.5rem;
                             overflow: hidden;
                             &--text{
                                 position: absolute;
                                 width: 2.4rem;
-                                // height: 24px;
                                 padding: 0.5rem 0.3rem 0.3rem 0.3rem;
                                 top: 0;
                                 left: 1.2rem;
-                               
                                 color: $white;
                                 background: #BC0F19;
                                 font-size: 1.2rem;
                                 line-height: 2.4rem;
-                                // transform: rotate(-90deg);
                             }
                             &--text::after{
                                 content: "";
                                 position: absolute;
                                 left: 0;
                                 top: 5.6rem;
-                                // width: 0;
-                                // height: 0;
                                 border-top: 0.9rem solid #BC0F19;
                                 border-left: 1.2rem solid transparent ;
                                 border-right: 1.2rem solid transparent ;
-
                             }
                         }
-
                     }
                     .project--detail__text{
                         padding-top: 1.8rem;
@@ -188,7 +178,6 @@
             }
             .nav-pagination{
                 margin-top: 0.8rem;
-                
                 .pagination{
                     display: flex;
                     align-items: center;
@@ -205,7 +194,6 @@
                     .page--item::after{
                         content: "";
                         position: absolute;
-                        // width: 1rem;
                         height: 1.6rem;
                         top: 0;
                         right: 0;

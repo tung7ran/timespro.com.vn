@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
     <!-- Fonts Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -21,7 +22,6 @@
     <!-- slick.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
-
 
 <body>
     <div class="wapper">
@@ -184,7 +184,7 @@
                                         <div class="dropbox-label">Loại nhà đất</div>
                                         <div class="custom-value">Tất cả</div>
                                     </div>
-                                    <div class="custom-dropbox-cate">
+                                    <div class="custom-dropbox-cate hide" >
                                         <!--content-->
                                         <div class="mCustomScrollBox">
                                             <div class="mCSB_container">
@@ -294,7 +294,7 @@
                                         <div class="dropbox-label">Thành phố</div>
                                         <div class="custom-value">Toàn quốc</div>
                                     </div>
-                                    <div class="custom-dropbox-cate" >
+                                    <div class="custom-dropbox-cate hide" >
                                         <!--content-->
                                         <div class="mCustomScrollBox">
                                             <div class="mCSB_container">
@@ -506,7 +506,7 @@
                                         <div class="dropbox-label">Mức giá</div>
                                         <div class="custom-value">Tất cả</div>
                                     </div>
-                                    <div class="custom-dropbox-cate" >
+                                    <div class="custom-dropbox-cate hide" >
                                         <!--content-->
                                         <div class="mCustomScrollBox">
                                             <div class="mCSB_container">
@@ -562,7 +562,7 @@
                                         <div class="dropbox-label">Diện tích</div>
                                         <div class="custom-value">Tất cả</div>
                                     </div>
-                                    <div class="custom-dropbox-cate" >
+                                    <div class="custom-dropbox-cate hide" >
                                         <!--content-->
                                         <div class="mCustomScrollBox">
                                             <div class="mCSB_container">
@@ -609,7 +609,7 @@
                                         <div class="dropbox-label">Hướng nhà</div>
                                         <div class="custom-value">Tất cả</div>
                                     </div>
-                                    <div class="custom-dropbox-cate">
+                                    <div class="custom-dropbox-cate hide">
                                         <!--content-->
                                         <div class="mCustomScrollBox">
                                             <div class="mCSB_container">
@@ -658,7 +658,7 @@
                                             <img src="./images/icon/slider_03.svg">
                                         </span>
                                     </div>
-                                    <div class="custom-dropbox-cate custom--form">
+                                    <div class="custom-dropbox-cate hide custom--form">
                                         <div class="mCustomScrollBox">
                                             <div id="mCSB_3_container" class="mCSB_container">
                                                 <div class="search-filter advance-select-box">
@@ -704,702 +704,739 @@
             </div>
         </header>
         <div class="content">
-            <div class="content--detail">
+            <div class="site--content content--detail">
                 <div class="container">
                     <div class="row">
                         <div class="content-area col-lg-9">
-                            <section class="module">
-                                <div class="content--navigation">
-                                    <ul class="content--navigation__list">
-                                        <li class="content--navigation__list--item">
-                                            <a href="" class="content--navigation__list--item--link">Times Pro</a>
-                                        </li>
-                                        <li class="content--navigation__list--item">
-                                            <a href="" class="content--navigation__list--item--link">Bất động sản</a>
-                                        </li>
-                                        <li class="content--navigation__list--item">
-                                            <a href="" class="content--navigation__list--item--link">Bất động sản bán</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="content--area__header">
-                                    <h2 class="content--area__header--title">BÁN NHÀ BIỆT THỰ, LIỀN KỀ QUẬN THANH XUÂN, GIÁ 10 - 20 TỶ, 150 - 200 m2</h2>
-                                </div>
-                                <div class="post--number">
-                                    <p class="post--number--text">Hiện có 20 bất động sản</p>
-                                </div>
-                                <div class="filter--item">
-                                    <form name="sort-form" action="" method="GET">
-                                        <select class="form-control custom-select " >
-                                            <option value="0">Sắp xếp</option>
-                                            <option value="1">Thông thường</option>
-                                            <option value="2">Tin mới nhất</option>
-                                            <option value="3">Giá thấp đến cao</option>
-                                            <option value="4">Giá cao đến thấp</option>
-                                            <option value="5">Diện tích bé đến lớn</option>
-                                            <option value="6">Diện tích lớn đến bé</option>
-                                        </select>
-                                    </form>
-                                </div>
-                                <div class="project--detail">
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                            <div class="ribbon ribbon-top-left">
-                                                <span class="modal-realEstate-news-clasify">Tin V.I.P</span>
-                                            </div>
+                            <section class="site--main module">
+                                <div class="post-news">
+                                    <div class="post--images">
+                                        <div class="post--images--item col-lg-12">
+                                            <img src="./images/post--news/Rectangle_88.png" alt="">
                                         </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_96.png" alt="">
+                                        </div>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_97.png" alt="">
+                                        </div>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_98.png" alt="">
+                                        </div>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_99.png" alt="">
+                                        </div>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_100.png" alt="">
+                                        </div>
+                                        <div class="post--images--item col-lg-2">
+                                            <img src="./images/post--news/Rectangle_101.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="post--text">
+                                        <div class="post--text__control">
+                                            <ul class="post--text__control-list">
+                                                <li class="post--text__control-list--item">
+                                                    <a href="" class="post--text__control-list--item--link">Bán</a>
                                                 </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
+                                                <li class="post--text__control-list--item">
+                                                    <a href="" class="post--text__control-list--item--link">Hồ Chí Minh</a>
                                                 </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
+                                                <li class="post--text__control-list--item">
+                                                    <a href="" class="post--text__control-list--item--link">Quận 2</a>
                                                 </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
+                                                <li class="post--text__control-list--item">
+                                                    <a href="" class="post--text__control-list--item--link">Nhà biệt thự, liền kề tại Thảo Điền Pearl</a>
                                                 </li>
                                             </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                        </div>
+                                        <div class="post--text__title">
+                                            <h2>GIẢM SỐC 400 TRIỆU, CHÍNH CHỦ BÁN GẤP NHÀ ĐẸP, NỞ HẬU, 123 ĐƯỜNG XUÂN THỦY, QUẬN 2, HỒ CHÍ MINH. LIÊN HỆ 0215849852</h2>
+                                        </div>
+                                        <p class="post--text--address">
+                                            Thảo Điền Pearl, Khu 21 đường Xuân Thủy, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh
+                                        </p>
+                                    </div>
+                                    <div class="post--area">
+                                        <div class="post--area--item mw21-4">
+                                            <div class="post--area--item__title">Mức giá</div>
+                                            <div class="post--area--item__quota">2.5 tỷ VNĐ</div>
+                                            <div class="post--area--item__more-detail">25 triệu/m<sup>2</sup></div>
+                                        </div>
+                                        <div class="post--area--item mw21-4">
+                                            <div class="post--area--item__title">Diện tích</div>
+                                            <div class="post--area--item__quota">100m<sup>2</sup></div>
+                                        </div>
+                                        <div class="post--area--item d-flex align-items-center">
+                                           <div class="post--area--item__icon align-items-center">Yêu thích</div>
+                                           <img src="./images/icon/heart_outline.png" alt="">
+                                        </div>
+                                        <div class="post--area--item d-flex align-items-center">
+                                           <div class="post--area--item__icon">Chia sẻ</div>
+                                            <img src="./images/icon/share_outline.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="post--desc">
+                                        <h3 class="post--desc--title">
+                                            Thông tin mô tả
+                                        </h3>
+                                        <div class="post--desc--text">
+                                            <div class="text--content">
+                                                <p>Chính chủ cần bán gấp biệt thự giá rẻ bằng giá đất, nội khu bảo vệ 24/24. Số 21 đường 21 Xuân Thủy, phường Thảo Điền, Quận 2, Thành phố Hồ Chí Minh</p>
+                                                <ul>
+                                                    <li>Diện tích: 8m x 12,5m</li>
+                                                    <li>Kết cấu: 1 trệt + 2 lầu</li>
+                                                    <li>Vị trí: </li>
+                                                </ul>
+                                                <p>-Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền chưa đến 50m nên cực kỳ dễ dàng tiếp cận với các tiện ích như: Ngân hàng, siêu thị, chợ Thảo Điền, trường Quốc tế, trung tâm Thảo Điền Pearl, nhà hàng và cafe nổi tiếng ...</p>
+                                                <p>-Hàng xóm cực kì thân thiện, dân trí cao, nhà liền kề và đối diện với phụ huynh Thanh Hằng và Hà Tăng.</p>
                                             </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
+                                            <div class="subpage-exp-content">
+                                                <p>
+                                                    Pháp lý: Sổ đỏ chính chủ, sang tên công chứng trong ngày.
+                                                </p>
+                                                <p>
+                                                    Giá: 2,5 tỷ
+                                                </p>
+                                                <p>
+                                                    Liên hệ: BĐS Hoa Kỳ Duyên - 0932 102 986 (Zalo/ Viber)
+                                                </p>
+                                                <p>
+                                                    Chi tiết sản phẩm Tư vấn đầu tư - Hỗ trợ đàm phán và pháp lý.
+                                                </p>
+                                                <p>
+                                                    Saigon Center Real - Kho thông tin toàn bộ BĐS cao cấp trung tâm Hồ Chí Minh.
+                                                </p>
+                                                <p>
+                                                    Số 9 Trần Não, Khu phố 3, Phường Bình An, Quận 2, Tp. Hồ Chí Minh.
+                                                </p>
+                                                <p>
+                                                     Xin môi giới không làm phiền.
+                                                </p>
                                             </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
+                                        </div>
+                                        <div class="text-center">
+                                            <button class="btn-darkred-block subpage-readmore-btn">Xem thêm <i class="fa-solid fa-chevron-down"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="post--information">
+                                        <h2 class="post--information__title">Đặc điểm bất động sản</h2>
+                                        <div class="post--information__desc">
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Loại tin đăng:</h3>
+                                                <p class="post--information__desc--item--text">Bán nhà biệt thự, liền kề(nhà trong dự án quy hoạch)</p>
+                                            </div>
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Địa chỉ:</h3>
+                                                <p class="post--information__desc--item--text">Dự án Thảo Điền Pearl, Đường Xuân Thủy, Phường Thảo Điền, Quận 2, TP. Hồ Chí Minh</p>
+                                            </div>
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Pháp lý:</h3>
+                                                <p class="post--information__desc--item--text">Có sổ đỏ</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                            <div class="project--special">
-                                                <span class="project--special--text">Nổi <br> bật</span>
-                                                <div class="control"></div>
+                                    <div class="post--information">
+                                        <h2 class="post--information__title">Thông tin dự án</h2>
+                                        <div class="post--information__desc">
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Tên dự án:</h3>
+                                                <p class="post--information__desc--item--text">Thảo Điền Pearl</p>
                                             </div>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Chủ đầu tư:</h3>
+                                                <p class="post--information__desc--item--text">Công ty Cổ Phần Tập Đoàn S.S.G</p>
                                             </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
+                                            <div class="post--information__desc--item">
+                                                <h3 class="post--information__desc--item--label">Quy mô:</h3>
+                                                <p class="post--information__desc--item--text">33 tầng nổi, 3 tầng hầm</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
+                                    <div class="post--information">
+                                        <h2 class="post--information__title">Xem trên bản đồ</h2>
+                                        <div class="post--information__desc border-0">
+                                            <div class="post--information__desc--maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6097406057634!2d105.71037416436808!3d21.008275243854406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345392ba015459%3A0x371818c2241f1b89!2zWcOqbiBMxaluZywgQW4gS2jDoW5oLCBIb8OgaSDEkOG7qWMsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1663483800696!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
+                                    <div class="post--information">
+                                        <h2 class="post--information__title">Tìm theo từ khóa</h2>
+                                        <div class="post--information__desc border-0 shadow-none">
+                                            <div class="product-seo-tag">
+                                                <ul class="seo-tag-list border-0">
+                                                    <li class="seo-tag-list__item">
+                                                        <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                                    </li>
+                                                    <li class="seo-tag-list__item">
+                                                        <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                                    </li>
+                                                    <li class="seo-tag-list__item">
+                                                        <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                                    </li>
+                                                    <li class="seo-tag-list__item">
+                                                        <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                                    </li>
+                                                    <li class="seo-tag-list__item">
+                                                        <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
+                                                    </li>
+                                                </ul>
                                         </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
                                         </div>
                                     </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
+                                    <div class="post--area">
+                                        <div class="post--area--item mw12-5">
+                                            <div class="post--area--item__title">Ngày đăng</div>
+                                            <div class="post--area--item__quota fz-16">14/05/2021</div>
                                         </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
+                                        <div class="post--area--item mw12-5">
+                                            <div class="post--area--item__title">Ngày hết hạn</div>
+                                            <div class="post--area--item__quota fz-16">21/05/2021</div>
                                         </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
+                                        <div class="post--area--item mw12-5">
+                                            <div class="post--area--item__title">Loại tin</div>
+                                            <div class="post--area--item__quota fz-16">Tin thường</div>
                                         </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
+                                        <div class="post--area--item mw12-5">
+                                            <div class="post--area--item__title">Mã tin</div>
+                                            <div class="post--area--item__quota fz-16">29687189</div>
                                         </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="project--detail--item">
-                                        <div class="project--detail--item__image col-lg-4">
-                                            <a href="#">
-                                                <img src="./images/project/project.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="project--detail__text col-lg-8">
-                                            <a href="#" class="project--detail__text--title">
-                                                Giảm sốc 400 triệu, chính chủ bán gấp, nhà đẹp, nở hậu, 123 đường Xuân Thủy, Quận 2, Hồ Chí Minh. Liên hệ: 0215849852
-                                            </a>
-                                            <p class="project--detail__text--desc">Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền  chưa đến 50m nên cực kỳ dễ, nhà hàng và cafe nổi tiếng...</p>
-                                            <ul class="rowset row">
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/tag-outline.png" alt="">
-                                                    <p>13 triệu/1m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/Vector.png" alt="">
-                                                    <p>200m<sup>2</sup></p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/giuong.png" alt="">
-                                                    <p>4</p>
-                                                </li>
-                                                <li class="rowset--item">
-                                                    <img src="./images/icon/toailet.png" alt="">
-                                                    <p>2</p>
-                                                </li>
-                                            </ul>
-                                            <div class="news-location">
-                                                <img src="./images/icon/maps.png" alt="">
-                                                <p class="news-location--address">Thảo Điền Pearl, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh</p>
-                                            </div>
-                                            <div class="news-location">
-                                                <img src="./images/icon/clock.png" alt="">
-                                                <p class="news-location--address">Hôm nay</p>
-                                            </div>
-                                            <div class="wishlist">
-                                                <img src="./images/icon/heart_outline.png" alt="">
-                                            </div>
+                                        <div class="post--area--item d-flex align-items-center">
+                                           <div class="post--area--item__icon d-flex">Báo cáo</div>
+                                            <img src="./images/icon/Vector.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <nav class="nav-pagination">
-                                    <ul class="pagination">
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">
-                                                <img src="./images/icon/left.svg" alt="">
-                                            </a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">01</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">02</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">03</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">04</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">05</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">06</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">07</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">08</a>
-                                        </li>
-                                        <li class="page--item">
-                                            <a class="page--item--link" href="#">
-                                                <img src="./images/icon/right.svg" alt="">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <div class="clear"></div>
-                                <div class="product-seo-tag">
-                                    <h4 class="seo-tag-title">Tìm kiếm theo từ khóa</h4>
-                                    <ul class="seo-tag-list">
-                                        <li class="seo-tag-list__item">
-                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
-                                        </li>
-                                        <li class="seo-tag-list__item">
-                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
-                                        </li>
-                                        <li class="seo-tag-list__item">
-                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
-                                        </li>
-                                        <li class="seo-tag-list__item">
-                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
-                                        </li>
-                                        <li class="seo-tag-list__item">
-                                            <a class="seo-tag-list__item--link" href="#">Bán biệt thự dự án Thảo Điền Pearl</a>
-                                        </li>
+                                <section class="site--main--module module--post">
+                                    <header class="site--main--module--header border-0">
+                                        <h2 class="site--main--module--header__title">
+                                            <a class="text-dark" title="Dự án nổi bật" href="!#">Bất động sản cùng khu vực</a>
+                                        </h2>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row module-content--list">
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="site--main--module module--post">
+                                    <header class="site--main--module--header border-0">
+                                        <h2 class="site--main--module--header__title">
+                                            <a class="text-dark" title="Dự án nổi bật" href="!#">Tin đăng đã xem</a>
+                                        </h2>
+                                    </header>
+                                    <div class="module-content">
+                                        <div class="row module-content--list">
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="module-content--item">
+                                                <article class="mh-estate-vertical">
+                                                    <div class="module-content--item__image">
+                                                        <a href="!#">
+                                                            <img class=" lazyloaded" src="./images/Rectangle 32.png" alt="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">
+                                                        </a>
+                                                        <div class="ribbon ribbon-top-left">
+                                                            <span id="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="module-content--item__info mh-feature-project">
+                                                        <div class="module-content--item__info--title">
+                                                            <a class="text-capitalize" href="!#" title="RIVERVIEW LƯƠNG SƠN HÒA BÌNH">Biệt thự nghỉ dưỡng 5* Legacy Hill Hòa Bình giá chỉ từ 13 - 15m2...</a>
+                                                        </div>
+                                                        <div class="module-content--item__info--desc">
+                                                            <div class="rowset">
+                                                                <div class="price">
+                                                                    <i class="icon--rowset fa-solid fa-tag"></i> 120 triệu/m<sup>2</sup>
+                                                                </div>
+                                                                <div class="area">
+                                                                    <i class="icon--rowset fa-solid fa-circle-nodes"></i> 99m<sup>2</sup>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="location">
+                                                                    <i class="icon--rowset fa-solid fa-location-dot"></i> Phường Ngọc Thụy
+                                                                </div>
+                                                            </div>
+                                                            <div class="rowset">
+                                                                <div class="time">
+                                                                    <i class="icon--rowset fa-solid fa-clock"></i>2 năm trước
+                                                                </div>
+                                                                <div class="wishlist">
+                                                                    <i class="icon--rowset fa-solid fa-heart"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="post--intro">
+                                    <p>Quý vị đang xem nội dung tin rao “Biệt thự Compound an ninh khu vực 21 Xuân Thủy, Thảo Điền, Quận 2. Diện tích 8x12,5m - 100m2 giá 2,5 tỷ - <strong>Mã tin 29687189</strong> . Mọi thông tin, nội dung liên quan tới tin rao này là do người đăng tin đăng tải và chịu trách nhiệm. Timespro.com.vn luôn cố gắng để các thông tin được hữu ích nhất cho quý vị, tuy nhiên Timespro không đảm bảo và không chịu trách nhiệm về bất kỳ thông tin hay nội dung nào liên quan tới tin rao này. Trường hợp phát hiện nội dung tin đăng không chính xác, Quý vị hãy thông báo và cung cấp thông tin tới Ban quản trị Timespro.com.vn theo <strong>Hotline (08) 1608 1111</strong>  để được hỗ trợ nhanh và kịp thời nhất.</p>
                                 </div>
                             </section>
                         </div>
-                        <div class="content-filter col-lg-3">
-                            <div class="main-right">
-                                    <div class="box-common">
-                                        <h4 class="box-title">Lọc theo khoảng giá</h4>
-                                            <div class="box-content">
-                                                <ul class="box-content-filter">
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">&lt; 500 triệu</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">500 - 800 triệu</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">800 triệu - 1 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">1 - 2 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">2 - 3 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">3 - 5 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">5 - 7 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">7 - 10 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">10 - 20 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">20 - 30 tỷ</a>
-                                                    </li>
-                                                    <li class="box-content-filter__item">
-                                                        <a class="box-content-filter__item--link" href="!#" title="">&gt; 30 tỷ</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                        <div class="information-user col-lg-3">
+                            <div class="info--user">
+                                <div class="info--user__header">
+                                    <h3>Thông tin người đăng</h3>
+                                </div>
+                                <div class="info--user__content text-center">
+                                    <div class="info--user__content--image">
+                                        <img src="./images/post--news/Ellipse_5.png" alt="">
                                     </div>
-                                    <div class="box-common">
-                                        <h4 class="box-title">Lọc theo diện tích</h4>
-                                        <div class="box-content">
-                                            <ul class="box-content-filter">
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">&lt;= 30 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">30 - 50 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">50 - 80 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">80 - 100 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">100 - 150 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">150 - 200 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">200 - 250 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">250 - 300 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">300 - 500 m2</a>
-                                                </li>
-                                                <li class="box-content-filter__item">
-                                                    <a class="box-content-filter__item--link" href="!#" title="">&gt;= 500 m2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                    <h3 class="info--user__content--name ">Nguyễn Thị Quỳnh</h3>
+                                    <p class="info--user__content--other">Xem thêm 41 tin khác</p>
+                                    <div class="info--user__content--btn">
+                                        <h2 class="info--user__content--btn--contact phone--number">0902 576 *** Hiện số</h2>
+                                        <h2 class="info--user__content--btn--contact">Yêu cầu liên hệ lại</h2>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hitter"></div>
         <footer class="footer">
             <div class="footer-bottom">
                 <div class="container">
@@ -1466,9 +1503,12 @@
                                 <ul>
                                     <li><a href="https://timespro.com.vn/quy-dinh-dang-tin/">Quy định đăng tin</a></li>
                                     <li><a href="https://timespro.com.vn/quy-che-hoat-dong/">Quy chế hoạt động</a></li>
-                                    <li><a href="https://timespro.com.vn/dieu-khoan-thoa-thuan/">Điều khoản thỏa thuận</a></li>
-                                    <li><a href="https://timespro.com.vn/chinh-sach-bao-mat/">Chính sách bảo mật</a></li>
-                                    <li><a href="https://timespro.com.vn/giai-quyet-khieu-nai/">Giải quyết khiếu nại</a></li>
+                                    <li><a href="https://timespro.com.vn/dieu-khoan-thoa-thuan/">Điều khoản thỏa
+                                            thuận</a></li>
+                                    <li><a href="https://timespro.com.vn/chinh-sach-bao-mat/">Chính sách bảo mật</a>
+                                    </li>
+                                    <li><a href="https://timespro.com.vn/giai-quyet-khieu-nai/">Giải quyết khiếu nại</a>
+                                    </li>
                                     <li><a href="https://timespro.com.vn/gop-y-bao-loi/">Góp ý báo lỗi</a></li>
                                 </ul>
                             </div>
@@ -1517,8 +1557,6 @@
             </div>
         </footer>
     </div>
-    
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

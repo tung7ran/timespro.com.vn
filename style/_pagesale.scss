@@ -1,0 +1,571 @@
+.sale--container{
+    background: #F1F1F1;
+    .sale--header{
+        .module{
+            .seller--info{
+                display: flex;
+                align-items: center;
+                padding: 2rem;
+                background-color: $white;
+                &--avt{
+                    width: 8rem;
+                    img{
+                        border-radius: 50%;
+                        border: 0.5rem solid $color-post;
+                    }
+                }
+                &--user{
+                    margin-left: 1rem;
+                    &--name{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: $color-post;
+                    }
+                    &--score{
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: rgba(49, 49, 50, 0.7);
+                        img{
+                            width: 1.4rem;
+                        }
+                    }
+                    .seller--item{
+                        margin: 0.75rem 0;
+                    }
+                }
+            }
+            .account--info{
+                padding: 1.8rem 2rem 2rem;
+                background-color: $color-text;
+                &--surplus{
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    font-weight: 600;
+                    padding-bottom: 0.6rem;
+                }
+                &--content{
+                    &__item{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0.6rem 0;
+                        &--having,
+                        &--topic{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                        }
+                    }
+                }
+                &--transfer__code{
+                    font-size: 1.4rem;
+                    line-height: 1.6rem;
+                    font-weight: 600;
+                    padding-top: 0.6rem;
+                }
+                &--recharge{
+                    margin-top: 1.6rem;
+                    &--btn{
+                        width: 100%;
+                        border: none;
+                        background: $background-nav;
+                        border-radius: 4px;
+                        line-height: 3.8rem;
+                        color: $white;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+            .introduct--code{
+                padding: 2.4rem 2rem;
+                background-color: $white;
+                &--form{
+                    .form-label{
+                        font-size: 1.4rem;
+                        line-height: 1.8rem;
+                        color: $color-post;
+                        font-weight: 600;
+                    }
+                    .form-control{
+                        margin-top: 1.2rem;
+                        outline: none;
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: rgba(49, 49, 50, 0.5);
+                        opacity: 0.8;
+                        border-radius: 4px;
+                        padding: 0.8rem 1.2rem;
+                    }
+                }
+            }
+            .categories{
+                padding: 0.8rem 2rem 0rem 2rem;
+                padding-bottom: 1.6rem;
+                background-color: $white;
+                &--heading{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    &--title{
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                       font-size: 1.4rem;
+                       line-height: 1.6rem;
+                       color: $color-post;
+                       font-weight: 600;
+                       img{
+                        width: 1.8rem;
+                        margin-right: 0.7rem;
+                       }
+                       .icon--directional{
+                        font-size: 1.8rem;
+                        margin-right: 0.7rem;
+                    }
+                }
+                    
+                }
+                &--heading::after{
+                    content: '';
+                    display: block;
+                    border-top: 7px solid #000;
+                    border-left: 7px solid transparent;
+                    border-right: 7px solid transparent;
+                    justify-content: end;
+                    transform: rotate(0);
+                    transition: all 0.5s;
+                }
+                .active.categories--heading::after{
+                    transform: rotate(-180deg);
+                }
+                .not-active.categories--heading::after {
+                    transform: rotate(0deg);
+                }
+                &--list{
+                    display: none;
+                    padding-left: 2.5rem;
+                    &__item{
+                        padding-top: 1.6rem;
+                        &--link{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: $color-post;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sale--content{
+        background: #F1F1F1;
+        padding: 3rem;
+        margin-left: -1.5rem;
+        
+      .information--basic{
+        background-color: #fff;
+        margin-right: -3rem;
+        padding: 1.8rem 2.8rem;
+        margin-bottom: 1.6rem;
+        .information--title{
+            font-size: 2.4rem;
+            line-height: 2.8rem;
+            color: $black;
+            font-weight: 600;
+        }
+        .module{
+            .search-bar-tab{
+                padding: 1.6rem 0;
+                .search-bar--box{
+                    display: flex;
+                    align-items: center;
+                    &--item{
+                        width: calc(100% / 2);
+                        text-align: center;
+                        border: 0.25px solid $color-post;
+                        &--link{
+                           font-size: 1.4rem;
+                           line-height: 3.2rem;
+                           color: $color-post;
+                        }   
+                    }
+                    &--item:first-child{
+                        border-radius: 0.4rem 0 0 0.4rem;
+                    }
+                    &--item:last-child{
+                        border-radius: 0 0.4rem 0.4rem 0;
+                    }
+                    .active{
+                        background-color: $background-nav;
+                        .search-bar--box--item--link{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .type--bds{
+                .form-group{
+                    .form-label{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: $color-post;
+                    }
+                    .form-control{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        margin-top: 1.2rem;
+                    }
+                }
+            }
+            .info--address{
+                margin-top: 2.4rem;
+                &--title{
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                    color: $color-post;
+                    font-weight: 600;
+                    margin-bottom: 1.6rem;
+                }
+                &--form{
+                    .form-group{
+                        margin-bottom: 1.6rem;
+                        .form-label{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                        }
+                        .form-control{
+                            margin-top: 1.2rem;
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: rgba(49, 49, 50, 0.5);
+                            opacity: 0.8;
+                            padding: 0.8rem 1.2rem;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+                &--maps{
+                    height: 25.6rem;
+                }
+            }
+            .info--post--form{
+                margin-top: 2.4rem;
+                .form-group{
+                    margin-bottom: 4rem;
+                    .form-label{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: $color-post;
+                    }
+                    .form-textarea,
+                    .form-control{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        padding: 0.8rem 1.2rem;
+                        color: rgba(49, 49, 50, 0.5);
+                        opacity: 0.8;
+                        outline: none;
+                        border-radius: 4px;
+                        margin-top: 1.2rem;
+                    }
+                    .form-textarea{
+                        width: 100%;
+                        height: 24.7rem;
+                        padding: 1.2rem 1.8rem;
+                    }
+                    .form--note{
+                        float: right;
+                        font-size: 1.2rem;
+                        line-height: 1.4rem;
+                        color: $color-post;
+                        opacity: 0.8;
+                        margin-top: 0.8rem;
+                    }
+                }
+                .post--image{
+                    display: flex;
+                    font-size: 1.4rem;
+                    line-height: 2.1rem;
+                    color: $color-post;
+                    &--title{
+                        margin-right: 2.6rem;
+                    }
+                    &--list{
+                        list-style-type: disc;
+           
+                    }
+                }
+                .post--desc{
+                    font-size: 1.4rem;
+                    line-height: 2.1rem;
+                    color: $color-post;
+                    opacity: 0.8;
+                }
+            }
+            .info--bds{
+                margin-top: 2.4rem;
+                &--title{
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                    color: $color-post;
+                    font-weight: 600;
+                }
+                &--form{
+                    .form-group{
+                        margin-top: 1.6rem;
+                        .form-control,
+                        .form-label{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                        }
+                        .form-control{
+                            color: rgba(49, 49, 50, 0.5);
+                            opacity: 0.8;
+                            padding: 0.8rem 1.2rem;
+                            border-radius: 4px;
+                            margin-top: 1.2rem;
+                        }
+                        .form--note{
+                            float: right;
+                            font-size: 1.2rem;
+                            line-height: 1.4rem;
+                            color: $color-post;
+                            opacity: 0.8;
+                            margin-top: 0.8rem;
+                        }
+                    }
+                    .form--additions-quantity{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 2.4rem;
+                        overflow: hidden;
+                        .additions-quantity{
+                            display: flex;
+                            align-items: center;
+                            .button{
+                                cursor: pointer;
+                                img{
+                                    width: 1.6rem;
+                                    height: 1.6rem;
+                                }
+                            }
+                            .form-control{
+                                margin-top: 0;
+                                padding: 0;
+                                border: none;
+                                text-align: center;
+                                color: $color-post;
+                                font-weight: bold;
+                                max-width: 11rem;
+                                font-size: 2.4rem;
+                                height: 2.8rem;
+                            }
+                        }
+                    }
+                    .form--media{
+                        margin-top: 2.4rem;
+                        margin-bottom: 2.4rem;
+                        padding: 2.1rem 5.3rem;
+                        margin-right: 3rem;
+                        border: 1px dashed #313132;
+                        img{
+                            min-height: 6.4rem;
+                        }
+                        .form-label{
+                            span{
+                                display: block;
+                                font-size: 1rem;
+                                text-align: center;
+                                color: $color-post;
+                                opacity: 0.8;
+                            }
+                        }
+                    }
+                }
+                .post--media--desc{
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    color: $color-post;
+                }
+                .form-input{
+                    margin-top: 3.2rem;
+                    margin-bottom: 1.1rem;
+                    .form-label{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: $color-post;
+                        font-weight: 600;
+                    }
+                    .form-input--link{
+                        font-size: 1.2rem;
+                        line-height: 1.4rem;
+                        color: $color-post;
+                        opacity: 0.8;
+                        padding: 0.9rem 1.2rem;
+                        border-radius: 4px;
+                        border: 0.25px solid #313132;
+                        outline: none;
+                        margin-left: 2.1rem;
+                        width: 34.2rem;
+                    }
+                }
+            }
+        }
+        .form--btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .btn-preview{
+                font-size: 1.4rem;
+                line-height: 1.6rem;
+                color: $color-post;
+                opacity: 0.8;
+                padding: 0.8rem 1.2rem;
+                border: 0.5px solid $color-post;
+                border-radius: 4px;
+            }
+            .btn-continue{
+                font-size: 2rem;
+                line-height: 2.3rem;
+                color: $white;
+                background-color: $background-nav;
+                border: 0.5px solid $color-post;
+                border-radius: 4px;
+                padding: 0.95rem 1.4rem;
+            }
+        }
+      }
+    }
+    .sale--footer{
+        padding-top: 3rem;
+        padding-right: 0;
+        padding-left: 3rem;
+        .post--time{
+             background-color: $white;
+             padding: 1.9rem 1.2rem;
+             .form--post{
+                .form-group{
+                    margin-bottom: 2.4rem;
+                     .form-label{
+                         font-size: 1.4rem;
+                         line-height: 1.6rem;
+                         img{
+                            width: 1rem;
+                            height: 1rem;
+                            margin-left: 0.8rem;
+                         }
+                     }
+                     .form-control{
+                         font-size: 1.4rem;
+                         line-height: 1.6rem;
+                         margin-top: 1.2rem;
+                         border-radius: 4px;
+                     }
+                     .toggle{
+                        visibility: hidden;
+                     }
+                     .label{
+                        position: relative;
+                        background-color: $black;
+                        border-radius: 50px;
+                        cursor: pointer;
+                        display: inline-block;
+                        width: 2.4rem;
+                        height: 1.2rem;
+                     }
+                     .toggle:checked + .label {
+                        background-color: #8e44ad;
+                      }
+                      .ball {
+                        background: #fff;
+                        height: 1rem;;
+                        width: 1rem;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 1px;
+                        left: 1px;
+                        align-items: center;
+                        justify-content: center;
+                        animation: slideOff 0.3s linear forwards;
+                      }
+                      .toggle:checked + .label .ball {
+                        animation: slideOn 0.3s linear forwards;
+                      }
+                 }
+                 .form-group-checkbox{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 1.5rem;
+                    margin-right: 1.5rem;
+                    border: 0.25px solid #313132;
+                    border-radius: 4px;
+                    position: relative;
+                    padding: 1.2rem 1.2rem 1rem 1.6rem;
+                    .form-checkbox{
+                       width: 1.8rem;
+                       height: 1.8rem;
+                    }
+                    .form-label{
+                        padding-right: 0;
+                        padding-left: 0;
+                        p{
+                            font-size: 14px;
+                            line-height: 150%;
+                            color: $color-post;
+                        }
+                        span{
+                            font-size: 12px;
+                            line-height: 150%;
+                            color: $color-post;
+                            opacity: 0.8;
+                        }
+                    }
+                 }
+                 
+             }
+             .order{
+                border: 0.25px solid #313132;
+                border-radius: 4px;
+                padding: 1.75rem 1.2rem 1.4rem 1.2rem;
+                margin-top: 2.4rem;
+                &--list{
+                    border-bottom: 0.15px solid #313132;
+                    padding-bottom: 0.65rem;
+                    &--item{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 0.95rem;
+                        &--having,
+                        &--topic{
+                            font-size: 1.2rem;
+                            line-height: 2.4rem;
+                            color: $color-post;
+                            opacity: 0.8;
+                        }
+                       
+                    }
+                }
+                &-total{
+                    margin-top: 1.6rem;
+                    &-item{
+                        display: flex;
+                        justify-content: space-between;
+                        &--having,
+                        &-topic{
+                            font-size: 1.4rem;
+                            line-height: 2.8rem;
+                            color: $color-post;
+                            
+                            font-weight: 600;
+                        }
+                    }
+                }
+             }
+        }
+            
+    }
+}
+               
+              

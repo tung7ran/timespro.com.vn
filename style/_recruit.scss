@@ -1,0 +1,116 @@
+.banner--recruit{
+    background-image: url(../images/post--news/tuyendung.png);
+    @include backgroundImage();
+    height: 67.8rem;
+    position: relative;
+    &--title{
+        position: absolute;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 900;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%, -50%);
+    }
+}
+.recruit-content{
+    .recruit--title{
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        text-transform: uppercase;
+        color: $background-nav;
+        font-weight: 300;
+        text-align: center;
+        padding: 6.4rem 0;
+    }
+    .recruit-location{
+       .module{
+        .accordion{
+            .location--article{
+                margin-bottom: 3.2rem;
+                .location--heading{
+                    padding: 0 3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 0.5px solid $color-post;
+                    cursor: pointer;
+                    .location--title{
+                        padding: 0.5rem 0rem 2.4rem 0rem;
+                        font-size: 3.2rem;
+                        line-height: 3.8rem;
+                        color: $color-post;
+                    }
+                }
+                .location--heading::after{
+                    content: "";
+                    background-image: url(../images/icon/caret_down_hr.png);
+                    @include backgroundImage();
+                    width: 4.8rem;
+                    height: 4.8rem;
+                    display: block;
+                }
+                .location--heading.plus::after{
+                    content: "";
+                    background-image: url(../images/icon/caret_close_hr.png);
+                    @include backgroundImage();
+                    width: 4.8rem;
+                    height: 4.8rem;
+                    display: block;
+                    text-align: end;
+                }
+                .location--heading.plus{
+                    background-color: $background-nav;
+                    border-bottom: 0.5px solid $white;
+                    padding: 1.9rem 3rem;
+                    .location--title{
+                         color: $white;
+                    }
+                }
+                .location--body{
+                    padding: 2rem 3rem;
+                    background-color: $background-nav;
+                    color: $white;
+                    .location--content{
+                        margin-bottom: 2rem;
+                        &--title{
+                            font-size: 2rem;
+                            font-weight: bold;
+                            margin-bottom: 1.6rem;
+                        }
+                        .location--work{
+                            font-size: 1.6rem;
+                            line-height: 2.4rem;
+                           &--title{
+                            line-height: 2.4rem;
+                            }
+                            .job--desc--list{
+                                padding-left: 3rem;
+                                margin-bottom: 1.6rem;
+                                &__item{
+                                    list-style-type: disc;
+                                }
+                            }
+                        }
+                        .wrap-button{
+                            margin-top: 6.4rem;
+                            .button-send-cv{
+                                padding: 1.3rem 7.7rem;
+                                background: $color-text;
+                                border-radius: 6px;
+                                text-align: center;
+                                color: rgb(175 , 31 , 38);
+                                font-size: 3.2rem;
+                                line-height: 3.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+          
+        }
+       }
+    }
+}
