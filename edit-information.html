@@ -11,7 +11,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!-- Fonts Roboto -->
+        <!-- Fonts Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> -->
@@ -210,13 +210,13 @@
                                     </div>
                                     <ul class="categories--list">
                                         <li class="categories--list__item">
-                                            <a href="" class="categories--list__item--link">Thay đổi thông tin cá nhân</a>
+                                            <a href="#edit-info" class="categories--list__item--link">Thay đổi thông tin cá nhân</a>
                                         </li>
                                         <li class="categories--list__item">
-                                            <a href="" class="categories--list__item--link">Thay đổi mật khẩu</a>
+                                            <a href="#edit-password" class="categories--list__item--link">Thay đổi mật khẩu</a>
                                         </li>
                                         <li class="categories--list__item">
-                                            <a href="" class="categories--list__item--link">Yêu cầu khóa tài khoản</a>
+                                            <a href="#lock-account" class="categories--list__item--link">Yêu cầu khóa tài khoản</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -231,10 +231,10 @@
                                     </div>
                                     <ul class="categories--list">
                                         <li class="categories--list__item">
-                                            <a href="" class="categories--list__item--link">Đăng tin</a>
+                                            <a href="#post" class="categories--list__item--link">Đăng tin</a>
                                         </li>
                                         <li class="categories--list__item">
-                                            <a href="" class="categories--list__item--link">Quản lý bán, cho thuê</a>
+                                            <a href="#manage-sale" class="categories--list__item--link">Quản lý bán, cho thuê</a>
                                         </li>
                                         <li class="categories--list__item">
                                             <a href="" class="categories--list__item--link">Quản lý tin nháp</a>
@@ -292,7 +292,484 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="sale--content col-lg-9 tabs--item">
+                        <div class="sale--content col-lg-9 tabs--item" id="edit-info">
+                            <div class="information--basic " >    
+                                <section class="module">
+                                    <div class="information--title">Thông tin cá nhân</div>
+                                    <div class="form--info">
+                                        <form action="">
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Họ và tên</label>
+                                                <input type="text" class="form-control" placeholder="Nguyễn Văn A">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Tên người dùng</label>
+                                                <input type="text" class="form-control" placeholder="Nguyễn Văn A BĐS">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Ngày sinh</label>
+                                                <input type="date" class="form-control" placeholder="08/09/1991">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Giới tính</label>
+                                                <div class="gender d-flex align-item-center">
+                                                    <div class="gender-item d-flex align-item-center">
+                                                        <input type="radio" id="male" name="gender"> 
+                                                        <label for="male">Nam</label>
+                                                    </div>
+                                                    <div class="gender-item d-flex align-item-center">
+                                                        <input type="radio" id="female" name="gender"> 
+                                                        <label for="female">Nữ</label>
+                                                    </div>
+                                                    <div class="gender-item d-flex align-item-center">
+                                                        <input type="radio" id="#" name="gender"> 
+                                                        <label for="#">Khác</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Địa chỉ</label>
+                                                <input type="text" class="form-control form-address" placeholder="VD: Số 321 Nguyễn Trãi, Thanh Xuân, Hà Nội">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </section>
+                                <section class="module">
+                                    <div class="information--title">Thông tin liên hệ</div>
+                                    <div class="form--info form-contact col-lg-8">
+                                        <form action="">
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Số điện thoại</label>
+                                                <input type="text" class="form-control" placeholder="0896513545">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Email</label>
+                                                <input type="text" class="form-control" placeholder="nguyenthiquynh.bds@gmail.com">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Mã số thuế/CCCD</label>
+                                                <input type="number" class="form-control" placeholder="017177294">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Zalo</label>
+                                                <input type="number" class="form-control" placeholder="Số điện thoại đăng ký Zalo">
+                                            </div>
+                                            <div class="form-group d-flex">
+                                                <label for="" class="form-label">Viber</label>
+                                                <input type="text" class="form-control" placeholder="Số điện thoại đăng ký Viber">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </section>
+                                <section class="module">
+                                    <div class="form-button col-lg-8">
+                                        <button class="btn-edit">Thiết lập lại</button>
+                                        <button class="btn-edit active">Cập nhật</button>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="sale--content col-lg-9 tabs--item" id="edit-password">
+                            <div class="information--basic" >    
+                                <section class="module">
+                                    <div class="information--title">Thay đổi mật khẩu</div>
+                                        <div class="form--info col-lg-7">
+                                            <form action="">
+                                                <div class="form-group d-flex justify-content-between">
+                                                    <label for="" class="form-label">Mật khẩu cũ</label>
+                                                    <input type="password" class="form-control" placeholder="Nhập mật khẩu cũ">
+                                                </div>
+                                                <div class="form-group d-flex justify-content-between">
+                                                    <label for="" class="form-label">Tên người dùng</label>
+                                                    <input type="password" class="form-control" placeholder="Nhập mật khẩu mới">
+                                                </div>
+                                                <div class="form-group d-flex justify-content-between">
+                                                    <label for="" class="form-label">Nhập lại mật khẩu</label>
+                                                    <input type="password" class="form-control" placeholder="Nhập lại mật khẩu mới">
+                                                </div>
+                                                <div class="form-group text-right">
+                                                    <button class="upload-btn">Cập nhật</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="sale--content col-lg-9 tabs--item" id="lock-account">
+                            <div class="information--basic">    
+                                <section class="module">
+                                    <div class="information--title">Khoá tài khoản</div>
+                                    <div class="lock-account">
+                                        <h3 class="lock-account-title">Bạn có chắc chắn muốn khóa tài khoản tại Timespro.com.vn?</h3>
+                                        <p class="lock-account-note">Lưu ý:</p>
+                                        <ul class="lock-account-note--list">
+                                            <li class="lock-account-note--list--item">Bạn sẽ không thể đăng nhập lại vào tài khoản này sau khi khóa.</li>
+                                            <li class="lock-account-note--list--item">Các tin đăng đang hiển thị của bạn sẽ tiếp tục được hiển thị tới khi hết thời gian đăng tin.</li>
+                                            <li class="lock-account-note--list--item">Số dư tài khoản (nếu có) trong các tài khoản của bạn sẽ KHÔNG được hoàn lại.</li>
+                                            <li class="lock-account-note--list--item">Tài khoản dịch vụ của bạn chỉ có thể được khóa khi không còn số dư nợ.</li>
+                                            <li class="lock-account-note--list--item">Số điện thoại chính đăng ký tài khoản này và các số điện thoại đăng tin của bạn sẽ KHÔNG thể được sử dụng lại để đăng ký tài khoản mới.</li>
+                                        </ul>
+                                        <p class="lock-account-note">Nếu bạn cần hỗ trợ thêm, vui lòng liên hệ hotline <strong>(08) 1608 1111</strong> hoặc email <strong>information.timespro@gmail.com</strong> </p>
+                                    </div>
+                                </section>
+                                <section class="module">
+                                    <div class="form--info form-lock col-lg-8">
+                                        <form action="">
+                                            <div class="form-group d-flex justify-content-between">
+                                                <label for="" class="form-label">Nhập mật khẩu hiện tại để tiếp tục</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="form-button col-lg-8">
+                                        <button class="btn-edit">Khóa tài khoản</button>
+                                        <button class="btn-edit active">Hủy bỏ</button>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="post--news-content col-lg-9 tabs--item" id="post">
+                            <div class="row">
+                                <div class="sale--content col-lg-8">
+                                    <div class="information--basic">    
+                                        <div class="information--title">Thông tin cơ bản</div>
+                                        <section class="module">
+                                            <div class="search-bar-tab">
+                                                <ul class="search-bar--box">
+                                                    <li class="search-bar--box--item active">
+                                                        <a href="" class="search-bar--box--item--link">Bán</a>
+                                                    </li>
+                                                    <li class="search-bar--box--item">
+                                                        <a href="" class="search-bar--box--item--link">Cho thuê</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        <section class="module">
+                                            <div class="type--bds">
+                                                <form action="">
+                                                    <div class="form-group">
+                                                        <label for="" class="form-label">Loại bất động sản *</label>
+                                                        <select class="form-control custom-select ">
+                                                            <option value="0">Chọn loại bất động sản</option>
+                                                        </select>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </section>
+                                        <section class="module">
+                                            <div class="info--address">
+                                                <h3 class="info--address--title">Địa chỉ</h3>
+                                                <div class="info--address--form">
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Tỉnh/Thành phố *</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn tỉnh/thành phố</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Quận/Huyện *</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn quận/huyện</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Phường/Xã </label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn phường/xã</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Đường/Phố </label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn tỉnh/thành phố</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Dự án</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn dự án</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Địa chỉ chi tiết</label>
+                                                            <input type="text" placeholder="VD: Hẻm, ngách, ngõ..." class="form-control">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="module">
+                                            <div class="info--address">
+                                                <h3 class="info--address--title">Vị trí trên bản đồ</h3>
+                                                <div class="info--address--maps">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.3049014265296!2d105.71146850820725!3d21.008272750422606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345392ba015459%3A0x371818c2241f1b89!2zWcOqbiBMxaluZywgQW4gS2jDoW5oLCBIb8OgaSDEkOG7qWMsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1663579062330!5m2!1svi!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information--basic">    
+                                        <div class="information--title">Thông tin bài viết</div>
+                                        <section class="module">
+                                            <div class="info--post--form">
+                                                <form action="">
+                                                    <div class="form-group">
+                                                        <label for="" class="form-label">Tiêu đề *</label>
+                                                        <input type="text" placeholder="Nhập tiêu đề bài viết" class="form-control">
+                                                        <span class="form--note">(*) Tối đa chỉ 99 ký tự</span>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="" class="form-label">Mô tả *</label>
+                                                        <textarea placeholder="Viết mô tả" class="form-textarea"></textarea>
+                                                        <span class="form--note">(*) Tối đa chỉ 3000 ký tự</span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information--basic">    
+                                        <div class="information--title">Thông tin bất động sản</div>
+                                        <section class="module">
+                                            <div class="info--bds">
+                                                <h4 class="info--bds--title">Mô tả chính</h4>
+                                                <div class="info--bds--form">
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Diện tích *</label>
+                                                            <input type="text" placeholder="Nhập diện tích" required class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Mức giá *</label>
+                                                            <input type="text" placeholder="Nhập mức giá" required class="form-control">
+                                                            <span class="form--note">(*) Đơn vị tiền tệ: VND</span>
+                                                        </div>
+                                                        <div class="form-group form--additions-quantity">
+                                                            <label for="" class="form-label">Phòng ngủ:</label>
+                                                            <div class="additions-quantity">
+                                                                <span class="min button">
+                                                                   <img src="./images/icon/minus_circle.png" alt="">
+                                                                </span>
+                                                                <input type="text" class="form-control" name="qty-room" id="qty-room" maxlength="12"/>
+                                                                <span class="plus button">
+                                                                   <img src="./images/icon/plus_circle.png" alt="">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group form--additions-quantity">
+                                                            <label for="" class="form-label">Phòng tắm, vệ sinh:</label>
+                                                            <div class="additions-quantity">
+                                                                <span class="button reduce-quantity">
+                                                                   <img src="./images/icon/minus_circle.png" alt="">
+                                                                </span>
+                                                                <input type="text" class="form-control" name="bathroom" id="bathroom" maxlength="12"/>
+                                                                <span class="button add-quantity">
+                                                                   <img src="./images/icon/plus_circle.png" alt="">
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Số tầng</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn số tầng</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Giấy tờ pháp lý</label>
+                                                            <input type="text" placeholder="Vd: Sổ đỏ chính chủ, sổ hồng, đang chờ sổ" required class="form-control">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="module">
+                                            <div class="info--bds">
+                                                <h4 class="info--bds--title">Mô tả bổ sung</h4>
+                                                <div class="info--bds--form">
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Hướng nhà</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn hướng nhà</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Hướng ban công</label>
+                                                            <select class="form-control custom-select ">
+                                                                <option value="0">Chọn hướng ban công</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Nội thất</label>
+                                                            <input type="text" placeholder="Nhập thông tin nội thất" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Mặt tiền(m)</label>
+                                                            <input type="text" placeholder="Nhập thông tin mặt tiền" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Đường vào(m)</label>
+                                                            <input type="text" placeholder="Nhập thông tin đường vào" class="form-control">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information--basic">    
+                                        <div class="information--title">Hình ảnh & Video</div>
+                                        <section class="module">
+                                            <div class="info--post--form">
+                                               <div class="post--image">
+                                                    <div class="post--image--title">(*) Số lượng ảnh tối đa theo các loại tin: </div>
+                                                    <ul class="post--image--list">
+                                                        <li class="post--image--list--text">Tin thường - 6 ảnh</li>
+                                                        <li class="post--image--list--text">Pro - 16 ảnh và 1 video</li>
+                                                        <li class="post--image--list--text">V.I.P - 24 ảnh  và 2 video</li>
+                                                    </ul>
+                                               </div>
+                                               <p class="post--desc">Mỗi ảnh tối đa 2MB, mỗi video không quá 20MB.</p>
+                                               <p class="post--desc">
+                                                 Vui lòng sử dụng hình ảnh thật, không đăng trùng và không thêm số điện thoại vào hình ảnh. Tìm hiểu thêm về Quy định đăng tin.
+                                                </p>
+                                            </div>
+                                            <div class="info--bds">
+                                                <h4 class="info--bds--title">
+                                                    Thêm hình ảnh & video
+                                                </h4>
+                                                <div class="info--bds--form">
+                                                    <form action="" class="d-flex align-items-center">
+                                                        <div class="form--media">
+                                                            <label for="upload-image" class="form-label">
+                                                                <img src="./images/icon/image_31.png" alt="">
+                                                                <span>+</span>
+                                                                <span>Thêm hình ảnh</span>
+                                                            </label>
+                                                            <input type="file" id="upload-image" hidden>
+                                                        </div>
+                                                        <div class="form--media">
+                                                            <label for="upload-video" class="form-label">
+                                                                <img src="./images/icon/video-player_1.png" alt="">
+                                                                <span>+</span>
+                                                                <span>Thêm video</span>
+                                                            </label>
+                                                            <input type="file" id="upload-video" hidden>
+                                                        </div>
+                                                    </form>
+                                                    <p class="post--media--desc">Thêm thật nhanh bằng cách kéo và thả ảnh hoặc video vào khung.</p>
+                                                    <div class="form-input d-flex align-items-center">
+                                                        <label for="" class="form-label">Thêm video từ youtube:</label>
+                                                        <input type="text" class="form-input--link" placeholder="Link youtube">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information--basic">    
+                                        <div class="information--title">Thông tin bất liên hệ</div>
+                                        <section class="module">
+                                            <div class="info--bds">
+                                                <div class="info--bds--form">
+                                                    <form action="">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Họ và tên *</label>
+                                                            <input type="text" placeholder="Nguyễn Văn A" required class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Số điện thoại *</label>
+                                                            <input type="number" placeholder="0943694822" required class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Email</label>
+                                                            <input type="email" placeholder="information@gmail.com" required class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Địa chỉ</label>
+                                                            <input type="text" placeholder="Nhập địa chỉ" required class="form-control">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information--basic">    
+                                       <div class="form--btn">
+                                            <button class="btn-preview">Xem trước bài đăng</button>
+                                            <button class="btn-continue">Tiếp tục</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sale--footer col-lg-4">
+                                    <div class="post--time">
+                                       <section class="module">
+                                            <form action="" class="form--post row">
+                                                <div class="form-group col-lg-12">
+                                                    <label for="" class="form-label">Loại tin đăng</label>
+                                                    <select class="form-control custom-select ">
+                                                        <option value="0">tin thường</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-12 d-flex justify-content-between">
+                                                    <span class="form-label d-flex align-items-center">Làm nổi bật tin đăng
+                                                        <img src="./images/icon/help_circle.png" alt="">
+                                                    </span>
+                                                    <input type="checkbox" id="good" class="toggle">
+                                                    <label for="good" class="label">
+                                                      <div class="ball"></div>
+                                                    </label>
+                                                </div>
+                                                <div class="form-group col-lg-12">
+                                                    <label for="" class="form-label">Ngày bắt đầu</label>
+                                                   <input type="date" placeholder="26/05/2021" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-5">
+                                                    <label for="" class="form-label">Số ngày đăng</label>
+                                                    <input type="text" placeholder="10 ngày" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-7">
+                                                    <label for="" class="form-label">Ngày hết hạn</label>
+                                                   <input type="date" placeholder="05/06/2021" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-12">
+                                                    <label for="" class="form-label">Khuyến mãi</label>
+                                                    <select class="form-control custom-select ">
+                                                        <option value="0">Chọn khuyến mãi</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group-checkbox ">
+                                                    <input type="checkbox"  class="form-checkbox ">
+                                                    <label for="" class="form-label col-lg-10">
+                                                        <p>[Ưu đãi] Miễn phí 1 lần đẩy tin tự động.</p>
+                                                        <span>Hệ thống sẽ tự động đẩy tin 1 lần vào ngày 03/06/2021. Tìm hiểu thêm</span>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                       </section>
+                                       <section class="module">
+                                            <div class="order">
+                                                <div class="order--list">
+                                                    <div class="order--list--item">
+                                                        <h4 class="order--list--item--topic">Đơn giá / ngày</h4>
+                                                        <p class="order--list--item--having">2000 VND</p>
+                                                    </div>
+                                                    <div class="order--list--item">
+                                                        <h4 class="order--list--item--topic">Số ngày đăng tin</h4>
+                                                        <p class="order--list--item--having">10 ngày</p>
+                                                    </div>
+                                                </div>
+                                                <div class="order-total">
+                                                    <div class="order-total-item">
+                                                        <h4 class="order-total-item-topic">Tổng cộng</h4>
+                                                        <div class="order-total-item--having">20.000 VNĐ</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sale--content col-lg-9 tabs--item" id="manage-sale">
                             <div class="information--basic">    
                                 <div class="information--title">Quản lý tin bán & cho thuê</div>
                                 <!-- Header -->
@@ -1167,6 +1644,7 @@
                                                     <li class="page--item">
                                                         <a class="page--item--link" href="#">05</a>
                                                     </li>
+                                                   
                                                     <li class="page--item">
                                                         <a class="page--item--link" href="#">
                                                             <img src="./images/icon/right.svg" alt="">
@@ -4119,6 +4597,250 @@
                 </div>
             </div>
         </footer>
+        <div class="form--post-modal">
+            <div class="form--post__inner">
+                <div class="modal-header">
+                    <div class="modal-tabs">
+                        <ul class="modal-tabs-list">
+                            <li class="modal-tabs-list__item"><a href="#list" class="modal-tabs-list__item--link">Danh sách</a></li>
+                            <li class="modal-tabs-list__item"><a href="#desc" class="modal-tabs-list__item--link">Chi tiết</a></li>
+                        </ul>
+                    </div>
+                    <button class="exit-modal">
+                        <img src="./images/icon/close_big.png" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="tabs--list" id="list">
+                        <section class="module">
+                            <div class="content--navigation">
+                                <ul class="content--navigation__list">
+                                    <li class="content--navigation__list--item">
+                                        <a href="" class="content--navigation__list--item--link">Bán</a>
+                                    </li>
+                                    <li class="content--navigation__list--item">
+                                        <a href="" class="content--navigation__list--item--link">Hà Nội</a>
+                                    </li>
+                                    <li class="content--navigation__list--item">
+                                        <a href="" class="content--navigation__list--item--link">Cầu Giấy</a>
+                                    </li>
+                                    <li class="content--navigation__list--item">
+                                        <a href="" class="content--navigation__list--item--link">Căn hộ chung cư</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="module">
+                            <div class="modal-post--title">Bán căn hộ chung cư 2t corporation</div>
+                        </section>
+                        <div class="post--number">
+                            <p class="post--number--text">Hiện có 20 bất động sản</p>
+                        </div>
+                        <div class="filter--item text-right">
+                            <form name="sort-form" action="" method="GET">
+                                <select class="custom-select ">
+                                    <option value="0">Sắp xếp</option>
+                                    <option value="1">Thông thường</option>
+                                    <option value="2">Tin mới nhất</option>
+                                    <option value="3">Giá thấp đến cao</option>
+                                    <option value="4">Giá cao đến thấp</option>
+                                    <option value="5">Diện tích bé đến lớn</option>
+                                    <option value="6">Diện tích lớn đến bé</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="project--detail">
+                            <div class="project--detail--item">
+                                <div class="project--detail--item__image">
+                                    <a href="#">
+                                        <img src="./images/duan/du-an2.png" alt="">
+                                    </a>
+                                    <div class="ribbon ribbon-top-left">
+                                        <span class="modal-realEstate-news-clasify">Tin V.I.P</span>
+                                    </div>
+                                </div>
+                                <div class="project--detail__text">
+                                    <a href="#" class="project--detail__text--title">
+                                        Bán căn hộ chung cư 2T Corporation
+                                    </a>
+                                    <p class="project--detail__text--desc">Chủ đầu tư dự án Mỹ Đình Pearl mở bán 100 căn hộ view công viên hồ điều hoà 14ha siêu đẹp.</p>
+                                    <ul class="rowset ">
+                                        <li class="rowset--item">
+                                            <img src="./images/icon/tag-outline.png" alt="">
+                                            <p>13 triệu/1m<sup>2</sup></p>
+                                        </li>
+                                        <li class="rowset--item">
+                                            <img src="./images/icon/Vector.png" alt="">
+                                            <p>200m<sup>2</sup></p>
+                                        </li>
+                                        <li class="rowset--item">
+                                            <img src="./images/icon/giuong.png" alt="">
+                                            <p>4</p>
+                                        </li>
+                                        <li class="rowset--item">
+                                            <img src="./images/icon/toailet.png" alt="">
+                                            <p>2</p>
+                                        </li>
+                                    </ul>
+                                    <div class="news-location">
+                                        <img src="./images/icon/maps.png" alt="">
+                                        <p class="news-location--address">Dự án 169 Nguyễn Ngọc Vũ, Cầu Giấy, Hà Nội</p>
+                                    </div>
+                                    <div class="news-location">
+                                        <img src="./images/icon/clock.png" alt="">
+                                        <p class="news-location--address">Hôm nay</p>
+                                    </div>
+                                    <div class="wishlist">
+                                        <img src="./images/icon/heart_outline.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs--list" id="desc">
+                        <div class="site--content content--detail">
+                            <div class="container">
+                                <div class="row justify-content-between">
+                                    <div class="content-area modal-content">
+                                        <section class="site--main module">
+                                            <div class="post-news">
+                                                <div class="post--images">
+                                                    <div class="post--images--item col-lg-12">
+                                                        <img src="./images/post--news/Rectangle_88.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_96.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_97.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_98.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_99.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_100.png" alt="">
+                                                    </div>
+                                                    <div class="post--images--item col-lg-2">
+                                                        <img src="./images/post--news/Rectangle_101.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="post--text">
+                                                    <div class="post--text__control">
+                                                        <ul class="post--text__control-list">
+                                                            <li class="post--text__control-list--item">
+                                                                <a href="" class="post--text__control-list--item--link">Bán</a>
+                                                            </li>
+                                                            <li class="post--text__control-list--item">
+                                                                <a href="" class="post--text__control-list--item--link">Hồ Chí Minh</a>
+                                                            </li>
+                                                            <li class="post--text__control-list--item">
+                                                                <a href="" class="post--text__control-list--item--link">Quận 2</a>
+                                                            </li>
+                                                            <li class="post--text__control-list--item">
+                                                                <a href="" class="post--text__control-list--item--link">Nhà biệt thự, liền kề tại Thảo Điền Pearl</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="post--text__title">
+                                                        <h2>GIẢM SỐC 400 TRIỆU, CHÍNH CHỦ BÁN GẤP NHÀ ĐẸP, NỞ HẬU, 123 ĐƯỜNG XUÂN THỦY, QUẬN 2, HỒ CHÍ MINH. LIÊN HỆ 0215849852</h2>
+                                                    </div>
+                                                    <p class="post--text--address">
+                                                        Thảo Điền Pearl, Khu 21 đường Xuân Thủy, Phường Thảo Điền, Quận 2, Tp. Hồ Chí Minh
+                                                    </p>
+                                                </div>
+                                                <div class="post--area">
+                                                    <div class="post--area--item mw-8">
+                                                        <div class="post--area--item__title">Mức giá</div>
+                                                        <div class="post--area--item__quota">2.5 tỷ VNĐ</div>
+                                                        <div class="post--area--item__more-detail">25 triệu/m<sup>2</sup></div>
+                                                    </div>
+                                                    <div class="post--area--item mw-8">
+                                                        <div class="post--area--item__title">Diện tích</div>
+                                                        <div class="post--area--item__quota">100m<sup>2</sup></div>
+                                                    </div>
+                                                    <div class="post--area--item d-flex align-items-center">
+                                                       <div class="post--area--item__icon align-items-center">Yêu thích</div>
+                                                       <img src="./images/icon/heart_outline.png" alt="">
+                                                    </div>
+                                                    <div class="post--area--item d-flex align-items-center">
+                                                       <div class="post--area--item__icon">Chia sẻ</div>
+                                                        <img src="./images/icon/share_outline.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="post--desc">
+                                                    <h3 class="post--desc--title">
+                                                        Thông tin mô tả
+                                                    </h3>
+                                                    <div class="post--desc--text">
+                                                        <div class="text--content">
+                                                            <p>Chính chủ cần bán gấp biệt thự giá rẻ bằng giá đất, nội khu bảo vệ 24/24. Số 21 đường 21 Xuân Thủy, phường Thảo Điền, Quận 2, Thành phố Hồ Chí Minh</p>
+                                                            <ul>
+                                                                <li>Diện tích: 8m x 12,5m</li>
+                                                                <li>Kết cấu: 1 trệt + 2 lầu</li>
+                                                                <li>Vị trí: </li>
+                                                            </ul>
+                                                            <p>-Nằm trong nội khu 21 Xuân Thủy, bảo vệ 24/24 cực kỳ an ninh, đường ô tô tránh nhau và không ngập nước. Biệt thự cách mặt tiền Xuân Thủy - trục chính và sầm uất nhất phố tây Thảo Điền chưa đến 50m nên cực kỳ dễ dàng tiếp cận với các tiện ích như: Ngân hàng, siêu thị, chợ Thảo Điền, trường Quốc tế, trung tâm Thảo Điền Pearl, nhà hàng và cafe nổi tiếng ...</p>
+                                                        </div>
+                                                        <div class="subpage-exp-content">
+                                                            <p>-Hàng xóm cực kì thân thiện, dân trí cao, nhà liền kề và đối diện với phụ huynh Thanh Hằng và Hà Tăng.</p>
+                                                            <p>
+                                                                Pháp lý: Sổ đỏ chính chủ, sang tên công chứng trong ngày.
+                                                            </p>
+                                                            <p>
+                                                                Giá: 2,5 tỷ
+                                                            </p>
+                                                            <p>
+                                                                Liên hệ: BĐS Hoa Kỳ Duyên - 0932 102 986 (Zalo/ Viber)
+                                                            </p>
+                                                            <p>
+                                                                Chi tiết sản phẩm Tư vấn đầu tư - Hỗ trợ đàm phán và pháp lý.
+                                                            </p>
+                                                            <p>
+                                                                Saigon Center Real - Kho thông tin toàn bộ BĐS cao cấp trung tâm Hồ Chí Minh.
+                                                            </p>
+                                                            <p>
+                                                                Số 9 Trần Não, Khu phố 3, Phường Bình An, Quận 2, Tp. Hồ Chí Minh.
+                                                            </p>
+                                                            <p>
+                                                                 Xin môi giới không làm phiền.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-center mb-3">
+                                                        <button class="btn-darkred-block subpage-readmore-btn">Xem thêm <i class="fa-solid fa-chevron-down"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="information-user modal-info">
+                                        <div class="info--user">
+                                            <div class="info--user__header">
+                                                <h3>Thông tin người đăng</h3>
+                                            </div>
+                                            <div class="info--user__content text-center">
+                                                <div class="info--user__content--image">
+                                                    <img src="./images/post--news/Ellipse_5.png" alt="">
+                                                </div>
+                                                <h3 class="info--user__content--name ">Nguyễn Thị Quỳnh</h3>
+                                                <p class="info--user__content--other">Xem thêm 41 tin khác</p>
+                                                <div class="info--user__content--btn">
+                                                    <h2 class="info--user__content--btn--contact phone--number">0902 576 *** Hiện số</h2>
+                                                    <h2 class="info--user__content--btn--contact">Yêu cầu liên hệ lại</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js" ></script>

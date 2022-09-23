@@ -149,10 +149,13 @@ a:hover {
   transform: scaleY(1);
   transition: 1s;
 }
-.hitter{
- 
-  display: none;
-  background: transparent;
+.overlay{
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ display: none;
 }
 .icon--rowset{
   color: #BC0F19;
@@ -229,8 +232,14 @@ to {
 .mw21-4{
   min-width: 21.4rem;
 }
+.mw-8{
+  min-width: 8rem;
+}
 .mw12-5{
   min-width: 12.5rem;
+}
+.mr2{
+  padding-right: 2rem;
 }
 .fz-16{
   font-size: 1.6rem!important;

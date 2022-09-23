@@ -1,0 +1,404 @@
+
+.form--info{
+    margin-top: 3.2rem;
+    margin-bottom: 4.8rem;
+    padding-left: 0;
+    padding-right: 0;
+    .form-group{
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 2.4rem;
+        .form-label{
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: $color-post;
+            min-width: 14.1rem;
+        }
+        .form-control{
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: $color-post;
+            outline: none;
+            width: 30rem;
+            padding: 0.8rem 0 0.8rem 1.6rem;
+            border-radius: 4px;
+        }
+        .form-address{
+            width: 50rem;
+        }
+        .gender{
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: $color-post;
+            &-item{
+                margin-right: 3rem;
+                input{
+                    margin-right: 0.6rem;
+                }
+            }
+        }
+        .upload-btn{
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            padding: 0.65rem 1.8rem;
+            border: 0.25px solid #313132;
+            border-radius: 4px;
+            color: $color-text;
+            font-weight: 600;
+            background-color: $background-nav;
+        }
+    }
+}
+.form-contact{
+    .form-group{
+        .form-label{
+            min-width: 17.2rem;
+        }
+        .form-control{
+            width: 100%;
+        }
+    }
+}
+.form-button{
+    margin-bottom: 10.1rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    line-height: 16px;
+    color: #313132;
+    opacity: 0.8;
+    .btn-edit{
+        padding: 0.8rem 1.2rem;
+        border: 0.5px solid #313132;
+        border-radius: 4px;
+        margin-left: 2.4rem;
+    }
+    .btn-edit.active{
+        background: #AF1F26;
+        color: #ffeced;
+        font-weight: 500;
+        padding: 0.65rem 1.8rem;
+    }
+}
+.form-lock{
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+.lock-account{
+    margin-top: 3.4rem;
+    &-title{
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        font-weight: 600;
+        margin-bottom: 1.6rem;
+    }
+    &-note--list,
+    &-note{
+        font-size: 1.4rem;
+        line-height: 150%;
+        &--item{
+            list-style-type: disc;
+
+        }
+    }
+    .lock-account-note--list{
+        padding-left: 2rem;
+    }
+}
+.form--post-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    .form--post__inner{
+        width: 77rem;
+        height: 51.2rem;
+        background-color: $white;
+        border-radius: 4px;
+        margin-top: 10rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        overflow: auto;
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
+            padding: 1.15rem 1.6rem 1.15rem 7rem;
+            .modal-tabs{
+                &-list{
+                    display: flex;
+                    align-items: center;
+                    border: 0.5px solid rgba(49, 49, 50, 0.5);
+                    border-radius: 4px;
+                    &__item{
+                        padding: 0.3rem 0.95rem;
+                        &--link{
+                            font-size: 1.4rem;
+                            line-height: 1.6rem;
+                            color: $color-post;
+                        }
+                    }
+                    &__item.active{
+                        background-color: $background-nav;
+                        .modal-tabs-list__item--link{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .exit-modal{
+                border: none;
+                background-color: $white;
+            }
+        }
+        .modal-body{
+            padding: 2.4rem 7rem 0 7rem;
+            .tabs--list{
+                .content--navigation{
+                    &__list{
+                        display: flex;
+                        align-items: center;
+                        &--item{
+                            &--link{
+                                font-size: 1.4rem;
+                                line-height: 1.6rem;
+                                color: $color-post;
+                                opacity: 0.8;
+                            }
+                        }
+                        &--item::before{
+                            content: "/";
+                            font-size: 1.4rem;
+                            color: $color-post;
+                            opacity: 0.8;
+                        }
+                        &--item:nth-child(1)::before{
+                            display: none;
+                        }
+                    }
+                }
+                .modal-post--title{
+                    font-size: 1.8rem;
+                    line-height: 150%;
+                    color: $color-post;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin-top: 0.8rem;
+                }
+                .post--number{
+                    &--text{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                        color: $color-post;
+                        opacity: 0.6;
+                        margin-top: 0.9rem;
+                    }
+                }
+                .filter--item{
+                    .custom-select{
+                        padding: 0.25rem 1.96rem 0.25rem 1.2rem;
+                        width: 13.2rem;
+                        height: 2.1rem;
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                    }
+                }
+                .project--detail{
+                    margin-top: 1.2rem;
+                    border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
+                    padding-bottom: 2.4rem;
+                    &--item{
+                        display: flex;
+                        border: 0.5px solid #313132;
+                        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+                        border-radius: 4px;
+                        &__image{
+                            padding-left: 0;
+                            padding-right: 0;
+                            position: relative;
+                            a{
+                                img{
+                                    width: 17.3rem;
+                                }
+                            }
+                            .ribbon-top-left{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 12rem;
+                                height: 10rem;
+                                overflow: hidden;
+                                .modal-realEstate-news-clasify{
+                                    right: -1.5rem;
+                                    top: 2rem;
+                                    transform: rotate(-45deg);
+                                    position: absolute;
+                                    display: block;
+                                    width: 22.5rem;
+                                    background-color: #BC0F19;
+                                    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+                                    color: #fff;
+                                    text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+                                    text-align: center;
+                                    font-size: 1.2rem;
+                                    line-height: 1.8rem;
+                                }
+                            }
+                        }
+                        .project--detail__text{
+                            padding: 1.35rem 1.95rem 0 1.75rem;
+                            position: relative;
+                            &--title{
+                                font-size: 1.6rem;
+                                line-height: 1.9rem;
+                                color: $color-post;
+                                font-weight: 600;
+                            }
+                            &--desc{
+                                font-size: 1.4rem;
+                                line-height: 150%;
+                                margin-top: 1.2rem;
+                                padding-bottom: 2.075rem;
+                                border-bottom: 0.2px solid $color-post;
+                            }
+                            .rowset{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 0.575rem;
+                                &--item{
+                                    display: flex;
+                                    align-items: center;
+                                    padding-right: 2.4rem;
+                                    img{
+                                        width: 1.2rem;
+                                        margin-right: 1rem;
+                                    }
+                                    p{
+                                        font-size: 1.4rem;
+                                        line-height: 1.6rem;
+                                        sup{
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                            .news-location{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 0.4rem;
+                                img{
+                                    width: 1.2rem;
+                                    margin-right: 1rem;
+                                }
+                                p{
+                                    font-size: 1.4rem;
+                                    line-height: 1.6rem;
+                                    color: $color-post;
+                                }
+                            }
+                            .wishlist{
+                                position: absolute;
+                                width: 1.4rem;
+                                bottom: 2rem;
+                                right: 2rem;
+                            }
+                        }
+                    }
+                }
+                /**
+                * @modal site-content
+                */
+                .content--detail{
+                    .modal-content{
+                        padding-left: 0;
+                        border: none;
+                        width: 43rem;
+                        .site--main{
+                            .post-news{
+                                .post--text{
+                                    &--address{
+                                        opacity: 0.6;
+                                    }
+                                }
+                                .post--area{
+                                    margin: 1.6rem 0 2.4rem 0;
+                                    padding: 1.5rem 0 1.3rem 0;
+                                    &--item{
+                                        &__quota{
+                                            font-size: 2rem;
+                                            line-height: 3rem;
+                                            sup{
+                                                font-size: 1.2rem;
+                                            }
+                                        }
+                                        &__more-detail{
+                                            sup{
+                                                font-size: 1.2rem;
+                                            }
+                                        }
+                                    }
+                                }
+                                .post--desc{
+                                    &--text{
+                                        p{
+                                            text-align: justify;
+                                        }
+                                        ul{
+                                            padding-left: 2rem;
+                                            li{
+                                                list-style-type: disc;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .modal-info{
+                        padding-right: 0;
+                        padding-left: 0;
+                        width: 17.5rem;
+                        .info--user{
+                            &__header{
+                                padding: 0.8rem 0.95rem;
+                                h3{
+                                    font-size: 1.4rem;
+                                    line-height: 1.6rem;
+                                }
+                            }
+                            &__content{
+                                padding: 1.2rem 0 1.5rem 0;
+                                &--image{
+                                    width: 6.2rem;
+                                    padding-bottom: 0.8rem;
+                                }
+                                &--name{
+                                    font-size: 1.6rem;
+                                    line-height: 150%;
+                                }
+                                &--other{
+                                    font-size: 1rem;
+                                    margin: 0.4rem 0 1.2rem 0;
+                                }
+                                &--btn{
+                                    padding: 0 2.4rem;
+                                    &--contact{
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
