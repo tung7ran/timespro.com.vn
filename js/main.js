@@ -32,6 +32,7 @@ $(document).ready(function(){
     $(activeTabProject).fadeIn();
     return false;
     });
+
     /**
      * slick slide -> HOME
      */
@@ -52,12 +53,19 @@ $(document).ready(function(){
       prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-angles-left'></i></button>",
       nextArrow: "<button type='button' class='slick-next pull-left'><i class='fa-sharp fa-solid fa-angles-right'></i></button>",
     });
-    $(".select-control-label__title").click (function(){
+
+    /**
+     * click header button
+     */
+      $(".select-control-label__title").click (function(){
         // Close all open windows
-        $(".custom-dropbox-cate").stop().slideUp(300); 
+        $(".custom-dropbox-cate").stop().slideDown(300); 
         // Toggle this window open/close
         $(this).next(".custom-dropbox-cate").stop().slideToggle(300);
       });
+      $(document).click(function(){
+        $(".custom-dropbox-cate").stop().slideUp(300); 
+      })
       //  show/hide content desc
     jQuery('.subpage-readmore-btn').click(function(e) {
       e.preventDefault();
@@ -109,5 +117,79 @@ $(document).ready(function(){
         });
       });
       $('.location--body').hide();
+
+      // Click UI edit-information
+      $('.categories--list__item:first-child').addClass('active');
+      $('.tabs--item').hide();
+      $('.tabs--item:first').show();
+      // Click function
+      $('.categories--list__item').click(function(){
+      $('.categories--list__item').removeClass('active');
+      $(this).addClass('active');
+      $('.tabs--item').hide();
+      var activeTabEdit = $(this).find('a').attr('href');
+      $(activeTabEdit).fadeIn();
+      return false;
+      });
+      /**
+       * show more box 
+       */
+      $(".menu-more-image").click (function(){
+          // Close all open windows
+          $(".morebox").stop().slideDown(300); 
+          // Toggle this window open/close
+          $(this).next(".morebox").stop().slideToggle(300);
+        });
+        $(this).click(function(){
+          $(".morebox").stop().slideUp(300); 
+        })
+/**
+ * Show more post news
+ */
+ // Click UI edit-information
+ $('.manage-menu--list__item:first-child').addClass('active');
+ $('.posts--item').hide();
+ $('.posts--item:first').show();
+ // Click function
+ $('.manage-menu--list__item').click(function(){
+ $('.manage-menu--list__item').removeClass('active');
+ $(this).addClass('active');
+ $('.posts--item').hide();
+ var activeTabEdit = $(this).find('a').attr('href');
+ $(activeTabEdit).fadeIn();
+ return false;
+ });
+ /**
+  * modal
+  */
+  $('.modal-tabs-list__item:first-child').addClass('active');
+  $('.tabs--list').hide();
+  $('.tabs--list:first').show();
+  // Click function
+  $('.modal-tabs-list__item').click(function(){
+  $('.modal-tabs-list__item').removeClass('active');
+  $(this).addClass('active');
+  $('.tabs--list').hide();
+  var activeTabsModal = $(this).find('a').attr('href');
+  $(activeTabsModal).fadeIn();
+  return false;
   });
+  /**
+   * click modal
+   */
+   var $modal = $('.form--post-modal');
+   $('.btn-continue').on('click', openModal);
+   $modal
+     .on('click', closeModal)
+     .on('click', '.exit-modal', closeModal)
+     .on('click', '.form--post__inner', function(event) {
+     event.stopPropagation();  // prevent closing the modal window when user clicks on the window itself
+   });
+   function closeModal() {
+     $modal.fadeOut();
+   };
+   function openModal() {
+     $modal.fadeIn();
+   };
+});
      
