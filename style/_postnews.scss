@@ -16,6 +16,7 @@
                     &-list{
                         display: flex;
                         align-items: center;
+                        flex-wrap: wrap;
                         &--item{
                             &--link{
                                 font-size: 1.4rem;
@@ -51,27 +52,20 @@
             }
             .post--area{
                 margin: 2.4rem 0;
-                padding: 2.4rem;
                 border-top: 0.25px solid rgba(49, 49, 50, 0.5);
                 border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
                 display: flex;
                 &--item{
                     margin-right: 1.4rem;
                     &__title{
-                        font-size: 1.6rem;
-                        line-height: 1.9rem;
                         color: $color-post;
                     }
                     &__quota{
-                        font-size: 2.4rem;
-                        line-height: 3.3rem;
-                        color: $color-post;
+                         color: $color-post;
                         font-weight: 500;
                         margin: 0.8rem 0;
                     }
                     &__more-detail{
-                        font-size: 1.6rem;
-                        line-height: 1.9rem;
                         color: $color-post;
                         opacity: 0.6;
                     }
@@ -201,12 +195,6 @@
             }
             &__content{
                 padding: 2.4rem 0 3.8rem 0;
-                &--image{
-                    width: 9.6rem;
-                   margin-left: 50%;
-                   padding-bottom: 1.6rem;
-                   transform: translateX(-50%);
-                }
                 &--name{
                     font-size: 1.8rem;
                     line-height: 2.8rem;
@@ -222,7 +210,6 @@
                     margin-bottom: 1.6rem;
                 }
                 &--btn{
-                    padding: 0 3.9rem;
                     &--contact{
                         border: 0.5px solid rgba(49, 49, 50, 0.5);
                         border-radius: 4px;

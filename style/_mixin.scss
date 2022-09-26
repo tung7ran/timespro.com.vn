@@ -1,6 +1,7 @@
-$res_mobile : "(max-width: 480px)";
-$res_tablet : "(min-width: 481px) and (max-width: 768px)";
-$res_pclow : "(min-width: 769px)";
+$res_mobile : "(min-width: 375px) and (max-width: 739px)";
+$res_tablet : "(min-width: 740px) and (max-width: 1023px)";
+$res_tablet-mobile: "(max-width: 1023px)";
+$res_pclow : "(min-width: 1024px)";
 @mixin responsive_mobile() {
   @media #{$res_mobile} {
     @content;
@@ -8,6 +9,11 @@ $res_pclow : "(min-width: 769px)";
 }
 @mixin responsive_tablet() {
   @media #{$res_tablet} {
+    @content;
+  }
+}
+@mixin responsive_tablet_mobile() {
+  @media #{$res_tablet-mobile} {
     @content;
   }
 }

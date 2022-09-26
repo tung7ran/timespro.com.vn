@@ -1,0 +1,35 @@
+@include responsive_pclow{
+    .module{
+        .manage-menu{
+            max-width: 60.4rem;
+        }
+        .manage--body{
+        border-radius: 0px 4px 4px 4px;
+    }
+    }
+}
+@include responsive_tablet_mobile{
+    .hide-mobile{
+        display: none;
+    }
+    .sale--header{
+        margin-top: 1rem;
+    }
+    .module{
+        .manage-menu{
+            
+         }
+        .manage--body{
+        border-radius: 0px 0px 4px 4px;
+        }
+
+    }
+  
+}
+@include responsive_tablet{
+  
+}
+@include responsive_mobile{
+ 
+    
+}

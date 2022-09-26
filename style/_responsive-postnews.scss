@@ -1,0 +1,123 @@
+@include responsive_pclow{
+    .mw21-4{
+        min-width: 21.4rem;
+      }
+      .mw-8{
+        min-width: 8rem;
+      }
+      .mw12-5{
+        min-width: 12.5rem;
+      }
+      .mr2{
+        padding-right: 2rem;
+      }
+      .fz-16{
+        font-size: 1.6rem!important;
+      }
+      .content-area{
+        .post-news{
+            .post--area{
+                padding: 2.4rem;
+                &--item{
+                    &__title{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                    }
+                    &__quota{
+                        font-size: 2.4rem;
+                        line-height: 3.3rem;
+                    }
+                    &__more-detail{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                    }
+                }
+            }
+        }
+    }
+    .information-user{
+        .info--user{
+            &__content{
+                &--image{
+                   margin-left: 50%;
+                   transform: translateX(-50%);
+                   width: 9.6rem;
+                   height: 9.6rem;
+                   margin-bottom: 1.6rem;
+                }
+                &--btn{
+                    padding: 0 3.9rem;
+                }
+            }
+        }
+     }
+}
+@include responsive_tablet_mobile{
+    .hide-mobile{
+        display: none;
+    }
+    .post-news-content{
+        flex-direction: column-reverse;
+    }
+    .information-user{
+        margin-bottom: 1.5rem;
+        .info--user{
+            &__content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &--image{
+                    width: 10rem;
+                    height: 10rem;
+                }
+            }
+        }
+     }
+}
+@include responsive_tablet{
+    .content-area{
+        .post-news{
+            .post--area{
+                align-items: center;
+                justify-content: space-between;
+                &--item{
+                    &__title{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                    }
+                    &__quota{
+                        font-size: 1.8rem;
+                    }
+                    &__more-detail{
+                        font-size: 1.6rem;
+                        line-height: 1.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive_mobile{
+    .content-area{
+        .post-news{
+            .post--area{
+                align-items: center;
+                justify-content: space-between;
+                &--item{
+                    &__title{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                    }
+                    &__quota{
+                        font-size: 1.8rem;
+                        line-height: 2rem;
+                    }
+                    &__more-detail{
+                        font-size: 1.4rem;
+                        line-height: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

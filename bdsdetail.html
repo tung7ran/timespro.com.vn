@@ -52,15 +52,19 @@
             <div class="header--menu">
                 <div class="container">
                     <div class="header--menu--list row">
-                        <div class="logo--images col-lg-2">
-                            <a href="">
+                        <button class="navbar-mobile js-mobile-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="mobile-menu-overlay"></div>
+                        <div class="logo--images">
+                            <a href="#">
                                 <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
                             </a>
                         </div>
-                        <div class="header--menu--nav col-lg-10">
+                        <div class="header--menu--nav js-mobile-menu">
                             <ul class="header--menu--nav__list">
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <div class="header--menu--nav__list--item--link">Dự án</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
@@ -74,7 +78,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <div  class="header--menu--nav__list--item--link">Bất động sản bán</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
@@ -106,7 +110,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <div class="header--menu--nav__list--item--link">Bất động sản cho thuê</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
@@ -138,7 +142,7 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <div class="header--menu--nav__list--item--link">Về Times Pro</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
@@ -153,13 +157,16 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="mobile-header-menu">
+                            <i class="mobile-header-menu-icon far fa-user-circle"></i>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="wrapper-search-bar">
                 <div class="container">
                     <div class="search-bar">
-                            <div class="search-bar-tab">
+                            <div class="search-bar-tab hide-mobile">
                                 <ul class="search-bar--box">
                                     <li class="search-bar--box--item active">
                                         <a href="" class="search-bar--box--item--link">Bán</a>
@@ -176,7 +183,7 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="re__filter-wall"></div>
+                            <div class="re__filter-wall hide-mobile"></div>
                             <div class="select-control">
                                 <div class="select-control-label">
                                     <div class="select-control-label__title"> 
@@ -693,8 +700,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="re__filter-wall"></div>
-                            <input type="submit" id="btnSearch" class="search--box--btn" value="Tìm kiếm">
+                            <div class="re__filter-wall hide-mobile"></div>
+                            <input type="submit" id="btnSearch" class="search--box--btn hide-mobile" value="Tìm kiếm">
                             <a href="#" class="re__state-icon--sm">
                                 <img src="./images/icon/refresh_02.png">
                             </a>

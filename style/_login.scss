@@ -1,0 +1,150 @@
+.modal-login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+   .modal-dialog{
+    margin: 10rem auto;
+    .modal-content{
+        width: 43rem;
+        margin: 0 auto;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
+        .logo-modal{
+            width: 8rem;
+            height: auto;
+            padding-top: 3.7rem;
+            margin: 0 auto;
+            padding-bottom: 1.2rem;
+        }
+        .modal-body{
+            padding: 0 2rem 2rem;
+            .form-login{
+                .form-title{
+                    font-size: 2.8rem;
+                    line-height: 150%;
+                    font-weight: 600;
+                    color: $color-post;
+                    text-align: center;
+                    margin-bottom: 2.4rem;
+                }
+                .form-group{
+                    margin-bottom: 1.4rem;
+                }
+                .mgb-form{
+                    margin-bottom: 0.8rem;
+                    .form-control{
+                        width: 23rem;
+                        margin: 0 auto;
+                        height: 4.7rem;
+                        border-radius: 1.4rem;
+                        padding: 0.6rem 1.2rem;
+                        font-size: 1.4rem;
+                    }
+                }
+                .message-register{
+                    font-size: 10px;
+                    text-align: center;
+                    margin-left: -10px;
+                    padding-bottom: 12px;
+                }
+                .forgot-password{
+                    text-align: left;
+                    padding-left: 8rem;
+                    padding-bottom: 1.6rem;
+                    a{
+                        color: $color-post;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                        line-height: 150%;
+                    }
+                }
+                .form-group{
+                    .register-button{
+                        width: 230px;
+                        height: 35px;
+                        margin: 0 auto;
+                        border-radius: 60px;
+                        text-transform: inherit;
+                        font-size: 1.4rem;
+                        background-color: $background-nav;
+                        border: none;
+                        color: $white;
+                    }
+                }
+            }
+            .switch_login{
+                font-size: 1.4rem;
+                font-weight: 700;
+                margin-bottom: 1.6rem;
+                line-height: 150%;
+            }
+            .form-group{
+                .btn-login-facebook{
+                    color: $white;
+                    background-color: #1877F2;
+                    display: block;
+                    width: 23rem;
+                    border-radius: 6rem;
+                    margin: 0 auto;
+                    text-align: inherit;
+                    font-size: 1.4rem;
+                    svg{
+                        margin-right: 2rem;
+                        text-align: left;
+                    }
+                }
+                .btn-login-google{
+                    color: $color-post;
+                    background-color: $white;
+                    display: block;
+                    width: 23rem;
+                    border-radius: 6rem;
+                    margin: 0 auto;
+                    text-align: inherit;
+                    font-size: 1.4rem;
+                    border: 1px solid #C4C4C4;
+                    svg{
+                        margin-right: 2rem;
+                        text-align: left;
+                    }
+                }
+            }
+            .policy{
+                width: 23.5rem;
+                margin: 0 auto;
+                font-size: 1rem;
+                line-height: 150%;
+                p{
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+            .policy-line{
+                display: block;
+                height: 1px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                margin: 0 auto;
+                width: 150px;
+            }
+            .register-user{
+                font-size: 1.2rem;
+                padding-top: 1rem;
+                line-height: 150%;
+                color: $color-post;
+                a{
+                    color: $color-post;
+                }
+            }
+        }
+    }
+   }
+}

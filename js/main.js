@@ -44,6 +44,26 @@ $(document).ready(function(){
             autoplaySpeed: 1500,
             prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-angles-left'></i></button>",
             nextArrow: "<button type='button' class='slick-next pull-left'><i class='fa-sharp fa-solid fa-angles-right'></i></button>",
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  slidesToShow: 5,
+                }
+              },
+              {
+                breakpoint: 741,
+                settings: {
+                  slidesToShow: 3,
+                }
+              },
+              {
+                breakpoint: 376,
+                settings: {
+                  slidesToShow: 2,
+                }
+              }
+            ]
       });
       $('.module-content--list').slick({
       slidesToShow: 3,
@@ -52,6 +72,26 @@ $(document).ready(function(){
       autoplaySpeed: 2000,
       prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa-sharp fa-solid fa-angles-left'></i></button>",
       nextArrow: "<button type='button' class='slick-next pull-left'><i class='fa-sharp fa-solid fa-angles-right'></i></button>",
+      responsive: [
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 741,
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 376,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
     });
 
     /**
@@ -191,5 +231,26 @@ $(document).ready(function(){
    function openModal() {
      $modal.fadeIn();
    };
+
+   /**
+    * click show menu table & mobile
+    */
+   $('.js-mobile-btn').click(function(){
+     $('.js-mobile-menu').addClass('show');
+     $('.mobile-menu-overlay').addClass('show');
+    })
+    $('.mobile-menu-overlay').click(function(){
+      $('.js-mobile-menu').removeClass('show');
+      $('.mobile-menu-overlay').removeClass('show');
+    })
+    /**
+     * click show sub menu
+     */
+    
+     $(".header--menu--nav__list--item").on("click", ".header--menu--nav__list--item--link", function() {
+      $(this).toggleClass(".sub--nav.block").next().slideToggle();
+      $(".sub--nav").not($(this).next()).slideUp(100);
+      $(this).siblings().removeClass(".sub--nav.block");
+      });
 });
      

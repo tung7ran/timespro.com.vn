@@ -75,14 +75,13 @@
         }
     }
     .manage-menu{
-        max-width: 60.4rem;
         &--list{
                 border-top: 0.25px solid $color-post;
                 border-left: 0.25px solid $color-post;
                 border-right: 0.25px solid $color-post;
                 border-radius: 0.5rem 0.5rem 0px 0px;
                 display: flex;
-
+                justify-content: space-between;
             &__item{
                 padding: 0.8rem;
                 &--link{
@@ -108,11 +107,9 @@
     .manage--body{
         padding: 1.3rem 1.2rem;
         border: 0.25px solid #313132;
-        border-radius: 0px 4px 4px 4px;
         &--heading{
             display: flex;
             align-items: center;
-            // border-bottom: 0.25px solid #313132;
             padding-bottom: 0.7rem;
             &--title{
                 padding-right: 0;
@@ -121,7 +118,6 @@
                 line-height: 1.6rem;
                 color: $color-post;
                 font-weight: 600;
-                
                 word-wrap:break-word;
             }
         }

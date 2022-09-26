@@ -50,15 +50,19 @@
             <div class="header--menu">
                 <div class="container">
                     <div class="header--menu--list row">
-                        <div class="logo--images col-lg-2">
+                        <button class="navbar-mobile js-mobile-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="mobile-menu-overlay"></div>
+                        <div class="logo--images">
                             <a href="#">
                                 <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
                             </a>
                         </div>
-                        <div class="header--menu--nav col-lg-10">
+                        <div class="header--menu--nav js-mobile-menu">
                             <ul class="header--menu--nav__list">
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <div class="header--menu--nav__list--item--link">Dự án</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
@@ -72,7 +76,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <div  class="header--menu--nav__list--item--link">Bất động sản bán</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
@@ -104,7 +108,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <div class="header--menu--nav__list--item--link">Bất động sản cho thuê</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
@@ -136,7 +140,7 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <div class="header--menu--nav__list--item--link">Về Times Pro</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
@@ -151,6 +155,9 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="mobile-header-menu">
+                            <i class="mobile-header-menu-icon far fa-user-circle"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,7 +166,7 @@
             <div class="sale--container">
                 <div class="container">
                     <div class="row">
-                        <div class="sale--header col-lg-3">
+                        <div class="sale--header col-xl-3">
                             <section class="module">
                                 <div class="seller--info">
                                     <div class="seller--info--avt">
@@ -292,7 +299,7 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="sale--content col-lg-9 tabs--item" id="edit-info">
+                        <div class="sale--content col-xl-9 tabs--item" id="edit-info">
                             <div class="information--basic " >    
                                 <section class="module">
                                     <div class="information--title">Thông tin cá nhân</div>
@@ -369,7 +376,7 @@
                                 </section>
                             </div>
                         </div>
-                        <div class="sale--content col-lg-9 tabs--item" id="edit-password">
+                        <div class="sale--content col-xl-9 tabs--item" id="edit-password">
                             <div class="information--basic" >    
                                 <section class="module">
                                     <div class="information--title">Thay đổi mật khẩu</div>
@@ -395,7 +402,7 @@
                                 </section>
                             </div>
                         </div>
-                        <div class="sale--content col-lg-9 tabs--item" id="lock-account">
+                        <div class="sale--content col-xl-9 tabs--item" id="lock-account">
                             <div class="information--basic">    
                                 <section class="module">
                                     <div class="information--title">Khoá tài khoản</div>
@@ -428,7 +435,7 @@
                                 </section>
                             </div>
                         </div>
-                        <div class="post--news-content col-lg-9 tabs--item" id="post">
+                        <div class="post--news-content col-xl-9 tabs--item" id="post">
                             <div class="row">
                                 <div class="sale--content col-lg-8">
                                     <div class="information--basic">    
@@ -703,13 +710,13 @@
                                     <div class="post--time">
                                        <section class="module">
                                             <form action="" class="form--post row">
-                                                <div class="form-group col-lg-12">
+                                                <div class="form-group col-lg-1 col-sm-1 col-12">
                                                     <label for="" class="form-label">Loại tin đăng</label>
                                                     <select class="form-control custom-select ">
                                                         <option value="0">tin thường</option>
                                                     </select>
                                                 </div>
-                                                <div class="form-group col-lg-12 d-flex justify-content-between">
+                                                <div class="form-group col-lg-1 col-sm-1 col-12 d-flex justify-content-between">
                                                     <span class="form-label d-flex align-items-center">Làm nổi bật tin đăng
                                                         <img src="./images/icon/help_circle.png" alt="">
                                                     </span>
@@ -718,7 +725,7 @@
                                                       <div class="ball"></div>
                                                     </label>
                                                 </div>
-                                                <div class="form-group col-lg-12">
+                                                <div class="form-group col-lg-1 col-sm-1 col-12">
                                                     <label for="" class="form-label">Ngày bắt đầu</label>
                                                    <input type="date" placeholder="26/05/2021" class="form-control">
                                                 </div>
@@ -730,7 +737,7 @@
                                                     <label for="" class="form-label">Ngày hết hạn</label>
                                                    <input type="date" placeholder="05/06/2021" class="form-control">
                                                 </div>
-                                                <div class="form-group col-lg-12">
+                                                <div class="form-group col-lg-1 col-sm-1 col-12">
                                                     <label for="" class="form-label">Khuyến mãi</label>
                                                     <select class="form-control custom-select ">
                                                         <option value="0">Chọn khuyến mãi</option>
@@ -738,7 +745,7 @@
                                                 </div>
                                                 <div class="form-group-checkbox ">
                                                     <input type="checkbox"  class="form-checkbox ">
-                                                    <label for="" class="form-label col-lg-10">
+                                                    <label for="" class="form-label col-lg-1 col-sm-1 col-10">
                                                         <p>[Ưu đãi] Miễn phí 1 lần đẩy tin tự động.</p>
                                                         <span>Hệ thống sẽ tự động đẩy tin 1 lần vào ngày 03/06/2021. Tìm hiểu thêm</span>
                                                     </label>
@@ -769,7 +776,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sale--content col-lg-9 tabs--item" id="manage-sale">
+                        <div class="sale--content col-xl-9 tabs--item" id="manage-sale">
                             <div class="information--basic">    
                                 <div class="information--title">Quản lý tin bán & cho thuê</div>
                                 <!-- Header -->
@@ -843,32 +850,32 @@
                                 <section class="module posts--item" id="all">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -885,12 +892,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -906,7 +913,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -957,13 +964,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -980,12 +987,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1001,7 +1008,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1052,13 +1059,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1075,12 +1082,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1096,7 +1103,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1147,13 +1154,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1170,12 +1177,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1191,7 +1198,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1242,13 +1249,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">5</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1265,12 +1272,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1286,7 +1293,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1337,13 +1344,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">6</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1360,12 +1367,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1381,7 +1388,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1432,13 +1439,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">7</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1455,12 +1462,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1476,7 +1483,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1527,13 +1534,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">8</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1550,12 +1557,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1571,7 +1578,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1658,32 +1665,32 @@
                                 <section class="module posts--item" id="showing">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1700,12 +1707,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1721,7 +1728,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1772,13 +1779,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1795,12 +1802,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1816,7 +1823,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1867,13 +1874,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1890,12 +1897,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -1911,7 +1918,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -1962,13 +1969,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -1985,12 +1992,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2006,7 +2013,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2061,32 +2068,32 @@
                                 <section class="module posts--item" id="expired">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2103,12 +2110,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2124,7 +2131,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2175,13 +2182,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2198,12 +2205,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2219,7 +2226,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2270,13 +2277,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2293,12 +2300,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2314,7 +2321,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2365,13 +2372,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2388,12 +2395,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2409,7 +2416,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2464,32 +2471,32 @@
                                 <section class="module posts--item" id="published">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2506,12 +2513,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2527,7 +2534,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2578,13 +2585,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2601,12 +2608,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2622,7 +2629,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2673,13 +2680,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2696,12 +2703,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2717,7 +2724,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2768,13 +2775,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2791,12 +2798,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2812,7 +2819,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2867,32 +2874,32 @@
                                 <section class="module posts--item" id="pending">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -2909,12 +2916,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -2930,7 +2937,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -2981,13 +2988,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3004,12 +3011,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3025,7 +3032,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3076,13 +3083,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3099,12 +3106,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3120,7 +3127,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3171,13 +3178,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3194,12 +3201,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3215,7 +3222,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3270,32 +3277,32 @@
                                 <section class="module posts--item" id="approved">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3312,12 +3319,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3333,7 +3340,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3384,13 +3391,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3407,12 +3414,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3428,7 +3435,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3479,13 +3486,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3502,12 +3509,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3523,7 +3530,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3574,13 +3581,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3597,12 +3604,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3618,7 +3625,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3673,32 +3680,32 @@
                                 <section class="module posts--item" id="nobrowser">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3715,12 +3722,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3736,7 +3743,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3787,13 +3794,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3810,12 +3817,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3831,7 +3838,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3882,13 +3889,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -3905,12 +3912,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -3926,7 +3933,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -3977,13 +3984,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -4000,12 +4007,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -4021,7 +4028,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -4076,32 +4083,32 @@
                                 <section class="module posts--item" id="removed">
                                     <div class="manage--body">
                                         <div class="manage--body--heading">
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 STT
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Mã tin
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-6">
+                                            <div class="manage--body--heading--title col-lg-6 col-sm-6 col-6">
                                                 Tiêu đề
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-2">
+                                            <div class="manage--body--heading--title col-lg-2 col-sm-2 col-2">
                                                 Ngày hết hạn
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                                 Thống kê
                                             </div>
-                                            <div class="manage--body--heading--title col-lg-1">
+                                            <div class="manage--body--heading--title col-lg-1 col-sm-1 col-1">
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">1</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -4118,12 +4125,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -4139,7 +4146,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -4190,13 +4197,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">2</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -4213,12 +4220,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -4234,7 +4241,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -4285,13 +4292,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">3</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -4308,12 +4315,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -4329,7 +4336,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -4380,13 +4387,13 @@
                                             </div>
                                         </div>
                                         <div class="manage--content d-flex ">
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">4</div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage--content--item__text">35616469</div>
                                             </div>
-                                            <div class="manage--content--item d-flex col-lg-6">
+                                            <div class="manage--content--item d-flex col-lg-6 col-sm-6 col-6">
                                                 <div class="content--item--image">
                                                     <img src="./images/post--news/duan166.png" alt="">
                                                 </div>
@@ -4403,12 +4410,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-2">
+                                            <div class="manage--content--item col-lg-2 col-sm-2 col-2">
                                                 <div class="manage--content--item__text">
                                                     22/06/2021
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="manage-interactive">
                                                     <div class="manage-interactive--item">
                                                         <div class="manage-interactive--item--title">1200</div>
@@ -4424,7 +4431,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="manage--content--item col-lg-1">
+                                            <div class="manage--content--item col-lg-1 col-sm-1 col-1">
                                                 <div class="menu-more-image text-center">
                                                     <img src="./images/icon/more_horizontal.png" alt="" class="menu-more">
                                                 </div>
@@ -4580,7 +4587,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-12 col-lg-12">
+                        <div class="col-12 col-md-12 col-lg-1 col-sm-1 col-12">
                             <div class="text-center footer-5">
                                 <p class="footer--develop">Được phát triển bởi <a href="!#">TIMESPRO</a></p>
                                 <div class="footer--agree">
@@ -4705,25 +4712,25 @@
                                         <section class="site--main module">
                                             <div class="post-news">
                                                 <div class="post--images">
-                                                    <div class="post--images--item col-lg-12">
+                                                    <div class="post--images--item col-lg-1 col-sm-1 col-12">
                                                         <img src="./images/post--news/Rectangle_88.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_96.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_97.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_98.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_99.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_100.png" alt="">
                                                     </div>
-                                                    <div class="post--images--item col-lg-2">
+                                                    <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                                         <img src="./images/post--news/Rectangle_101.png" alt="">
                                                     </div>
                                                 </div>

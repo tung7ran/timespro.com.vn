@@ -51,15 +51,19 @@
             <div class="header--menu">
                 <div class="container">
                     <div class="header--menu--list row">
-                        <div class="logo--images col-lg-2">
-                            <a href="">
+                        <button class="navbar-mobile js-mobile-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="mobile-menu-overlay"></div>
+                        <div class="logo--images">
+                            <a href="#">
                                 <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
                             </a>
                         </div>
-                        <div class="header--menu--nav col-lg-10">
+                        <div class="header--menu--nav js-mobile-menu">
                             <ul class="header--menu--nav__list">
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <div class="header--menu--nav__list--item--link">Dự án</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
@@ -73,7 +77,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <div  class="header--menu--nav__list--item--link">Bất động sản bán</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
@@ -105,7 +109,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <div class="header--menu--nav__list--item--link">Bất động sản cho thuê</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
@@ -129,8 +133,7 @@
                                             <a href="!#" class="sub--nav--item--link">Cho thuê kho, nhà xưởng, đất</a>
                                         </li>
                                         <li class="sub--nav--item">
-                                            <a href="!#" class="sub--nav--item--link">Cho thuê loại bất động sản
-                                                khác</a>
+                                            <a href="!#" class="sub--nav--item--link">Cho thuê loại bất động sản khác</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -138,7 +141,7 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <div class="header--menu--nav__list--item--link">Về Times Pro</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
@@ -152,6 +155,9 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tuyển dụng</a>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="mobile-header-menu">
+                            <i class="mobile-header-menu-icon far fa-user-circle"></i>
                         </div>
                     </div>
                 </div>
@@ -705,30 +711,30 @@
         <div class="content">
             <div class="site--content content--detail">
                 <div class="container">
-                    <div class="row">
-                        <div class="content-area col-lg-9">
+                    <div class="post-news-content row">
+                        <div class="content-area col-lg-9 cl-sm-12 col-12">
                             <section class="site--main module">
                                 <div class="post-news">
                                     <div class="post--images">
-                                        <div class="post--images--item col-lg-12">
+                                        <div class="post--images--item col-lg-12 col-sm-12 col-12">
                                             <img src="./images/post--news/Rectangle_88.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_96.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_97.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_98.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_99.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_100.png" alt="">
                                         </div>
-                                        <div class="post--images--item col-lg-2">
+                                        <div class="post--images--item col-lg-2 col-sm-2 col-2">
                                             <img src="./images/post--news/Rectangle_101.png" alt="">
                                         </div>
                                     </div>
@@ -870,7 +876,7 @@
                                         </div>
                                         </div>
                                     </div>
-                                    <div class="post--area">
+                                    <div class="post--area hide-mobile">
                                         <div class="post--area--item mw12-5">
                                             <div class="post--area--item__title">Ngày đăng</div>
                                             <div class="post--area--item__quota fz-16">14/05/2021</div>
@@ -1400,7 +1406,7 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="information-user col-lg-3">
+                        <div class="information-user col-lg-3 col-sm-12 col-12">
                             <div class="info--user">
                                 <div class="info--user__header">
                                     <h3>Thông tin người đăng</h3>
@@ -1409,11 +1415,13 @@
                                     <div class="info--user__content--image">
                                         <img src="./images/post--news/Ellipse_5.png" alt="">
                                     </div>
-                                    <h3 class="info--user__content--name ">Nguyễn Thị Quỳnh</h3>
-                                    <p class="info--user__content--other">Xem thêm 41 tin khác</p>
-                                    <div class="info--user__content--btn">
-                                        <h2 class="info--user__content--btn--contact phone--number">0902 576 *** Hiện số</h2>
-                                        <h2 class="info--user__content--btn--contact">Yêu cầu liên hệ lại</h2>
+                                    <div class="info--user__content--text">
+                                        <h3 class="info--user__content--name ">Nguyễn Thị Quỳnh</h3>
+                                        <p class="info--user__content--other">Xem thêm 41 tin khác</p>
+                                        <div class="info--user__content--btn">
+                                            <h2 class="info--user__content--btn--contact phone--number">0902 576 *** Hiện số</h2>
+                                            <h2 class="info--user__content--btn--contact">Yêu cầu liên hệ lại</h2>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
