@@ -2,16 +2,13 @@
     .contact--content--message{
         margin-top: 2.4rem;
     }
-
     .contact--content--message,
     .contact--content--message__area{
         padding-left: 0rem;
     }
-
     .message-all{
         border-left: none !important;
     }
-    
 }
 
 @include responsive_tablet{

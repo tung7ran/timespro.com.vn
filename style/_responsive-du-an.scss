@@ -1,0 +1,27 @@
+@include responsive_mobile{
+    .content .banner--du__an{
+        height: 14rem;
+    }
+    .project--news--heading{
+        margin-bottom: 2.4rem;
+    }
+    .project--news--content {
+        margin-top: 2.4rem;
+    }
+    .content .project--news .project--content--item{
+        display: block;
+    }
+    .project--content--item__images--project{
+        border-radius: 1rem;
+    }
+}
+
+@include responsive_tablet{
+    .content .banner--du__an{
+        height: 28rem;
+    }
+}
+
+@include responsive_pclow{
+    
+}

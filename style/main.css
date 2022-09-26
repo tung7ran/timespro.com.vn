@@ -1766,7 +1766,7 @@ a:hover {
   font-size: 2rem;
   padding-top: 1.6rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: #fff;
   position: relative;
   line-height: 2.3rem;
 }
@@ -1792,7 +1792,7 @@ a:hover {
   font-size: 2rem;
   padding-top: 1.6rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: #fff;
   position: relative;
   line-height: 2.3rem;
 }
@@ -1818,7 +1818,7 @@ a:hover {
   font-size: 2rem;
   padding-top: 1.6rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: #fff;
   position: relative;
   line-height: 2.3rem;
 }
@@ -1843,7 +1843,7 @@ a:hover {
   font-size: 2rem;
   padding-top: 1.6rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: #fff;
   line-height: 2.3rem;
 }
 .contact--content--verification__robot input[type=checkbox] {
@@ -1859,7 +1859,7 @@ a:hover {
   width: 17px;
   height: 17px;
   margin-right: 5px;
-  background-color: rgb(175, 31, 38);
+  background-color: #AF1F26;
   position: absolute;
   border-radius: 2px;
   left: 0;
@@ -1894,7 +1894,7 @@ a:hover {
   font-size: 2rem;
   padding-top: 1.6rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: #fff;
   line-height: 2.3rem;
   outline: none;
   border: none;
@@ -1913,7 +1913,7 @@ a:hover {
   align-items: center;
 }
 .contact--content--item__send--text {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 2rem;
   line-height: 2.3rem;
   padding-right: 1.2rem;
@@ -3868,4 +3868,27 @@ a:hover {
 }
 .form--post-modal .form--post__inner .modal-body .tabs--list .content--detail .modal-info .info--user__content--btn--contact {
   font-size: 1.2rem;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .content .banner--du__an {
+    height: 14rem;
+  }
+  .project--news--heading {
+    margin-bottom: 2.4rem;
+  }
+  .project--news--content {
+    margin-top: 2.4rem;
+  }
+  .content .project--news .project--content--item {
+    display: block;
+  }
+  .project--content--item__images--project {
+    border-radius: 1rem;
+  }
+}
+@media (max-width:1023px) {
+  .content .banner--du__an {
+    height: 28rem;
+  }
 }/*# sourceMappingURL=main.css.map */

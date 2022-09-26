@@ -11,7 +11,6 @@
             font-weight: 900;
             line-height: 3.8rem;
             position: relative;
-           
         }
         &__title::before{
             content: "";
@@ -35,7 +34,7 @@
             font-size: 2rem;
             padding-top: 1.6rem;
             font-weight: 500;
-            color: $color-name-contact;
+            color: $white;
             position: relative;
             line-height: 2.3rem;
         }
@@ -61,7 +60,7 @@
             font-size: 2rem;
             padding-top: 1.6rem;
             font-weight: 500;
-            color: $color-name-contact;
+            color: $white;
             position: relative;
             line-height: 2.3rem;
         }
@@ -87,7 +86,7 @@
             font-size: 2rem;
             padding-top: 1.6rem;
             font-weight: 500;
-            color: $color-name-contact;
+            color: $white;
             position: relative;
             line-height: 2.3rem;
         }
@@ -112,7 +111,7 @@
             font-size: 2rem;
             padding-top: 1.6rem;
             font-weight: 500;
-            color: $color-name-contact;
+            color: $white;
             line-height: 2.3rem;
             input[type=checkbox] {
                 display: none;
@@ -127,7 +126,7 @@
                 width: 17px;
                 height: 17px;
                 margin-right: 5px;
-                background-color:$color-send-contact;
+                background-color:$background-nav;
                 position: absolute;
                 border-radius: 2px;
                 left: 0;
@@ -165,7 +164,7 @@
             font-size: 2rem;
             padding-top: 1.6rem;
             font-weight: 500;
-            color: $color-name-contact;
+            color: $white;
             line-height: 2.3rem;
             outline: none;
             border: none;
@@ -183,7 +182,7 @@
             justify-content: center;
             align-items: center;
             &--text{
-                color: $color-name-contact;
+                color: $white;
                 font-size: 2rem;
                 line-height: 2.3rem;
                 padding-right: 1.2rem;
