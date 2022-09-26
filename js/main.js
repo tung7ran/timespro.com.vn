@@ -118,6 +118,40 @@ $(document).ready(function(){
       });
       $('.location--body').hide();
 
+
+      $('.reportage--all--interested__all').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows:true,
+        prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+        responsive: [
+          {
+              breakpoint: 1024,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 4,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+              }
+          },
+          {
+              breakpoint: 375,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+              }
+          }
+        ]
+      });
+});
       // Click UI edit-information
       $('.categories--list__item:first-child').addClass('active');
       $('.tabs--item').hide();
@@ -191,5 +225,4 @@ $(document).ready(function(){
    function openModal() {
      $modal.fadeIn();
    };
-});
      
