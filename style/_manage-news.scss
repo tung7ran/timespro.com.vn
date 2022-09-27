@@ -1,14 +1,10 @@
 .module{
     .manage--header{
         margin: 3.2rem 0 3.4rem 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+       
         &--left{
-            display: flex;
-            align-items: center;
+          
             &--item{
-                margin-right: 3rem;
                 .form-search{
                     position: relative;
                     .input--search{
@@ -76,9 +72,6 @@
     }
     .manage-menu{
         &--list{
-                border-top: 0.25px solid $color-post;
-                border-left: 0.25px solid $color-post;
-                border-right: 0.25px solid $color-post;
                 border-radius: 0.5rem 0.5rem 0px 0px;
                 display: flex;
                 justify-content: space-between;
@@ -105,10 +98,7 @@
         }
     }
     .manage--body{
-        padding: 1.3rem 1.2rem;
-        border: 0.25px solid #313132;
         &--heading{
-            display: flex;
             align-items: center;
             padding-bottom: 0.7rem;
             &--title{
@@ -122,22 +112,17 @@
             }
         }
         .manage--content{
-            justify-content: space-between;
-            border-top: 0.25px solid $color-post;
             &--item{
                 padding-top: 1.2rem;
                 padding-bottom: 0.6rem;
                 padding-right: 0;
                 padding-left: 0;
-                position: relative;
                 &__text{
                     font-size: 1.4rem;
                     line-height: 1.6rem;
                     color: $color-post;
                 }
-                .content--item--image{
-                    width: 7rem;
-                }
+              
                 .content--item--body{
                     margin-left: 1.2rem;
                     .content--item--heading{
@@ -212,7 +197,6 @@
                 .manage-interactive{
                     &--item{
                         display: flex;
-                        justify-content: space-between;
                         margin-bottom: 0.8rem;
                         &--title{
                             font-size: 1.4rem;

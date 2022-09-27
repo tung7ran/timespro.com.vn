@@ -5,17 +5,9 @@ $(document).ready(function(){
     /**
      * tab UI -> Home
      */
-    $('.bds--options--heading__list bds--options--heading__list--item:first-child').addClass('active');
-    $('.bds--options--container').hide();
-    $('.bds--options--container:first').show();
-    // Click function
     $('.bds--options--heading__list--item').click(function(){
-    $('.bds--options--heading__list--item').removeClass('active');
-    $(this).addClass('active');
-    $('.bds--options--container').hide();
-    var activeTab = $(this).find('a').attr('href');
-    $(activeTab).fadeIn();
-    return false;
+      $('.bds--options--heading__list--item').removeClass("active");
+      $(this).addClass("active");
     });
     /**
      * Tab UI page duan
@@ -252,5 +244,12 @@ $(document).ready(function(){
       $(".sub--nav").not($(this).next()).slideUp(100);
       $(this).siblings().removeClass(".sub--nav.block");
       });
+      /**
+       * click button post news
+       */
+       $('.search-bar--box--item').click(function(){
+        $('.search-bar--box--item').removeClass("active");
+        $(this).addClass("active");
+    });
 });
      

@@ -7,7 +7,6 @@
     .form-group{
         align-items: center;
         padding-left: 0;
-        margin-bottom: 2.4rem;
         .form-label{
             font-size: 1.4rem;
             line-height: 1.6rem;
@@ -19,12 +18,8 @@
             line-height: 1.6rem;
             color: $color-post;
             outline: none;
-            width: 30rem;
             padding: 0.8rem 0 0.8rem 1.6rem;
             border-radius: 4px;
-        }
-        .form-address{
-            width: 50rem;
         }
         .gender{
             font-size: 1.4rem;
@@ -119,8 +114,6 @@
     -webkit-overflow-scrolling: touch;
     overflow: hidden;
     .form--post__inner{
-        width: 77rem;
-        height: 51.2rem;
         background-color: $white;
         border-radius: 4px;
         margin-top: 10rem;
@@ -130,7 +123,6 @@
         .modal-header{
             align-items: center;
             border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
-            padding: 1.15rem 1.6rem 1.15rem 7rem;
             .modal-tabs{
                 &-list{
                     display: flex;
@@ -159,7 +151,6 @@
             }
         }
         .modal-body{
-            padding: 2.4rem 7rem 0 7rem;
             .tabs--list{
                 .content--navigation{
                     &__list{
@@ -215,7 +206,6 @@
                     border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
                     padding-bottom: 2.4rem;
                     &--item{
-                        display: flex;
                         border: 0.5px solid #313132;
                         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
                         border-radius: 4px;
@@ -223,11 +213,6 @@
                             padding-left: 0;
                             padding-right: 0;
                             position: relative;
-                            a{
-                                img{
-                                    width: 17.3rem;
-                                }
-                            }
                             .ribbon-top-left{
                                 position: absolute;
                                 top: 0;
@@ -272,6 +257,7 @@
                                 display: flex;
                                 align-items: center;
                                 margin-top: 0.575rem;
+                                flex-wrap: wrap;
                                 &--item{
                                     display: flex;
                                     align-items: center;
@@ -316,6 +302,7 @@
                 * @modal site-content
                 */
                 .content--detail{
+                    margin-top: 0;
                     .modal-content{
                         padding-left: 0;
                         border: none;
@@ -328,12 +315,10 @@
                                     }
                                 }
                                 .post--area{
-                                    margin: 1.6rem 0 2.4rem 0;
                                     padding: 1.5rem 0 1.3rem 0;
                                     &--item{
                                         &__quota{
-                                            font-size: 2rem;
-                                            line-height: 3rem;
+                                           
                                             sup{
                                                 font-size: 1.2rem;
                                             }
@@ -364,7 +349,6 @@
                     .modal-info{
                         padding-right: 0;
                         padding-left: 0;
-                        width: 17.5rem;
                         .info--user{
                             &__header{
                                 padding: 0.8rem 0.95rem;
@@ -377,7 +361,7 @@
                                 padding: 1.2rem 0 1.5rem 0;
                                 &--image{
                                     width: 6.2rem;
-                                    padding-bottom: 0.8rem;
+                                    height: 6.2rem;
                                 }
                                 &--name{
                                     font-size: 1.6rem;
