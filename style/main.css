@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
@@ -4353,5 +4354,263 @@ a:hover {
 @media (min-width: 375px) and (max-width: 739px) {
   .reportage--none--mobile {
     display: none;
+  }
+}
+.contact--content {
+  background-color: #292C35;
+  padding-top: 8rem;
+  margin-bottom: 6.4rem;
+}
+.contact--content--heading {
+  min-height: 5rem;
+}
+.contact--content--heading__title {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  line-height: 3.8rem;
+  position: relative;
+}
+.contact--content--heading__title::before {
+  content: "";
+  position: absolute;
+  width: 11.4rem;
+  display: block;
+  border-bottom: 0.3rem solid #AF1F26;
+  bottom: -1.2rem;
+}
+.contact--content--user {
+  margin-top: 2.4rem;
+  min-height: 6.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  width: 30rem;
+}
+.contact--content--user__form {
+  display: grid;
+}
+.contact--content--user__surname {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.contact--content--user__name {
+  font-size: 2rem;
+  padding-top: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  line-height: 2.3rem;
+  background-color: #292C35;
+  border: none;
+  outline: none;
+}
+.contact--content--user__name::-moz-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--user__name:-ms-input-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--user__name::placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--tel {
+  margin-top: 2.4rem;
+  min-height: 6.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  width: 30rem;
+}
+.contact--content--tel__form {
+  display: grid;
+}
+.contact--content--tel__phone {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.contact--content--tel__number {
+  font-size: 2rem;
+  padding-top: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  line-height: 2.3rem;
+  background-color: #292C35;
+  border: none;
+  outline: none;
+}
+.contact--content--tel__number::-moz-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--tel__number:-ms-input-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--tel__number::placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--account {
+  margin-top: 2.4rem;
+  min-height: 6.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  width: 30rem;
+}
+.contact--content--account__form {
+  display: grid;
+}
+.contact--content--account__email {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.contact--content--account__name {
+  font-size: 2rem;
+  padding-top: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  line-height: 2.3rem;
+  background-color: #292C35;
+  border: none;
+  outline: none;
+}
+.contact--content--account__name::-moz-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--account__name:-ms-input-placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--account__name::placeholder {
+  font-weight: 500;
+  color: #fff;
+}
+.contact--content--verification {
+  margin-top: 2.4rem;
+}
+.contact--content--verification__confirm {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.contact--content--verification__robot {
+  font-size: 2rem;
+  padding-top: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 2.3rem;
+}
+.contact--content--verification__robot input[type=checkbox] {
+  display: none;
+}
+.contact--content--verification__robot label {
+  position: relative;
+  padding-left: 1.2rem;
+}
+.contact--content--verification__robot span:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  background-color: #AF1F26;
+  position: absolute;
+  border-radius: 2px;
+  left: 0;
+  bottom: 0;
+}
+.contact--content--verification__robot input[type=checkbox]:checked + label span:before {
+  content: "✓";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 17px;
+}
+.contact--content .message-all {
+  border-left: 1px solid rgba(255, 236, 237, 0.5);
+  height: 87%;
+}
+.contact--content--message {
+  padding-left: 1.8rem;
+}
+.contact--content--message__text {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+.contact--content--message__area {
+  padding-left: 1.8rem;
+  width: 100%;
+  height: 35.8rem;
+  background-color: #292C35;
+  font-size: 2rem;
+  padding-top: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 2.3rem;
+  outline: none;
+  border: none;
+}
+.contact--content--message__area::-moz-placeholder {
+  font-weight: 500;
+  color: #fff;
+  font-size: 2rem;
+}
+.contact--content--message__area:-ms-input-placeholder {
+  font-weight: 500;
+  color: #fff;
+  font-size: 2rem;
+}
+.contact--content--message__area::placeholder {
+  font-weight: 500;
+  color: #fff;
+  font-size: 2rem;
+}
+.contact--content--item {
+  background-color: rgb(175, 31, 38);
+  border: none;
+  width: 100%;
+  height: 6.4rem;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+.contact--content--item__send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact--content--item__send--text {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  padding-right: 1.2rem;
+}
+.contact--content--item__send--image {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 375px) and (max-width: 739px) {
+  .contact--content--message {
+    margin-top: 2.4rem;
+  }
+  .contact--content--message,
+.contact--content--message__area {
+    padding-left: 0rem;
+  }
+  .message-all {
+    border-left: none !important;
   }
 }/*# sourceMappingURL=main.css.map */
