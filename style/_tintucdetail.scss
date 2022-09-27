@@ -1,0 +1,302 @@
+.reportage--all{
+    margin-top: 4.8rem;
+    &--details{
+        min-height: 7rem;
+        &__homepage{
+            font-size: 1.2rem;
+            opacity: 90%;
+            font-weight: 400;
+            line-height: 1.4rem;
+            color: $color-post;
+            text-transform: uppercase;
+        }
+        &__title{
+            font-weight: 500;
+            font-size: 2.4rem;
+            line-height: 150%;
+            color: $color-post;
+        }
+        &__date{
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            color: $color-post;
+            padding-bottom: 0.6rem;
+            border-bottom: 0.2px solid $black;
+        }
+    }
+    &--content{
+        margin-top: 2.4rem;
+        margin-bottom: 2.3rem;
+        &__text{
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 150%;
+            margin: 2.4rem 0rem; 
+        }
+        &__title{
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 150%;
+            margin: 2.4rem 0rem;
+        }
+        .reportage--all--content__title--list{
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 150%;
+            margin-bottom: 0rem;
+        }
+        .text-top{
+            margin-top: 0rem;
+        }
+        &__list{
+            padding-left: 4rem;
+            &--item{
+                list-style: disc;
+                p{
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+    &--icon{
+        padding-bottom: 2.4rem;
+        display: flex;
+        justify-content: end;
+        border-bottom: 1px solid rgba(49, 49, 50, 0.5);
+        &__heart{
+            display: flex;
+            &--text{
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 150%;
+                color: $color-post;
+            }
+        }
+        &__share{
+            display: flex;
+            margin-left: 2.4rem;
+            &--text{
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 150%;
+                color: $color-post;
+            }
+        }
+        .reportage--all--icon__image{
+            width: 2rem;
+            height: 2.1rem;
+            margin-left: 0.8rem;
+        }
+    }
+    &--interested{
+        margin-top: 2.4rem;
+        margin-bottom: 6.4rem;
+        &__title{
+            margin-bottom: 2.4rem;
+            &--text{
+                font-weight: 500;
+                font-size: 1.8rem;
+                line-height: 2.1rem;
+                color: $color-post;
+            }
+        }
+        &__all{
+            &--item{
+                background: #FFFFFF;
+                border: 0.5px solid rgba(49, 49, 50, 0.5);
+                border-radius: 1rem;
+                margin-right: 0.6rem;
+                &--image{
+                    position: relative;
+                    img{
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                    }
+                }
+                &--text{
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    line-height: 150%;
+                    padding: 0.7rem 0.9rem 0.9rem 0.9rem;
+                }
+                &--banner{
+                    content: "";
+                    position: absolute;
+                    width: 16rem;
+                    height: 16rem;
+                    background-color: red;
+                    top: 0rem;
+                    clip-path: polygon(34% 0, 48% 0, 0 43%, 0 30%);
+                    margin-left: 0rem;
+                }
+            }
+        }
+    }
+}
+
+.fa-angle-right{
+    background-color: $white;
+    color: $color-post;
+    padding: 0.1rem 0.6rem;
+    border-radius: 50%;
+    margin-left: -6.9rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fa-angle-left{
+    background-color: $white;
+    color: $color-post;
+    padding: 0.1rem 0.6rem;
+    border-radius: 50%;
+    margin-left: 1.7rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reportage--post-new{
+    margin-top: 3rem;
+}
+.post--news{
+    .widget{
+        margin-bottom: 2.4rem;
+        // border-bottom: 1px solid $primary-color;
+    }
+    .widget_new_posts{
+        .widget-header{
+            .widget-title{
+                text-align: center;
+                font-size: 1.8rem;
+                width: 100%;
+                text-transform: uppercase;
+                background-color: $primary-color;
+                padding: 1rem;
+                margin-bottom: 0;
+                border-radius: 1rem 1rem 0 0;
+                font-weight: 400;
+                color: $white;
+                line-height: 2rem;
+            }
+        }
+        .text--widget{
+            border: 0.5px solid #e5e5e5;
+            border-top: none;
+            box-sizing: border-box;
+            border-radius: 0 0 1rem 1rem;
+            padding: 1rem;
+            &--item{
+                border-bottom: 1px solid #e5e5e5;
+                padding-bottom: 0.8rem;
+                padding-top: 0.7rem;
+                display: flex;
+                align-items: center;
+                .reportage--image{
+                    width: 10rem;
+                    height: 4.5rem;
+                    margin-right: 1rem;
+                }
+                &__name{
+                    a{
+                        font-size: 1.4rem;
+                        margin: 3px 0;
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        text-transform: inherit;
+                        line-height: 150%;
+                        color: $color-post;
+                        font-weight: 400;
+                    }
+                    // font-size: 1.2rem;
+                    // line-height: 2.1rem;
+                    // text-align: justify;
+                }
+            }
+        }
+    }
+    .widget_hotline{
+        .hotline{
+            &--title-box{
+                &__item{
+                    border-radius: 1rem 1rem 0 0;
+                    background-color: $primary-color;
+                    color: $color-text;
+                    padding: 1rem;
+                    margin-bottom: 0;
+                    font-weight: 500;
+                    line-height: 2rem;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                }
+            }
+            .content-box{
+                border: 0.5px solid #e5e5e5;
+                border-top: none;
+                border-radius: 0 0 1rem 1rem;
+                padding: 1rem;
+                &--item{
+                    display: flex;
+                    margin-top: 0;
+                    margin-bottom: 1.2rem;
+                    span{
+                        font-size: 1.4rem;
+                        line-height: 16.41px;
+                        i{
+                            color: #399C0C;
+                            padding-right: 5px;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .widget_text{
+        .widget-header{
+            border-bottom: 1px solid $primary-color;
+            display: flex;
+            .widget-title{
+                text-align: center;
+                width: 100%;
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                color: $white;
+                background-color: $primary-color;
+                padding: 1rem;
+                margin-bottom: 0;
+                border-radius: 1rem 1rem 0 0;
+                line-height: 2rem;
+            }
+        }
+        .textwidget{
+            .fix-form{
+                padding: 1.6rem 1rem 0 1rem;
+                border: 0.5px solid #e5e5e5;
+                border-radius: 0 0 1rem 1rem;
+                .form-group{
+                    margin-bottom: 1.6rem;
+                    display: flex;
+                    justify-content: center;
+                    .form-control{
+                        height: 3rem;
+                        font-size: 1.4rem;
+                        color: $color-post;
+                        outline: none;
+                    }
+                    .btn-success{
+                        font-size: 1.4rem;
+                        // line-height: 16.41px;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
