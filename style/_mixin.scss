@@ -1,5 +1,7 @@
 $res_mobile : "(min-width: 375px) and (max-width: 739px)";
 $res_tablet : "(min-width: 740px) and (max-width: 1023px)";
+$res_tablet-low: "(min-width: 532px) and (max-width: 633px)";
+
 $res_tablet-mobile: "(max-width: 1023px)";
 $res_pclow : "(min-width: 1024px)";
 @mixin responsive_mobile() {
@@ -9,6 +11,11 @@ $res_pclow : "(min-width: 1024px)";
 }
 @mixin responsive_tablet() {
   @media #{$res_tablet} {
+    @content;
+  }
+}
+@mixin responsive_tablet-low() {
+  @media #{$res_tablet-low} {
     @content;
   }
 }

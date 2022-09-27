@@ -3300,18 +3300,6 @@ a:hover {
   .header--menu--list .mobile-header-menu {
     display: none;
   }
-  .wrapper-search-bar {
-    height: 5.3rem;
-  }
-  .wrapper-search-bar .search-bar-suggestion {
-    margin-left: 1.5rem;
-  }
-  .wrapper-search-bar .search-bar .select-control-label .custom-dropbox-cate {
-    left: 0;
-  }
-  .wrapper-search-bar .search-bar .select-control-label .custom--form {
-    right: 0;
-  }
 }
 @media (max-width: 1023px) {
   .header--menu--list {
@@ -3346,16 +3334,6 @@ a:hover {
   }
   .header--menu--list .header--menu--nav__list--item .sub--nav.block {
     display: block;
-  }
-  .wrapper-search-bar .search-bar {
-    flex-wrap: wrap;
-  }
-  .wrapper-search-bar .search-bar .search-bar-suggestion {
-    width: 100%;
-  }
-  .wrapper-search-bar .search-bar .search-bar-suggestion--input .form-control {
-    background-color: #f2f2f2;
-    border: none;
   }
 }
 @media (min-width: 375px) and (max-width: 739px) {
@@ -4712,5 +4690,124 @@ a:hover {
   }
   .project--news--content {
     margin-top: 2rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 739px) {
+  .header .wrapper-search-bar {
+    display: block;
+    height: 26rem;
+  }
+  .search-bar-tab {
+    margin: 1.2rem 0;
+    width: 17rem;
+  }
+  .header .wrapper-search-bar .search-bar {
+    display: block;
+    position: relative;
+  }
+  .header .wrapper-search-bar .search-bar-suggestion {
+    margin-left: 0rem;
+    min-height: 4rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control {
+    float: left;
+    margin-top: 1rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control-label .custom-dropbox-cate {
+    min-width: 20rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control-label .custom--form {
+    width: 100%;
+    padding: 0.8rem 1.2rem 3.2rem 1.2rem;
+  }
+  .header .wrapper-search-bar .search-bar .re__state-icon--sm {
+    position: absolute;
+    display: inline-block;
+    top: 1rem;
+    left: 50%;
+  }
+  .content--detail .content-area .module .project--detail--item {
+    display: block;
+  }
+  .header .wrapper-search-bar .search-bar .search--box--btn {
+    margin-top: 1rem;
+  }
+  .content--detail .content-area .module .content--area__header--title {
+    font-size: 1.6rem;
+  }
+  .re__state-icon--sm {
+    display: none;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .rowset {
+    margin: 1rem 0;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item {
+    padding-right: 1.7rem;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .news-location {
+    margin: 1rem 0;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .wishlist {
+    bottom: 0rem;
+  }
+  .content--detail .content-area .module .nav-pagination .pagination .page--item {
+    padding: 0 1rem;
+  }
+  .display-none-mobile {
+    display: none;
+  }
+}
+@media (min-width: 532px) and (max-width: 633px) {
+  .header .wrapper-search-bar .search-bar .select-control-label .custom--form {
+    width: 100%;
+    padding: 0.8rem 1.2rem 3.2rem 1.2rem;
+    left: 0;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .header .wrapper-search-bar {
+    display: block;
+    height: 26rem;
+  }
+  .search-bar-tab {
+    margin: 1.2rem 0;
+    width: 17rem;
+  }
+  .header .wrapper-search-bar .search-bar {
+    display: block;
+  }
+  .header .wrapper-search-bar .search-bar-suggestion {
+    margin-left: 0rem;
+    min-height: 4rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control {
+    float: left;
+    margin-top: 1rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control-label .custom-dropbox-cate {
+    min-width: 20rem;
+  }
+  .header .wrapper-search-bar .search-bar .select-control-label .custom--form {
+    width: 100%;
+    padding: 0.8rem 1.2rem 3.2rem 1.2rem;
+  }
+  .header .wrapper-search-bar .search-bar .re__state-icon--sm {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  .header .wrapper-search-bar .search-bar .re__filter-wall {
+    height: 5rem;
+  }
+  .header .wrapper-search-bar .search-bar .search--box--btn {
+    margin-top: 1rem;
+  }
+  .content--detail .content-area .module .project--detail--item__image {
+    height: 32.2rem;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .rowset--item {
+    padding-right: 2.2rem;
+  }
+  .content--detail .content-area .module .project--detail--item .project--detail__text .news-location--address {
+    margin: 0.5rem 0;
   }
 }/*# sourceMappingURL=main.css.map */
