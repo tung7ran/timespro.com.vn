@@ -1,0 +1,63 @@
+@include responsive_mobile{
+    .banner--recruit{
+        height: 18.8rem !important;
+        width: 100%;
+        &--title{
+            width: 100%;
+            font-size: 2.4rem;
+            text-align: center;
+        }
+    }
+    .recruit-content .recruit--title{
+        font-size: 2.4rem;
+        padding: 2.4rem 0;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article .location--heading .location--title{
+        font-size: 2rem;
+        width: 80%;
+        padding: 0rem 0rem;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article .location--heading.plus::after,
+    .recruit-content .recruit-location .module .accordion .location--article .location--heading::after{
+        width: 2.8rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article{
+        margin-bottom: 2.2rem;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article .location--heading{
+        padding: 0rem 0rem;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article .location--body .location--content .wrap-button .button-send-cv{
+        padding: 1.3rem 1.7rem;
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    .recruit-content .recruit-location .module .accordion .location--article .location--heading.plus{
+        padding: 2rem 1rem;
+    }
+    .lineheight-title{
+        line-height: 2rem !important;
+        padding-bottom: 0.8rem !important;
+    }
+}
+
+@include responsive_tablet{
+    .banner--recruit{
+        height: 40.8rem;
+        width: 100%;
+        &--title{
+            width: 100%;
+            text-align: center;
+        }
+    }    
+}
+@include responsive_pclow{
+    .banner--recruit{
+        &--title{
+            width: 100%;
+            text-align: center;
+        }
+    }    
+}
