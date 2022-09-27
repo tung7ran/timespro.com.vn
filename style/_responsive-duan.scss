@@ -1,0 +1,45 @@
+@include responsive_mobile{
+    .content .banner--du__an{
+        height: 14rem !important;
+    }
+    .content .project--news{
+        margin-top: 2rem;
+    }
+    .project--news--heading{
+        margin-bottom: 2rem;
+    }
+    .project--news--content {
+        margin-top: 2rem;
+    }
+    .content .project--news .project--content--item{
+        display: block;
+    }
+    .project--content--item__images--project{
+        border-radius: 1rem;
+    }
+    .project--heading--list__item{
+        height: 5rem;
+    }
+    .content .project--news .project--news--heading::after{
+        display: none;
+    }
+    .content .project--news .project--news--heading .project--heading--list__item--link{
+        padding: 0rem 0rem;
+    }
+}
+
+@include responsive_tablet{
+    .content .banner--du__an{
+        height: 28rem;
+    }
+    .project--news--heading{
+        margin-bottom: 2rem;
+    }
+    .project--news--content {
+        margin-top: 2rem;
+    }
+}
+
+@include responsive_pclow{
+
+}
