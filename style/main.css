@@ -4835,4 +4835,18 @@ a:hover {
   .content--detail .content-area .module .project--detail--item .project--detail__text .news-location--address {
     margin: 0.5rem 0;
   }
+}
+@media (min-width: 375px) and (max-width: 739px) {
+  .modal-login .modal-dialog .modal-content {
+    max-width: 34rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 739px) {
+  .footer-bottom .footer-1 .footer-content-connect {
+    display: block;
+  }
+  .footer-icon {
+    margin: 1rem 0rem;
+    padding-left: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
