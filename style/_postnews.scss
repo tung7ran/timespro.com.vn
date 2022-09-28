@@ -53,6 +53,8 @@
                 border-top: 0.25px solid rgba(49, 49, 50, 0.5);
                 border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 &--item{
                     margin-right: 1.4rem;
                     &__title{

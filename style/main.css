@@ -1755,6 +1755,8 @@ a:hover {
   border-top: 0.25px solid rgba(49, 49, 50, 0.5);
   border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .content--detail .content-area .post-news .post--area--item {
   margin-right: 1.4rem;
@@ -2723,7 +2725,6 @@ a:hover {
   box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   z-index: 1;
-  padding: 0.4rem 1.2rem;
   width: 19.2rem;
   display: none;
 }
@@ -3562,6 +3563,10 @@ a:hover {
   .content-area .post-news .post--area {
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 4rem;
+  }
+  .content-area .post-news .post--area--item {
+    margin-bottom: 1rem;
   }
   .content-area .post-news .post--area--item__title {
     font-size: 1.4rem;

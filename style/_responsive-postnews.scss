@@ -103,7 +103,9 @@
             .post--area{
                 align-items: center;
                 justify-content: space-between;
+                padding: 1rem 4rem;
                 &--item{
+                    margin-bottom: 1rem;
                     &__title{
                         font-size: 1.4rem;
                         line-height: 1.6rem;
