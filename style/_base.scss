@@ -224,6 +224,30 @@ to {
  color: $more-color;
  font-size: 2.4rem;
 }
+
+.slick-prev-post{
+  position: absolute;
+  left: 2.4rem;
+  top: 50%;
+  z-index: 1;
+}
+.slick-next-post{
+  position: absolute;
+  right: 2.4rem;
+  top: 50%;
+  z-index: 1;
+
+}
+.slick-prev-post,
+.slick-next-post{
+  color: $color-post;
+  border: none;
+  font-size: 1.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: $white;
+  border-radius: 50%;
+}
 .clear{
   width: 100%;
   margin: 3.2rem 0;
@@ -252,4 +276,6 @@ to {
   }
 }
 
-
+.pull-control{
+  color: $color-post;
+}

@@ -293,5 +293,29 @@ $(document).ready(function(){
         $('.search-bar--box--item').removeClass("active");
         $(this).addClass("active");
     });
+    /**
+     * slick slide post news
+     */
+     $('.post-images-first').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      fade: true,
+      asNavFor: '.post-images-extra',
+      prevArrow: "<button type='button' class='slick-prev-post pull-left'><i class='fa-solid fa-chevron-left'></i></button>",
+      nextArrow: "<button type='button' class='slick-next-post pull-left'><i class='fa-solid fa-chevron-right'></i></button>",
+
+    });
+    
+    $('.post-images-extra').slick({
+      slidesToShow: 6,
+      // slidesToScroll: 1,
+      asNavFor: '.post-images-first',
+      dots: false,
+      centerMode: true,
+      focusOnSelect: true,
+      arrows: false,
+
+      });
 });
      

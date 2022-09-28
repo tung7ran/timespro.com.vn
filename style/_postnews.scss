@@ -2,9 +2,7 @@
     .content-area{
         .post-news{
             .post--images{
-                display: flex;
-                flex-wrap: wrap;
-                &--item{
+                  &--item{
                     padding-left: 0.4rem;
                     padding-right: 0.4rem;
                     padding-bottom: 0.4rem;
