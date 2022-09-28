@@ -807,15 +807,25 @@ a:hover {
 .content--banner .bds--options .tabs--content .bds--options--container .bds--options--select .options--extend--list__item--text {
   font-size: 1.4rem;
   border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content--banner .bds--options .tabs--content .bds--options--container .bds--options--select .options--extend--list__item .btn--more::before {
+  content: " ";
+  display: block;
+  border-top: 7px solid #000;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(0);
+  transition: all 0.5s;
 }
 .content--banner .bds--options .tabs--content .bds--options--container .open--options {
   display: none;
   overflow: scrollY;
 }
 .content--banner .bds--options .tabs--content .bds--options--container .open--options .options--category {
-  transition: 0.2s;
-  -webkit-animation: showModal ease-in 0.2s;
-          animation: showModal ease-in 0.2s;
+  transition: 0.1s;
 }
 .content .site--content {
   padding-top: 6rem;
@@ -4062,9 +4072,6 @@ a:hover {
 .reportage--numerical--list {
   display: flex;
   justify-content: center;
-}
-.reportage--numerical--list__link {
-  display: flex;
 }
 .reportage--numerical--list .border-none {
   border-right: none;
