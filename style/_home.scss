@@ -118,8 +118,8 @@
                         display: none;
                         overflow: scrollY;
                         .options--category{
-                            transition: 1s;
-                            animation: showModal ease-in 0.5s;
+                            transition: 0.2s;
+                            animation: showModal ease-in 0.2s;
                         }
                     }
                 }

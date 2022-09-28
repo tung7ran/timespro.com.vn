@@ -815,9 +815,9 @@ a:hover {
   overflow: scrollY;
 }
 .content--banner .bds--options .tabs--content .bds--options--container .open--options .options--category {
-  transition: 1s;
-  -webkit-animation: showModal ease-in 0.5s;
-          animation: showModal ease-in 0.5s;
+  transition: 0.2s;
+  -webkit-animation: showModal ease-in 0.2s;
+          animation: showModal ease-in 0.2s;
 }
 .content .site--content {
   padding-top: 6rem;
