@@ -374,6 +374,9 @@ a:hover {
 }
 .header .top-header .container {
   color: #FFECED;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header .top-header .container .left--header {
   display: flex;
