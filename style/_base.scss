@@ -103,7 +103,6 @@ html {
 }
 body{
   font-family: Roboto-Regular;
-
 }
 article,
 aside,
@@ -149,6 +148,10 @@ a:hover {
   transform: scaleY(1);
   transition: 1s;
 }
+.show{
+  display: block!important;
+}
+.mobile-menu-overlay,
 .overlay{
  position: fixed;
  top: 0;
@@ -156,13 +159,11 @@ a:hover {
  right: 0;
  bottom: 0;
  display: none;
+ z-index: 1;
 }
 .icon--rowset{
   color: #BC0F19;
   font-size: 1.4rem;
-}
-.container{
-  max-width: 1200px;
 }
 @keyframes showModal {
   from {
@@ -202,13 +203,11 @@ to {
       opacity: 1;
   }
 }
-
 .slick-prev{
   position: absolute;
   border: none;
   background-color: transparent;
   top: 35%;
-  left: -3rem;
   z-index: 1;
 }
 .slick-next{
@@ -216,7 +215,6 @@ to {
   border: none;
   background-color: transparent;
   top: 35%;
-  right: -3rem;
   z-index: 1;
 }
 .slick-prev,
@@ -224,25 +222,34 @@ to {
  color: $more-color;
  font-size: 2.4rem;
 }
+
+.slick-prev-post{
+  position: absolute;
+  left: 2.4rem;
+  top: 50%;
+  z-index: 1;
+}
+.slick-next-post{
+  position: absolute;
+  right: 2.4rem;
+  top: 50%;
+  z-index: 1;
+
+}
+.slick-prev-post,
+.slick-next-post{
+  color: $color-post;
+  border: none;
+  font-size: 1.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: $white;
+  border-radius: 50%;
+}
 .clear{
   width: 100%;
   margin: 3.2rem 0;
   border-bottom: 0.25px solid rgba(49, 49, 50, 0.5);
-}
-.mw21-4{
-  min-width: 21.4rem;
-}
-.mw-8{
-  min-width: 8rem;
-}
-.mw12-5{
-  min-width: 12.5rem;
-}
-.mr2{
-  padding-right: 2rem;
-}
-.fz-16{
-  font-size: 1.6rem!important;
 }
 @keyframes slideOn {
   0% {
@@ -267,4 +274,6 @@ to {
   }
 }
 
-
+.pull-control{
+  color: $color-post;
+}

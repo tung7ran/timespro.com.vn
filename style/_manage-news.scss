@@ -1,14 +1,10 @@
 .module{
     .manage--header{
         margin: 3.2rem 0 3.4rem 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+       
         &--left{
-            display: flex;
-            align-items: center;
+          
             &--item{
-                margin-right: 3rem;
                 .form-search{
                     position: relative;
                     .input--search{
@@ -75,14 +71,10 @@
         }
     }
     .manage-menu{
-        max-width: 60.4rem;
         &--list{
-                border-top: 0.25px solid $color-post;
-                border-left: 0.25px solid $color-post;
-                border-right: 0.25px solid $color-post;
                 border-radius: 0.5rem 0.5rem 0px 0px;
                 display: flex;
-
+                justify-content: space-between;
             &__item{
                 padding: 0.8rem;
                 &--link{
@@ -106,13 +98,8 @@
         }
     }
     .manage--body{
-        padding: 1.3rem 1.2rem;
-        border: 0.25px solid #313132;
-        border-radius: 0px 4px 4px 4px;
         &--heading{
-            display: flex;
             align-items: center;
-            // border-bottom: 0.25px solid #313132;
             padding-bottom: 0.7rem;
             &--title{
                 padding-right: 0;
@@ -121,27 +108,21 @@
                 line-height: 1.6rem;
                 color: $color-post;
                 font-weight: 600;
-                
                 word-wrap:break-word;
             }
         }
         .manage--content{
-            justify-content: space-between;
-            border-top: 0.25px solid $color-post;
             &--item{
                 padding-top: 1.2rem;
                 padding-bottom: 0.6rem;
                 padding-right: 0;
                 padding-left: 0;
-                position: relative;
                 &__text{
                     font-size: 1.4rem;
                     line-height: 1.6rem;
                     color: $color-post;
                 }
-                .content--item--image{
-                    width: 7rem;
-                }
+              
                 .content--item--body{
                     margin-left: 1.2rem;
                     .content--item--heading{
@@ -155,9 +136,11 @@
                             font-weight: 600;
                             margin-left: 1.2rem;
                             color: #BC0F19;
+                            opacity: 0.8;
                             padding: 0.2rem 0.4rem;
                             border: 0.25px solid rgba(188, 15, 25, 0.8);
                             border-radius: 2px;
+                            background-color: $color-text;
                         }
                     }
                     .content--item--title{
@@ -192,14 +175,13 @@
                     box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
                     border-radius: 4px;
                     z-index: 1;
-                    padding: 0.4rem 1.2rem;
                     width: 19.2rem;
                     display: none;
                     &-content{
                         &-item{
                             display: flex;
                             align-items: center;
-                            padding: 0.4rem 0;
+                            padding: 0.4rem 1.2rem;
                             &-image{
                                 width: 1.2rem;
                                 margin-right: 0.6rem;
@@ -211,12 +193,14 @@
                                 }
                             }
                         }
+                        &-item:hover{
+                            background-color: #ccc;
+                        }
                     }
                 }
                 .manage-interactive{
                     &--item{
                         display: flex;
-                        justify-content: space-between;
                         margin-bottom: 0.8rem;
                         &--title{
                             font-size: 1.4rem;

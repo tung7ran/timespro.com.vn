@@ -48,15 +48,19 @@
             <div class="header--menu">
                 <div class="container">
                     <div class="header--menu--list row">
-                        <div class="logo--images col-lg-2">
+                        <button class="navbar-mobile js-mobile-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="mobile-menu-overlay"></div>
+                        <div class="logo--images">
                             <a href="#">
                                 <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
                             </a>
                         </div>
-                        <div class="header--menu--nav col-lg-10">
+                        <div class="header--menu--nav js-mobile-menu">
                             <ul class="header--menu--nav__list">
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <div class="header--menu--nav__list--item--link">Dự án</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
@@ -70,7 +74,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <div  class="header--menu--nav__list--item--link">Bất động sản bán</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
@@ -102,7 +106,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <div class="header--menu--nav__list--item--link">Bất động sản cho thuê</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
@@ -134,7 +138,7 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <div class="header--menu--nav__list--item--link">Về Times Pro</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
@@ -149,335 +153,138 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="mobile-header-menu">
+                            <i class="mobile-header-menu-icon far fa-user-circle"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
         <div class="content">
             <div class="content--banner">
-                <div class="bds--options">
-                    <div class="bds--options--heading">
-                        <ul class="bds--options--heading__list">
-                            <li class="bds--options--heading__list--item active">
-                                <a href="#tab1">
-                                    <button class="bds--options--heading__list--item--link">BĐS Bán</button>
-                                </a>
-                            </li>
-                            <li class="bds--options--heading__list--item">
-                                <a href="#tab2">
-                                    <button class="bds--options--heading__list--item--link">bds cho thê</button>
-                                </a>
-                            </li>
-                            <li class="bds--options--heading__list--item">
-                                <a href="#tab3">
-                                    <button class="bds--options--heading__list--item--link">dự án</button>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tabs--content">
-                        <div class="bds--options--container" id="tab1">
-                            <div class="bds--options--search">
-                                <div class="bds--options--search__wrap">
-                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
-                                        class="bds--options--search__wrap--input">
-                                </div>
-                                <button class="bds--options--search__btn">
-                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
-                                </button>
-                            </div>
-                            <div class="bds--options--select row">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Loại nhà đất</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Diện tích</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Mức giá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="options--extend">
-                                        <div class="options--extend--list">
-                                            <div class="options--extend--list__item">
-                                                <button class="options--extend--list__item--text btn--more">
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
-                                                </button>
-                                            </div>
-                                            <div class="options--extend--list__item">
-                                                <p class="options--extend--list__item--text">
-                                                    <i class="fa-solid fa-rotate"></i> Xóa
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bds--options--select row open--options">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Phường xá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Đường phố</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Số phòng</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Hướng nhà</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    
-                                </div>
-                            </div>
+                <div class="container">
+                    <div class="bds--options">
+                        <div class="bds--options--heading">
+                            <ul class="bds--options--heading__list">
+                                <li class="bds--options--heading__list--item active">
+                                    <a href="#tab1">
+                                        <button class="bds--options--heading__list--item--link">BĐS Bán</button>
+                                    </a>
+                                </li>
+                                <li class="bds--options--heading__list--item">
+                                    <a href="#tab2">
+                                        <button class="bds--options--heading__list--item--link">bds cho thuê</button>
+                                    </a>
+                                </li>
+                                <li class="bds--options--heading__list--item">
+                                    <a href="#tab3">
+                                        <button class="bds--options--heading__list--item--link">dự án</button>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="bds--options--container" id="tab2">
-                            <div class="bds--options--search">
-                                <div class="bds--options--search__wrap">
-                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
-                                        class="bds--options--search__wrap--input">
+                        <div class="tabs--content">
+                            <div class="bds--options--container" id="tab1">
+                                <div class="bds--options--search">
+                                    <div class="bds--options--search__wrap">
+                                        <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
+                                            class="bds--options--search__wrap--input">
+                                    </div>
+                                    <button class="bds--options--search__btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
+                                    </button>
                                 </div>
-                                <button class="bds--options--search__btn">
-                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
-                                </button>
-                            </div>
-                            <div class="bds--options--select row">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                <div class="bds--options--select hide-mobile row">
+                                    <div class="col-lg-9 col-sm-9">
+                                        <div class="options--category">
+                                            <div class="options--category--list row">
+                                                <div class="options--category--list__item">
+                                                    <p class="options--category--list__item--text">Trên toàn quốc</p>
+                                                    <div class="options--category--list__item--icon">
+                                                        <i class="fa-solid fa-caret-up"></i>
+                                                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="options--category--list__item">
+                                                    <p class="options--category--list__item--text">Loại nhà đất</p>
+                                                    <div class="options--category--list__item--icon">
+                                                        <i class="fa-solid fa-caret-up"></i>
+                                                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="options--category--list__item">
+                                                    <p class="options--category--list__item--text">Diện tích</p>
+                                                    <div class="options--category--list__item--icon">
+                                                        <i class="fa-solid fa-caret-up"></i>
+                                                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="options--category--list__item">
+                                                    <p class="options--category--list__item--text">Mức giá</p>
+                                                    <div class="options--category--list__item--icon">
+                                                        <i class="fa-solid fa-caret-up"></i>
+                                                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Loại nhà đất</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-3">
+                                        <div class="options--extend">
+                                            <div class="options--extend--list">
+                                                <div class="options--extend--list__item">
+                                                    <button class="options--extend--list__item--text btn--more">
+                                                         Mở rộng
+                                                    </button>
                                                 </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Diện tích</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Mức giá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                <div class="options--extend--list__item">
+                                                    <p class="options--extend--list__item--text">
+                                                        <i class="fa-solid fa-rotate"></i> Xóa
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="options--extend">
-                                        <div class="options--extend--list">
-                                            <div class="options--extend--list__item">
-                                                <button class="options--extend--list__item--text btn--more">
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
-                                                </button>
-                                            </div>
-                                            <div class="options--extend--list__item">
-                                                <p class="options--extend--list__item--text">
-                                                    <i class="fa-solid fa-rotate"></i> Xóa
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bds--options--select row open--options">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Phường xá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Đường phố</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Số phòng</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Hướng nhà</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                <div class="open--options">
+                                    <div class="bds--options--select hide-mobile row">
+                                        <div class="col-lg-9 col-sm-9">
+                                            <div class="options--category">
+                                                <div class="options--category--list row">
+                                                    <div class="options--category--list__item">
+                                                        <p class="options--category--list__item--text">Phường xá</p>
+                                                        <div class="options--category--list__item--icon">
+                                                            <i class="fa-solid fa-caret-up"></i>
+                                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="options--category--list__item">
+                                                        <p class="options--category--list__item--text">Đường phố</p>
+                                                        <div class="options--category--list__item--icon">
+                                                            <i class="fa-solid fa-caret-up"></i>
+                                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="options--category--list__item">
+                                                        <p class="options--category--list__item--text">Số phòng</p>
+                                                        <div class="options--category--list__item--icon">
+                                                            <i class="fa-solid fa-caret-up"></i>
+                                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="options--category--list__item">
+                                                        <p class="options--category--list__item--text">Hướng nhà</p>
+                                                        <div class="options--category--list__item--icon">
+                                                            <i class="fa-solid fa-caret-up"></i>
+                                                            <i class="fa-sharp fa-solid fa-caret-down"></i>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bds--options--container" id="tab3">
-                            <div class="bds--options--search">
-                                <div class="bds--options--search__wrap">
-                                    <input type="text" placeholder="Tìm kiếm địa điểm, khu vực"
-                                        class="bds--options--search__wrap--input">
-                                </div>
-                                <button class="bds--options--search__btn">
-                                    <i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm
-                                </button>
-                            </div>
-                            <div class="bds--options--select row">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Trên toàn quốc</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Loại nhà đất</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Diện tích</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Mức giá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
+                                        <div class="col-lg-3 col-sm-3">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="options--extend">
-                                        <div class="options--extend--list">
-                                            <div class="options--extend--list__item">
-                                                <button class="options--extend--list__item--text btn--more">
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i> Mở rộng
-                                                </button>
-                                            </div>
-                                            <div class="options--extend--list__item">
-                                                <p class="options--extend--list__item--text">
-                                                    <i class="fa-solid fa-rotate"></i> Xóa
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bds--options--select row open--options">
-                                <div class="col-lg-9">
-                                    <div class="options--category">
-                                        <div class="options--category--list row">
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Phường xá</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Đường phố</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Số phòng</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                            <div class="options--category--list__item">
-                                                <p class="options--category--list__item--text">Hướng nhà</p>
-                                                <div class="options--category--list__item--icon">
-                                                    <i class="fa-solid fa-caret-up"></i>
-                                                    <i class="fa-sharp fa-solid fa-caret-down"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
                                 </div>
                             </div>
                         </div>
@@ -497,7 +304,7 @@
                                     </header>
                                     <div class="module-content">
                                         <div class="row">
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -527,7 +334,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -557,7 +364,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -599,7 +406,7 @@
                                     </header>
                                     <div class="module-content">
                                         <div class="row">
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -639,7 +446,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -679,7 +486,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -719,7 +526,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -759,7 +566,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -799,7 +606,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -851,7 +658,7 @@
                                     </header>
                                     <div class="module-content">
                                         <div class="row">
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -891,7 +698,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -931,7 +738,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -971,7 +778,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -1011,7 +818,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -1051,7 +858,7 @@
                                                     </div>
                                                 </article>
                                             </div>
-                                            <div class="module-content--item col-6 col-sm-12 col-md-4 mb-6">
+                                            <div class="module-content--item col-6 col-sm-6 col-md-4 mb-6">
                                                 <article class="mh-estate-vertical">
                                                     <div class="module-content--item__image">
                                                         <a href="!#">
@@ -1126,9 +933,8 @@
                                                         tố quy hoạch, hệ thống giao thông hạ tầng, xu hướng giãn dân và
                                                         chính sách cởi mở là những yếu tố giúp kích thích thị trường
                                                         BĐS...
-                                                        <a class="news--post--more" href="https://timespro.com.vn/360-do-nhung-dieu-lam-nen-su-hap-dan-cua-bds-quang-ninh/"
-                                                            class="module-more">Xem thêm</a>
                                                     </p>
+                                                    <a class="fast--news--more" href="https://timespro.com.vn/360-do-nhung-dieu-lam-nen-su-hap-dan-cua-bds-quang-ninh/">Xem thêm</a>
                                                 </article>
                                             </div>
                                             <div class="col-12 col-md-5 col-lg-5">
@@ -1245,36 +1051,56 @@
                                     </header>
                                     <div class="module-content">
                                         <div class="investor--group row">
-                                            <a href="!#">
-                                                <img src="./images/group/bms.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/vin.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/nava.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/anthinh.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/haiphat.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/bms.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/vin.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/nava.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/anthinh.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/haiphat.png" alt="">
-                                            </a>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/bms.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/vin.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/nava.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/anthinh.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/haiphat.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/bms.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/vin.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/nava.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/anthinh.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/haiphat.png" alt="">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </section>
@@ -1286,42 +1112,63 @@
                                     </header>
                                     <div class="module-content">
                                         <div class="investor--group row">
-                                            <a href="!#">
-                                                <img src="./images/group/vietcom.png" alt="">
-                                            </a>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/vietcom.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/tech.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/mb.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/tp-500x247.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/bidv.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/vietcom.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                  
                                             <a href="!#">
                                                 <img src="./images/group/tech.png" alt="">
                                             </a>
-                                            <a href="!#">
-                                                <img src="./images/group/mb.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/tp-500x247.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/bidv.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/vietcom.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/tech.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/mb.jpg" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/tp-500x247.png" alt="">
-                                            </a>
-                                            <a href="!#">
-                                                <img src="./images/group/bidv.jpg" alt="">
-                                            </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/mb.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/tp-500x247.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="investor--group--image">
+                                                <a href="!#">
+                                                    <img src="./images/group/bidv.jpg" alt="">
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </section>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 hide-mobile">
                             <div class="post--news">
                                 <section id="new_posts-5" class="widget widget_new_posts">
                                     <header class="widget-header">
@@ -1589,14 +1436,14 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12">
+                        <div class="col-6 col-sm-6 col-md-12">
                             <div class="logo-bottom">
                                 <img src="https://timespro.com.vn/wp-content/themes/ls/images/logo_bottom.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-5 footer-column">
+                        <div class="col-12 col-sm-12 col-md-5 footer-column">
                             <div class="footer-1">
                                 <h4 class="footer-title">Chuyên gia hàng đầu về Bất động sản Long Biên</h4>
                                 <p class="footer-sub-title">Công ty Cổ phần Bất Động Sản Times Pro</p>
@@ -1624,7 +1471,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="footer-icon">
+                                    <div class="footer-icon d-flex">
                                         <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
                                         <a href="#"><img src="./images/icon/youtube.svg" alt=""></a>
                                         <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
@@ -1632,7 +1479,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                        <div class="col-6 col-sm-6 col-md-2 footer-column">
                             <div class="footer-2">
                                 <h4 class="footer-title">Hướng dẫn</h4>
                                 <ul>
@@ -1645,7 +1492,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                        <div class="col-6 col-sm-6 col-md-2 footer-column">
                             <div class="footer-3">
                                 <h4 class="footer-title">Quy định</h4>
                                 <ul>
@@ -1658,7 +1505,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 footer-column">
+                        <div class="col-12 col-sm-12 col-md-3 footer-column">
                             <div class="footer-4">
                                 <h4 class="footer-title"">Liên hệ</h4>
                                     <p class="footer-advise">

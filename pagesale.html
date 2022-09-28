@@ -46,15 +46,19 @@
             <div class="header--menu">
                 <div class="container">
                     <div class="header--menu--list row">
-                        <div class="logo--images col-lg-2">
+                        <button class="navbar-mobile js-mobile-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="mobile-menu-overlay"></div>
+                        <div class="logo--images">
                             <a href="#">
                                 <img src="./images/df639a6b9c7a5824016b.jpg" alt="">
                             </a>
                         </div>
-                        <div class="header--menu--nav col-lg-10">
+                        <div class="header--menu--nav js-mobile-menu">
                             <ul class="header--menu--nav__list">
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Dự án</a>
+                                    <div class="header--menu--nav__list--item--link">Dự án</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Biệt thự liền kề</a>
@@ -68,7 +72,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản bán</a>
+                                    <div  class="header--menu--nav__list--item--link">Bất động sản bán</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Bán nhà riêng</a>
@@ -100,7 +104,7 @@
                                     </ul>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Bất động sản cho thuê</a>
+                                    <div class="header--menu--nav__list--item--link">Bất động sản cho thuê</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê nhà riêng</a>
@@ -123,7 +127,6 @@
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê kho, nhà xưởng, đất</a>
                                         </li>
-                                       
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Cho thuê loại bất động sản khác</a>
                                         </li>
@@ -133,7 +136,7 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tin tức</a>
                                 </li>
                                 <li class="header--menu--nav__list--item">
-                                    <a href="!#" class="header--menu--nav__list--item--link">Về Times Pro</a>
+                                    <div class="header--menu--nav__list--item--link">Về Times Pro</div>
                                     <ul class="sub--nav">
                                         <li class="sub--nav--item">
                                             <a href="!#" class="sub--nav--item--link">Giới thiệu</a>
@@ -147,6 +150,9 @@
                                     <a href="!#" class="header--menu--nav__list--item--link">Tuyển dụng</a>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="mobile-header-menu">
+                            <i class="mobile-header-menu-icon far fa-user-circle"></i>
                         </div>
                     </div>
                 </div>
@@ -638,14 +644,14 @@
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12">
+                        <div class="col-6 col-sm-6 col-md-12">
                             <div class="logo-bottom">
                                 <img src="https://timespro.com.vn/wp-content/themes/ls/images/logo_bottom.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-5 footer-column">
+                        <div class="col-12 col-sm-12 col-md-5 footer-column">
                             <div class="footer-1">
                                 <h4 class="footer-title">Chuyên gia hàng đầu về Bất động sản Long Biên</h4>
                                 <p class="footer-sub-title">Công ty Cổ phần Bất Động Sản Times Pro</p>
@@ -673,7 +679,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="footer-icon">
+                                    <div class="footer-icon d-flex">
                                         <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
                                         <a href="#"><img src="./images/icon/youtube.svg" alt=""></a>
                                         <a href="#"><img src="./images/icon/facebook.svg" alt=""></a>
@@ -681,7 +687,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                        <div class="col-6 col-sm-6 col-md-2 footer-column">
                             <div class="footer-2">
                                 <h4 class="footer-title">Hướng dẫn</h4>
                                 <ul>
@@ -694,7 +700,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-2 footer-column">
+                        <div class="col-6 col-sm-6 col-md-2 footer-column">
                             <div class="footer-3">
                                 <h4 class="footer-title">Quy định</h4>
                                 <ul>
@@ -707,7 +713,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-3 footer-column">
+                        <div class="col-12 col-sm-12 col-md-3 footer-column">
                             <div class="footer-4">
                                 <h4 class="footer-title"">Liên hệ</h4>
                                     <p class="footer-advise">

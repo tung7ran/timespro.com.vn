@@ -1,0 +1,125 @@
+@include responsive_pclow{
+    .header--menu{
+        &--list{
+            .navbar-mobile{
+                display: none;
+            }
+            .header--menu--nav{
+                display: block;
+                &__list{
+                    display: flex;
+                    justify-content: flex-end;
+                    &--item{
+                        padding: 0 1.6rem;
+                        .sub--nav{
+                            position: absolute;
+                            top: 3.5rem;
+                            left: 0;
+                            width: 22.4rem;
+                            right: 0;
+                            background: rgba(175, 31, 38, 0.7);
+                            display: none;
+                            &--item{
+                                &--link{
+                                    color: $white;
+                                    max-width: 22.4rem;
+                                }
+                            }
+                        }
+                        .sub--nav::before{
+                            content: "";
+                            padding: 2rem 11rem 0 11rem;
+                        }
+                    }
+                    &--item:hover .sub--nav{
+                        display: block;
+                        transition-delay:1s;
+                    }
+                }
+            }
+            .mobile-header-menu{
+                display: none;
+            }
+        }
+    }
+    // .wrapper-search-bar{
+    //     height: 5.3rem;
+    //     .search-bar{
+    //         &-suggestion{
+    //             margin-left: 1.5rem;
+    //         }
+    //         .select-control{
+    //             &-label{
+    //                 .custom-dropbox-cate{
+    //                     left: 0;
+    //                 }
+    //                 .custom--form{
+    //                     right: 0;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}
+@include responsive_tablet_mobile{
+    .header--menu{
+        &--list{
+            position: relative;
+            .logo--images{
+                margin: 0 auto;
+            }
+            .header--menu--nav{
+                position: absolute;
+                background-color: $white;
+                z-index: 2;
+                top: 4rem;
+                left: 1rem;
+                display: none;
+                animation: drop-down 0.3s ease-in;
+                &__list{
+                    &--item{
+                        border-bottom: 1px solid $color-post;
+                        padding: 2rem;
+                        &--link{
+                        }
+                        .sub--nav{
+                            margin-top: 0.5rem;
+                            display: none;
+                            &--item{
+                                display: grid;
+                                &--link{
+                                    color: #000;
+                                }
+                            }
+                        }
+                        .sub--nav.block{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // .wrapper-search-bar{
+    //     .search-bar{
+    //         flex-wrap: wrap;
+    //         .search-bar-suggestion{
+    //             width: 100%;
+    //             &--input{
+    //                 .form-control{
+    //                     background-color: #f2f2f2;
+    //                     border: none;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}
+@include responsive_tablet{
+
+}
+@include responsive_mobile{
+    .top-header{
+        display: none;
+    }
+}

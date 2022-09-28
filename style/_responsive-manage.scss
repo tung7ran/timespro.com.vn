@@ -1,0 +1,176 @@
+@include responsive_pclow{
+    .hide-on-pc{
+        display: none;
+    }
+    .pl-3{
+        padding-left: 3rem!important;
+    }
+    .form--info{
+        .form-group{
+        margin-bottom: 2.4rem;
+            display: flex;
+            .form-control{
+                width: 30rem;
+            }
+            .form-address{
+                width: 50rem;
+            }
+        }
+        
+    }
+    .manage--header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--left{
+            display: flex;
+            align-items: center;
+            &--item{
+                margin-right: 3rem;
+            }
+        }
+    }
+    .manage-menu{
+        &--list{
+            border-top: 0.25px solid $color-post;
+            border-left: 0.25px solid $color-post;
+            border-right: 0.25px solid $color-post;
+        }
+    }
+    .manage--body{
+        border: 0.25px solid #313132;
+        padding: 1.3rem 1.2rem;
+        &--heading{
+            display: flex;
+        }
+        .manage--content{
+            padding-right: 0;
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+            border-top: 0.25px solid $color-post;
+            &--item{
+                .content--item--image{
+                    width: 7rem;
+                    height: 7rem;
+                }
+                .content--item--body{
+                    .content--item--heading{
+                        display: flex;
+                    }
+                }
+                .manage-interactive{
+                    &--item{
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive_tablet_mobile{
+    .hide-table-mobile{
+        display: none;
+    }
+    .pl-3{
+        padding-left: 0!important;
+    }
+   
+    .manage-menu{
+        &--list{
+            border: 1px solid $color-post;
+        }
+    }
+    .manage--body{
+        display: flex;
+        flex-wrap: wrap;
+        &--heading{
+            display: none;
+        }
+        .manage--content{
+        border: 1px solid #bbafc566;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+            &--item{
+                .content--item--image{
+                    width: 7rem;
+                    height: 7rem;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .content--item--body{
+                    padding-left: 0;
+                    padding-right: 0;
+                    .content--item--heading{
+                        display: none;
+                    }
+                }
+                .manage-interactive{
+                    display: flex;
+                    &--item{
+                        flex-direction: row-reverse;
+                        margin-right: 1rem;
+                        img{
+                            margin-right: 0.5rem;
+                        }
+                    }
+                }
+            }
+            .item-more,
+            .manage--content--img{
+                order: -1;
+            }
+        }
+        
+    }
+}
+@include responsive_tablet{
+    .manage--header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--left{
+            display: flex;
+            align-items: center;
+            &--item{
+                margin-right: 3rem;
+            }
+        }
+    }
+    .form--info{
+        .form-group{
+        margin-bottom: 2.4rem;
+            display: flex;
+            .form-control{
+                width: 30rem;
+            }
+            .form-address{
+                width: 50rem;
+            }
+        }
+        
+    }
+}
+@include responsive_mobile{
+    .form--info{
+        .form-group{
+            .form-control{
+                margin-top: 0.5rem;
+            }
+           
+        }
+        
+    }
+    .manage--header{
+        display: none;
+    }
+     .manage-menu{
+        display: none;
+     }  
+     .manage--body{
+        margin-top: 2rem;
+     }
+}

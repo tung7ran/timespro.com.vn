@@ -1,0 +1,20 @@
+@include responsive_mobile{
+    .reportage--content--image{
+        height: 24rem !important;
+    }
+    .reportage--content--image__text{
+        width: 100%;
+        font-size: 3.8rem;
+        text-align: center;
+    }
+}
+
+@include responsive_tablet{
+    .reportage--content--image{
+        height: 37.8rem;
+    }
+}
+
+@include responsive_pclow{
+    
+}

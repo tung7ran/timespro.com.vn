@@ -1,0 +1,227 @@
+@include responsive_pclow{
+    .container{
+        max-width: 1200px;
+    }
+  .content--banner{
+    .bds--options{
+        width: 63rem;
+        &--heading{
+            &__list{
+                &--item{
+                    &--link{
+                        width: 21rem;
+                        font-size: 1.6rem;
+                        line-height: 4.2rem;
+                    }
+                }
+            }
+        }
+        .tabs--content{
+            background: rgb(251, 249, 242, 0.6);
+            .bds--options--container{
+                .bds--options--search{
+                    display: flex;
+                    align-items: center;
+                    margin: 0.5rem 0.6rem;
+                }
+            }
+        }
+    }
+  }
+    .site--main{
+        &--module{
+            .module-content{
+                &--item{
+                    &__image{
+                        height: 14rem;
+                    }
+                    &__info{
+                        &--title{
+                            a{
+                                font-size: 1.5rem;
+                                line-height: 1.9rem;
+                            }
+                        }
+                        &--desc{
+                            .rowset{
+                                .sub-content{
+                                    &--desc{
+                                        font-size: 1.4rem;
+                                    }
+                                }
+                                .view-post-project{
+                                    a{
+                                        font-size: 1.6rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
+    }
+}
+@include responsive_tablet_mobile{
+    .hide-mobile{
+        display: none;
+    }
+}
+@include responsive_tablet{
+    .content--banner{
+        .bds--options{
+        width: 63rem;
+        &--heading{
+                &__list{
+                    &--item{
+                        &--link{
+                            width: 21rem;
+                            font-size: 1.6rem;
+                            line-height: 4.2rem;
+                        }
+                    }
+                }
+            }
+            .tabs--content{
+                background: rgb(251, 249, 242, 0.6);
+                .bds--options--container{
+                    .bds--options--search{
+                        display: flex;
+                        align-items: center;
+                        margin: 0.5rem 0.6rem;
+                    }
+                }
+            }
+        }
+      }
+      .site--main{
+        &--module{
+            .module-content{
+                &--item{
+                    &__image{
+                        height: 14rem;
+                    }
+                    &__info{
+                        &--title{
+                            a{
+                                font-size: 1.5rem;
+                                line-height: 1.9rem;
+                            }
+                        }
+                        &--desc{
+                            .rowset{
+                                .sub-content{
+                                    &--desc{
+                                        font-size: 1.4rem;
+                                    }
+                                }
+                                .view-post-project{
+                                    a{
+                                        font-size: 1.6rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
+    }
+}
+@include responsive_mobile{
+    .content--banner{
+        .bds--options{
+            width: 100%;
+            padding: 2rem;
+            &--heading{
+                width: 100%;
+                &__list{
+                    &--item{
+                        width: 33.3333333%;
+                        &--link{
+                           font-size: 1.2rem;
+                          width: 100%;
+                          padding: 1rem 0;
+                        }
+                    }
+                }
+            }
+            .tabs--content{
+                .bds--options--container{
+                    .bds--options--search{
+                        &__wrap{
+                            margin: 1rem 0;
+                        }
+                        &__btn{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+      }
+      .site--main--module{
+        .module-content{
+            .fast--news{
+                &--desc{
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 4;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+      }
+      .site--main{
+        &--module{
+            .module-content{
+                &--item{
+                    padding: 0 0.5rem;
+                    &__image{
+                    }
+                    &__info{
+                        &--title{
+                            a{
+                                font-size: 1.2rem;
+                                line-height: 1.3rem;
+                            }
+                        }
+                        &--desc{
+                            .rowset{
+                                .sub-content{
+                                    &--desc{
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                                .view-post-project{
+                                    a{
+                                        font-size: 1.2rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev{
+        left: -1rem;
+    }
+    .slick-next{
+        right: -1rem;
+    }
+}

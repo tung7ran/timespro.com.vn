@@ -1,0 +1,328 @@
+@include responsive_pclow{
+    .sale--container{
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 25.6rem;
+                        }
+                    }
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 24.7rem;
+                            }
+                        }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 3rem;
+                                padding: 2.1rem 5.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .module{
+        .manage-menu{
+            max-width: 60.4rem;
+        }
+        .manage--body{
+        border-radius: 0px 4px 4px 4px;
+        }
+    }
+    .form--post-modal{
+        .form--post__inner{
+            width: 77rem;
+            height: 51.2rem;
+            .modal-header{
+                padding: 1.15rem 1.6rem 1.15rem 7rem;
+            }
+            .modal-body{
+                padding: 2.4rem 7rem 0 7rem;
+
+                .tabs--list{
+                    .project--detail{
+                        &--item{
+                            display: flex;
+                            &__image{
+                                a{
+                                    img{
+                                        width: 17.3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .content--detail{
+                        margin-top: 0;
+                        .content--modal--detail{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            .content-area{
+                                .site--main{
+                                    .post-news{
+                                        .post--area{
+                                            margin: 1.6rem 0 2.4rem 0;
+                                            &--item{
+                                                margin-right: 1.4rem;
+                                                &__quota{
+                                                    font-size: 2rem;
+                                                    line-height: 3rem;
+                                                }
+                                            }
+                                        }
+                                        .post--desc{
+                                            &--title{
+                                                font-size: 1.8rem;
+                                                line-height: 2.1rem;
+                                            }
+                                            &--text{
+                                                font-size: 1.6rem;
+                                                line-height: 1.8rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .modal-info{
+                                width: 17.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@include responsive_tablet_mobile{
+    .hide-mobile{
+        display: none;
+    }
+    .sale--header{
+        margin-top: 1rem;
+    }
+    .module{
+        .manage-menu{
+            
+         }
+        .manage--body{
+        border-radius: 0px 0px 4px 4px;
+        }
+
+    }
+    .info--user__content--modal{
+        display: block!important;
+        .info--user__content--image{
+            margin: 0 auto;
+        }
+    }
+   
+}
+@include responsive_tablet{
+    .sale--container{
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 25.6rem;
+                        }
+                    }
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 24.7rem;
+                            }
+                        }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 3rem;
+                                padding: 2.1rem 5.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form--post-modal{
+        .form--post__inner{
+            width: 60rem;
+            height: 50rem;
+            .modal-body{
+                .tabs--list{
+                    .project--detail{
+                        &--item{
+                            display: flex;
+                            &__image{
+                                a{
+                                    img{
+                                        width: 17.3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .content--detail{
+                        margin-top: 0;
+                        .content--modal--detail{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            .content-area{
+                                .site--main{
+                                    .post-news{
+                                        .post--text{
+
+                                        }
+                                        .post--area{
+                                            margin: 1.6rem 0 2.4rem 0;
+                                            &--item{
+                                                margin-right: 1.4rem;
+                                                &__quota{
+                                                    font-size: 2rem;
+                                                    line-height: 3rem;
+                                                }
+                                            }
+                                        }
+                                        .post--desc{
+                                            &--title{
+                                                font-size: 1.8rem;
+                                                line-height: 2.1rem;
+                                            }
+                                            &--text{
+                                                font-size: 1.6rem;
+                                                line-height: 1.8rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .modal-info{
+                                width: 17.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include responsive_mobile{
+    .sale--container{
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 1.8rem;
+                    line-height: 2rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 18rem;
+                        }
+                    }
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 10rem;
+                            }
+                        }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 1rem;
+                                padding: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form--post-modal{
+        .form--post__inner{
+            min-width: 32rem;
+            height: 50rem;
+            .modal-body{
+                padding-top: 1rem;
+                .tabs--list{
+                    .project--detail{
+                        &--item{
+                            &__image{
+                                a{
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .content--detail{
+                        margin-top: 0;
+                        .content--modal--detail{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            flex-direction: column-reverse;
+                            .content-area{
+                                .site--main{
+                                    .post-news{
+                                        .post--text{
+
+                                        }
+                                        .post--area{
+                                            margin: 1.2rem 0;
+                                            &--item{
+                                                &__quota{
+                                                    font-size: 1.4rem;
+                                                    line-height: 1.6rem;
+                                                }
+                                            }
+                                        }
+                                        .post--desc{
+                                            &--title{
+                                                font-size: 1.6rem;
+                                                line-height: 1.8rem;
+                                            }
+                                            &--text{
+                                                font-size: 1.4rem;
+                                                line-height: 1.6rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .modal-content{
+                                padding-right: 0;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+   
+}
