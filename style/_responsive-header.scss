@@ -26,14 +26,14 @@
                                 }
                             }
                         }
-                        .sub--nav::before{
-                            content: "";
-                            padding: 2rem 11rem 0 11rem;
-                        }
+                        // .sub--nav::before{
+                        //     content: "";
+                        //     padding: 2rem 11rem 0 11rem;
+                        // }
                     }
                     &--item:hover .sub--nav{
                         display: block;
-                        transition-delay:1s;
+                        transition: 0.3s;
                     }
                 }
             }
