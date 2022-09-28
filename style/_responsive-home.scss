@@ -61,6 +61,12 @@
             }
         }
     }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
+    }
 }
 @include responsive_tablet_mobile{
     .hide-mobile{
@@ -126,6 +132,12 @@
                 }
             }
         }
+    }
+    .slick-prev{
+        left: -3rem;
+    }
+    .slick-next{
+        right: -3rem;
     }
 }
 @include responsive_mobile{
@@ -205,5 +217,11 @@
                 }
             }
         }
+    }
+    .slick-prev{
+        left: -1rem;
+    }
+    .slick-next{
+        right: -1rem;
     }
 }

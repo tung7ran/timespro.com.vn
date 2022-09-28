@@ -269,7 +269,6 @@ a:hover {
   border: none;
   background-color: transparent;
   top: 35%;
-  left: -3rem;
   z-index: 1;
 }
 
@@ -278,7 +277,6 @@ a:hover {
   border: none;
   background-color: transparent;
   top: 35%;
-  right: -3rem;
   z-index: 1;
 }
 
@@ -3405,6 +3403,12 @@ a:hover {
   .site--main--module .module-content--item__info--desc .rowset .view-post-project a {
     font-size: 1.6rem;
   }
+  .slick-prev {
+    left: -3rem;
+  }
+  .slick-next {
+    right: -3rem;
+  }
 }
 @media (max-width: 1023px) {
   .hide-mobile {
@@ -3440,6 +3444,12 @@ a:hover {
   }
   .site--main--module .module-content--item__info--desc .rowset .view-post-project a {
     font-size: 1.6rem;
+  }
+  .slick-prev {
+    left: -3rem;
+  }
+  .slick-next {
+    right: -3rem;
   }
 }
 @media (min-width: 375px) and (max-width: 739px) {
@@ -3483,6 +3493,12 @@ a:hover {
   }
   .site--main--module .module-content--item__info--desc .rowset .view-post-project a {
     font-size: 1.2rem;
+  }
+  .slick-prev {
+    left: -1rem;
+  }
+  .slick-next {
+    right: -1rem;
   }
 }
 @media (min-width: 1024px) {
