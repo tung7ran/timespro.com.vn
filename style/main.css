@@ -2690,9 +2690,11 @@ a:hover {
   font-weight: 600;
   margin-left: 1.2rem;
   color: #BC0F19;
+  opacity: 0.8;
   padding: 0.2rem 0.4rem;
   border: 0.25px solid rgba(188, 15, 25, 0.8);
   border-radius: 2px;
+  background-color: #FFECED;
 }
 .module .manage--body .manage--content--item .content--item--body .content--item--title {
   font-size: 1.4rem;
@@ -2731,7 +2733,7 @@ a:hover {
 .module .manage--body .manage--content--item .morebox-content-item {
   display: flex;
   align-items: center;
-  padding: 0.4rem 0;
+  padding: 0.4rem 1.2rem;
 }
 .module .manage--body .manage--content--item .morebox-content-item-image {
   width: 1.2rem;
@@ -2740,6 +2742,9 @@ a:hover {
 .module .manage--body .manage--content--item .morebox-content-item--text h4 {
   font-size: 1.4rem;
   line-height: 1.6rem;
+}
+.module .manage--body .manage--content--item .morebox-content-item:hover {
+  background-color: #ccc;
 }
 .module .manage--body .manage--content--item .manage-interactive--item {
   display: flex;
