@@ -1,32 +1,30 @@
 @include responsive_pclow{
     .sale--container{
-        .post--news-content{
-            .sale--content{
-                .information--basic{
-                    .information--title{
-                        font-size: 2.4rem;
-                        line-height: 2.8rem;
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 25.6rem;
+                        }
                     }
-                    .module{
-                        .info--address{
-                            &--maps{
-                                height: 25.6rem;
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 24.7rem;
                             }
                         }
-                        .info--post--form{
-                            .form-group{
-                                margin-bottom: 4rem;
-                                .form-textarea{
-                                    height: 24.7rem;
-                                }
-                            }
-                        }
-                        .info--bds{
-                            &--form{
-                                .form--media{
-                                    margin-right: 3rem;
-                                    padding: 2.1rem 5.3rem;
-                                }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 3rem;
+                                padding: 2.1rem 5.3rem;
                             }
                         }
                     }
@@ -134,33 +132,31 @@
 }
 @include responsive_tablet{
     .sale--container{
-        .post--news-content{
-            .sale--content{
-                .information--basic{
-                    .information--title{
-                        font-size: 2.4rem;
-                        line-height: 2.8rem;
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 25.6rem;
+                        }
                     }
-                    .module{
-                        .info--address{
-                            &--maps{
-                                height: 25.6rem;
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 24.7rem;
                             }
                         }
-                        .info--post--form{
-                            .form-group{
-                                margin-bottom: 4rem;
-                                .form-textarea{
-                                    height: 24.7rem;
-                                }
-                            }
-                        }
-                        .info--bds{
-                            &--form{
-                                .form--media{
-                                    margin-right: 3rem;
-                                    padding: 2.1rem 5.3rem;
-                                }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 3rem;
+                                padding: 2.1rem 5.3rem;
                             }
                         }
                     }
@@ -233,33 +229,31 @@
 }
 @include responsive_mobile{
     .sale--container{
-        .post--news-content{
-            .sale--content{
-                .information--basic{
-                    .information--title{
-                        font-size: 1.8rem;
-                        line-height: 2rem;
+        .sale--content{
+            .information--basic{
+                .information--title{
+                    font-size: 1.8rem;
+                    line-height: 2rem;
+                }
+                .module{
+                    .info--address{
+                        &--maps{
+                            height: 18rem;
+                        }
                     }
-                    .module{
-                        .info--address{
-                            &--maps{
-                                height: 18rem;
+                    .info--post--form{
+                        .form-group{
+                            margin-bottom: 4rem;
+                            .form-textarea{
+                                height: 10rem;
                             }
                         }
-                        .info--post--form{
-                            .form-group{
-                                margin-bottom: 4rem;
-                                .form-textarea{
-                                    height: 10rem;
-                                }
-                            }
-                        }
-                        .info--bds{
-                            &--form{
-                                .form--media{
-                                    margin-right: 1rem;
-                                    padding: 1rem;
-                                }
+                    }
+                    .info--bds{
+                        &--form{
+                            .form--media{
+                                margin-right: 1rem;
+                                padding: 1rem;
                             }
                         }
                     }

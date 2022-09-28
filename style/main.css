@@ -450,6 +450,7 @@ a:hover {
 .header .header--menu .header--menu--list .header--menu--nav__list--item .sub--nav--item:hover > a {
   background-color: #ccc;
   color: #000;
+  display: block;
 }
 .header .header--menu .header--menu--list .header--menu--nav__list--item:hover .header--menu--nav__list--item--link {
   color: rgb(175, 31, 38);
@@ -3552,20 +3553,20 @@ a:hover {
   }
 }
 @media (min-width: 1024px) {
-  .sale--container .post--news-content .sale--content .information--basic .information--title {
+  .sale--container .sale--content .information--basic .information--title {
     font-size: 2.4rem;
     line-height: 2.8rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--address--maps {
+  .sale--container .sale--content .information--basic .module .info--address--maps {
     height: 25.6rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group {
     margin-bottom: 4rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
     height: 24.7rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--bds--form .form--media {
+  .sale--container .sale--content .information--basic .module .info--bds--form .form--media {
     margin-right: 3rem;
     padding: 2.1rem 5.3rem;
   }
@@ -3639,20 +3640,20 @@ a:hover {
   }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
-  .sale--container .post--news-content .sale--content .information--basic .information--title {
+  .sale--container .sale--content .information--basic .information--title {
     font-size: 2.4rem;
     line-height: 2.8rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--address--maps {
+  .sale--container .sale--content .information--basic .module .info--address--maps {
     height: 25.6rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group {
     margin-bottom: 4rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
     height: 24.7rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--bds--form .form--media {
+  .sale--container .sale--content .information--basic .module .info--bds--form .form--media {
     margin-right: 3rem;
     padding: 2.1rem 5.3rem;
   }
@@ -3697,20 +3698,20 @@ a:hover {
   }
 }
 @media (min-width: 375px) and (max-width: 739px) {
-  .sale--container .post--news-content .sale--content .information--basic .information--title {
+  .sale--container .sale--content .information--basic .information--title {
     font-size: 1.8rem;
     line-height: 2rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--address--maps {
+  .sale--container .sale--content .information--basic .module .info--address--maps {
     height: 18rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group {
     margin-bottom: 4rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
+  .sale--container .sale--content .information--basic .module .info--post--form .form-group .form-textarea {
     height: 10rem;
   }
-  .sale--container .post--news-content .sale--content .information--basic .module .info--bds--form .form--media {
+  .sale--container .sale--content .information--basic .module .info--bds--form .form--media {
     margin-right: 1rem;
     padding: 1rem;
   }
@@ -3797,7 +3798,7 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-top: 0.25px solid #313132;
   }
   .manage--body .manage--content--item .content--item--image {

@@ -40,16 +40,14 @@
     .manage--body{
         border: 0.25px solid #313132;
         padding: 1.3rem 1.2rem;
-
         &--heading{
             display: flex;
-
         }
         .manage--content{
             padding-right: 0;
             padding-left: 0;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             border-top: 0.25px solid $color-post;
             &--item{
                 .content--item--image{
