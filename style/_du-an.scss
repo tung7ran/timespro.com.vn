@@ -3,11 +3,9 @@
         background-image: url('../images/duan/biet-thu.png');
         @include backgroundImage();
         height: 68rem;
-        margin-top: -6rem;
         z-index: -1;
     }
     .project--news{
-        margin-top: 6rem;
         margin-bottom: 9.6rem;
         padding-right: 0;
         .project--news--heading{
@@ -20,8 +18,6 @@
                         cursor: pointer;
                         &--link{
                             font-size: 1.6rem;
-                            padding: calc((6.7rem - 1.9rem) / 2) 0;
-                            line-height: 6.7rem;
                             color: $color-post;
                         }
                     }
@@ -42,15 +38,6 @@
                     }
                 }
             }
-        }
-        .project--news--heading::after{
-            content: " ";
-            display: block;
-            position: absolute;
-            right: 1.5rem;
-            top: 0;
-            height: 100%;
-            border-right: 1px solid rgba(49, 49, 50, 0.5);
         }
         .project--content{
             &--title{

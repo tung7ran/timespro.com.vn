@@ -1373,11 +1373,9 @@ a:hover {
   -o-object-fit: cover;
      object-fit: cover;
   height: 68rem;
-  margin-top: -6rem;
   z-index: -1;
 }
 .content .project--news {
-  margin-top: 6rem;
   margin-bottom: 9.6rem;
   padding-right: 0;
 }
@@ -1393,8 +1391,6 @@ a:hover {
 }
 .content .project--news .project--news--heading .project--heading--list__item--link {
   font-size: 1.6rem;
-  padding: 2.4rem 0;
-  line-height: 6.7rem;
   color: #313132;
 }
 .content .project--news .project--news--heading .project--heading--list__item:nth-child(2) {
@@ -1411,15 +1407,6 @@ a:hover {
   left: 1rem;
   top: -8.5px;
   font-size: 3rem;
-}
-.content .project--news .project--news--heading::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  right: 1.5rem;
-  top: 0;
-  height: 100%;
-  border-right: 1px solid rgba(49, 49, 50, 0.5);
 }
 .content .project--news .project--content--title h2 {
   font-size: 2.4rem;
@@ -4729,15 +4716,6 @@ a:hover {
   .project--content--item__images--project {
     border-radius: 1rem;
   }
-  .project--heading--list__item {
-    height: 5rem;
-  }
-  .content .project--news .project--news--heading::after {
-    display: none;
-  }
-  .content .project--news .project--news--heading .project--heading--list__item--link {
-    padding: 0rem 0rem;
-  }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
   .content .banner--du__an {
@@ -4748,6 +4726,35 @@ a:hover {
   }
   .project--news--content {
     margin-top: 2rem;
+  }
+}
+@media (max-width: 1023px) {
+  .content .project--news {
+    margin-top: 2rem;
+  }
+  .content .project--news--heading .project--heading--list__item--link {
+    line-height: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .content .banner--du__an {
+    margin-top: -6rem;
+  }
+  .content .project--news {
+    margin-top: 6rem;
+  }
+  .content .project--news--heading .project--heading--list__item--link {
+    padding: 2.4rem 0;
+    line-height: 6.7rem;
+  }
+  .content .project--news .project--news--heading::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid rgba(49, 49, 50, 0.5);
   }
 }
 @media (min-width: 375px) and (max-width: 739px) {
